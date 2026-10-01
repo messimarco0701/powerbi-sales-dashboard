@@ -1,0 +1,48 @@
+table Targets
+	lineageTag: 2b79bee1-52be-4482-aec2-90837b1d99be
+
+	column Month
+		dataType: dateTime
+		formatString: mmm yyyy
+		isHidden
+		lineageTag: 54c0097e-4cba-449a-9bb3-17ac092a174c
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = User
+
+	column Channel
+		dataType: string
+		isHidden
+		lineageTag: 25fa93f9-3d16-48c7-93fe-fdc126925312
+		summarizeBy: none
+		sourceColumn: Channel
+
+		annotation SummarizationSetBy = User
+
+	column Target
+		dataType: double
+		formatString: \€ #,0
+		isHidden
+		lineageTag: 7d1725e8-3c41-4007-ac80-51bc2fbbe528
+		summarizeBy: none
+		sourceColumn: Target
+
+		annotation SummarizationSetBy = User
+
+	partition Targets = m
+		mode: import
+		source =
+				let
+				    // DataFolder can be a local folder or the raw GitHub URL of this repo's data folder
+				    Content = if Text.StartsWith(DataFolder, "http") then Web.Contents(DataFolder & "targets.csv") else File.Contents(DataFolder & "targets.csv"),
+				    Source = Csv.Document(Content, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    // empty strings in the CSV mean "no value", not an empty text
+				    Nulls = Table.ReplaceValue(Headers, "", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),
+				    Renamed = Table.RenameColumns(Nulls, {{"month", "Month"}, {"channel", "Channel"}, {"target", "Target"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Month", type date}, {"Channel", type text}, {"Target", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

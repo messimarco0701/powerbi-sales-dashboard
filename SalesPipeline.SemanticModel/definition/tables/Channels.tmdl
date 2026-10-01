@@ -1,0 +1,31 @@
+table Channels
+	lineageTag: 5dcb9794-2052-4373-926e-1d2cdf21db34
+
+	column Channel
+		dataType: string
+		lineageTag: 0ee8d6ea-18cf-45ed-9ccc-6d36b7608656
+		summarizeBy: none
+		sourceColumn: Channel
+		sortByColumn: 'Channel order'
+
+		annotation SummarizationSetBy = User
+
+	column 'Channel order'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: e5e8ef64-ae85-4ce4-830c-80950dff00da
+		summarizeBy: none
+		sourceColumn: Channel order
+
+		annotation SummarizationSetBy = User
+
+	partition Channels = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows({{"Direct", 1}, {"Partner", 2}, {"Referral", 3}}, type table [Channel = text, #"Channel order" = Int64.Type])
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

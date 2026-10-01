@@ -1,0 +1,2601 @@
+company_id,company_name,sector,region,employees,size_segment
+1,Vigorelli IT S.p.A.,IT services,Nord-Ovest,7,Micro
+2,Rastelli Logistics S.p.A.,Food & beverage,Nord-Ovest,14,Small
+3,Bianchi Hospitality S.p.A.,Construction,Centro,147,Medium
+4,Ziani IT S.r.l.,Retail,Sud e Isole,49,Small
+5,Catalano Manufacturing S.p.A.,Hospitality,Sud e Isole,25,Small
+6,Garozzo Food S.p.A.,Manufacturing,Sud e Isole,81,Medium
+7,Bixio IT S.r.l.,Professional services,Centro,13,Small
+8,Petrucci Food S.p.A.,Retail,Nord-Ovest,9,Micro
+9,Benedetti Logistics S.p.A.,Finance,Nord-Ovest,22,Small
+10,Galvani Food S.r.l.,Logistics,Nord-Ovest,22,Small
+11,Belletini Manufacturing S.p.A.,Hospitality,Nord-Ovest,3,Micro
+12,Volta Finance S.p.A.,Hospitality,Nord-Est,16,Small
+13,Chiaramonte Manufacturing S.p.A.,Finance,Nord-Est,32,Small
+14,Luzi Food S.r.l.,Professional services,Nord-Ovest,23,Small
+15,Pucci Construction S.r.l.,Retail,Nord-Ovest,13,Small
+16,Collina Professional S.p.A.,Logistics,Centro,21,Small
+17,Veltroni IT S.p.A.,IT services,Nord-Est,28,Small
+18,Casagrande Logistics S.r.l.,Professional services,Sud e Isole,18,Small
+19,Mascagni Finance S.r.l.,Finance,Nord-Ovest,32,Small
+20,Zaguri Healthcare S.p.A.,Logistics,Nord-Est,42,Small
+21,Fabbri Finance S.p.A.,Professional services,Centro,7,Micro
+22,Camiscione Professional S.r.l.,Food & beverage,Centro,428,Large
+23,Farina Construction S.r.l.,Manufacturing,Centro,8,Micro
+24,Palladio Hospitality S.p.A.,IT services,Sud e Isole,27,Small
+25,Cagnotto Construction S.r.l.,Professional services,Nord-Ovest,64,Medium
+26,Versace IT S.r.l.,IT services,Sud e Isole,27,Small
+27,Boaga Retail S.p.A.,Professional services,Nord-Est,11,Small
+28,Zecchini Food S.p.A.,Food & beverage,Centro,4,Micro
+29,Bianchini Logistics S.p.A.,Construction,Nord-Ovest,43,Small
+30,Fo Retail S.r.l.,Food & beverage,Sud e Isole,33,Small
+31,Tamburello Construction S.p.A.,Finance,Nord-Est,30,Small
+32,Turci Hospitality S.p.A.,Finance,Nord-Ovest,16,Small
+33,Renier IT S.r.l.,Hospitality,Nord-Ovest,6,Micro
+34,Mazzocchi IT S.r.l.,Finance,Nord-Ovest,67,Medium
+35,Scarponi IT S.r.l.,Finance,Nord-Ovest,71,Medium
+36,Sanguineti Manufacturing S.r.l.,IT services,Nord-Ovest,5,Micro
+37,Opizzi Finance S.p.A.,Finance,Sud e Isole,11,Small
+38,Manolesso Healthcare S.r.l.,IT services,Nord-Ovest,1095,Large
+39,Grassi Retail S.r.l.,Food & beverage,Nord-Ovest,6,Micro
+40,Errigo Logistics S.p.A.,Logistics,Nord-Ovest,172,Medium
+41,Gori Retail S.p.A.,IT services,Nord-Ovest,6,Micro
+42,Bragadin Food S.p.A.,Construction,Nord-Est,48,Small
+43,Mantegazza Construction S.r.l.,Construction,Nord-Est,21,Small
+44,Trillini Construction S.p.A.,Finance,Sud e Isole,26,Small
+45,Taliani Logistics S.p.A.,Logistics,Sud e Isole,8,Micro
+46,Munari Healthcare S.p.A.,Logistics,Nord-Est,332,Large
+47,Salandra Construction S.r.l.,Healthcare,Nord-Ovest,31,Small
+48,Lupo Retail S.p.A.,Manufacturing,Centro,62,Medium
+49,Bonomo Professional S.r.l.,Healthcare,Sud e Isole,62,Medium
+50,Casagrande Finance S.p.A.,Healthcare,Centro,25,Small
+51,Torricelli Healthcare S.p.A.,Finance,Centro,15,Small
+52,Prodi Logistics S.p.A.,Construction,Sud e Isole,11,Small
+53,Dandolo Professional S.p.A.,Professional services,Sud e Isole,3,Micro
+54,Morucci Food S.p.A.,Professional services,Sud e Isole,22,Small
+55,Corcos Logistics S.p.A.,Construction,Sud e Isole,3,Micro
+56,Stefanelli Food S.r.l.,Manufacturing,Nord-Ovest,307,Large
+57,Quasimodo Professional S.p.A.,Manufacturing,Nord-Est,50,Medium
+58,Barracco Healthcare S.p.A.,Construction,Sud e Isole,7,Micro
+59,Borzomì Healthcare S.r.l.,Construction,Nord-Ovest,34,Small
+60,Zabarella Healthcare S.r.l.,Professional services,Nord-Est,20,Small
+61,Mazzini Manufacturing S.p.A.,Manufacturing,Nord-Ovest,6,Micro
+62,Morpurgo Finance S.r.l.,Hospitality,Nord-Est,41,Small
+63,Nicoletti Logistics S.r.l.,Finance,Centro,3,Micro
+64,Tamburi Logistics S.r.l.,Hospitality,Centro,481,Large
+65,Saraceno Manufacturing S.r.l.,Construction,Sud e Isole,42,Small
+66,Bombieri Manufacturing S.r.l.,Finance,Centro,18,Small
+67,Cabrini Retail S.r.l.,Finance,Nord-Ovest,29,Small
+68,Jilani Retail S.p.A.,Professional services,Centro,60,Medium
+69,Sgalambro IT S.p.A.,Food & beverage,Nord-Ovest,3,Micro
+70,Bocelli Manufacturing S.r.l.,Retail,Centro,108,Medium
+71,Bignardi Healthcare S.r.l.,Manufacturing,Nord-Est,10,Small
+72,Mastandrea Retail S.r.l.,IT services,Nord-Ovest,9,Micro
+73,Rusticucci IT S.r.l.,Finance,Nord-Ovest,32,Small
+74,Lovato Finance S.p.A.,Healthcare,Nord-Est,4,Micro
+75,Pavone Construction S.r.l.,Hospitality,Sud e Isole,63,Medium
+76,Nadi Construction S.r.l.,IT services,Sud e Isole,35,Small
+77,Argurio Manufacturing S.p.A.,IT services,Nord-Est,29,Small
+78,Scalfaro Food S.p.A.,Retail,Sud e Isole,71,Medium
+79,Norbiato Professional S.r.l.,Healthcare,Nord-Ovest,70,Medium
+80,Dibiasi Hospitality S.r.l.,Construction,Sud e Isole,6,Micro
+81,Caruso Healthcare S.r.l.,Professional services,Sud e Isole,17,Small
+82,Tafuri Construction S.p.A.,Manufacturing,Sud e Isole,24,Small
+83,Biagiotti Finance S.r.l.,Retail,Nord-Ovest,872,Large
+84,Gaito Logistics S.p.A.,IT services,Nord-Ovest,76,Medium
+85,Luna Healthcare S.p.A.,Healthcare,Nord-Est,27,Small
+86,Cerutti Food S.r.l.,Logistics,Centro,9,Micro
+87,Granatelli IT S.r.l.,IT services,Sud e Isole,4,Micro
+88,Petruzzi Retail S.r.l.,Construction,Nord-Est,11,Small
+89,Pepe Hospitality S.r.l.,Manufacturing,Centro,15,Small
+90,Tamburello Finance S.r.l.,Food & beverage,Nord-Ovest,21,Small
+91,Bottigliero Hospitality S.p.A.,Logistics,Centro,91,Medium
+92,Dellucci Professional S.r.l.,Healthcare,Sud e Isole,40,Small
+93,Salandra Food S.p.A.,Manufacturing,Nord-Ovest,14,Small
+94,Pigafetta IT S.p.A.,Manufacturing,Nord-Ovest,14,Small
+95,Vianello IT S.r.l.,Retail,Nord-Ovest,33,Small
+96,Lettiere IT S.r.l.,Finance,Centro,555,Large
+97,Ciani Healthcare S.r.l.,Healthcare,Nord-Est,35,Small
+98,Ricci Retail S.r.l.,Healthcare,Nord-Est,16,Small
+99,Vidoni Professional S.r.l.,Manufacturing,Nord-Est,40,Small
+100,Ligorio Professional S.p.A.,Finance,Nord-Ovest,3,Micro
+101,Prada Manufacturing S.r.l.,IT services,Sud e Isole,57,Medium
+102,Offredi Professional S.p.A.,Construction,Nord-Ovest,42,Small
+103,Parpinel Food S.p.A.,Food & beverage,Nord-Ovest,6,Micro
+104,Gianetti Finance S.r.l.,Professional services,Nord-Est,379,Large
+105,Coppola Professional S.r.l.,IT services,Nord-Ovest,3,Micro
+106,Bramante Hospitality S.p.A.,Hospitality,Nord-Ovest,68,Medium
+107,Durante Manufacturing S.r.l.,Food & beverage,Nord-Ovest,10,Small
+108,Coppola Logistics S.p.A.,IT services,Sud e Isole,15,Small
+109,Giannetti Finance S.p.A.,Manufacturing,Nord-Ovest,18,Small
+110,Giannone Construction S.p.A.,Logistics,Nord-Ovest,681,Large
+111,Ammaniti Finance S.r.l.,Food & beverage,Nord-Est,6,Micro
+112,Spallanzani IT S.r.l.,Construction,Nord-Est,25,Small
+113,Fagiani IT S.r.l.,Food & beverage,Nord-Ovest,25,Small
+114,Iadanza Food S.r.l.,IT services,Nord-Ovest,47,Small
+115,Lombardo Retail S.p.A.,Construction,Nord-Ovest,105,Medium
+116,Agnesi Construction S.p.A.,Healthcare,Nord-Ovest,4,Micro
+117,Combi Food S.p.A.,Food & beverage,Sud e Isole,8,Micro
+118,Pucci Manufacturing S.p.A.,Logistics,Centro,5,Micro
+119,Udinesi Construction S.r.l.,Finance,Nord-Ovest,17,Small
+120,Pacomio Retail S.r.l.,IT services,Nord-Est,63,Medium
+121,Zichichi Retail S.p.A.,IT services,Sud e Isole,16,Small
+122,Metella Professional S.r.l.,Healthcare,Nord-Ovest,6,Micro
+123,Cavanna Healthcare S.r.l.,IT services,Nord-Ovest,38,Small
+124,Totino Hospitality S.r.l.,Construction,Nord-Ovest,15,Small
+125,Bernini Finance S.r.l.,Retail,Centro,14,Small
+126,Saracino IT S.p.A.,Manufacturing,Sud e Isole,21,Small
+127,Zacchia Professional S.r.l.,Construction,Nord-Est,110,Medium
+128,Perini Manufacturing S.r.l.,Hospitality,Centro,4,Micro
+129,Pezzali Construction S.r.l.,Manufacturing,Nord-Ovest,21,Small
+130,Piane Professional S.r.l.,Construction,Nord-Est,7,Micro
+131,Pertini Retail S.r.l.,Manufacturing,Centro,14,Small
+132,Cammarata Retail S.p.A.,Finance,Nord-Ovest,33,Small
+133,Sommaruga Food S.p.A.,Food & beverage,Sud e Isole,37,Small
+134,Piccio Manufacturing S.p.A.,Hospitality,Sud e Isole,56,Medium
+135,Blasi Construction S.r.l.,Food & beverage,Centro,24,Small
+136,Federici Retail S.p.A.,Hospitality,Sud e Isole,141,Medium
+137,Boitani Manufacturing S.r.l.,Finance,Nord-Ovest,27,Small
+138,Fornaciari Hospitality S.p.A.,Finance,Nord-Ovest,93,Medium
+139,Rossetti Logistics S.r.l.,Retail,Nord-Est,19,Small
+140,Cutuli Professional S.p.A.,Logistics,Sud e Isole,455,Large
+141,Capone Food S.r.l.,Hospitality,Centro,10,Small
+142,Morpurgo Professional S.p.A.,Hospitality,Sud e Isole,338,Large
+143,Bernardi Professional S.r.l.,Food & beverage,Sud e Isole,73,Medium
+144,Camicione Logistics S.r.l.,Professional services,Nord-Ovest,9,Micro
+145,Abatantuono Manufacturing S.p.A.,Retail,Nord-Est,53,Medium
+146,Zito Healthcare S.p.A.,Healthcare,Centro,15,Small
+147,Coppola IT S.p.A.,Logistics,Nord-Ovest,18,Small
+148,Valguarnera Professional S.p.A.,Hospitality,Centro,50,Medium
+149,Calvo IT S.p.A.,Retail,Nord-Ovest,26,Small
+150,Ortese IT S.r.l.,Manufacturing,Centro,18,Small
+151,Asprucci Manufacturing S.p.A.,Logistics,Nord-Ovest,106,Medium
+152,Bonaventura Retail S.r.l.,Logistics,Sud e Isole,3,Micro
+153,Foletti Logistics S.r.l.,Retail,Sud e Isole,19,Small
+154,Paoletti Construction S.p.A.,IT services,Nord-Ovest,41,Small
+155,Condoleo Professional S.p.A.,Hospitality,Nord-Est,31,Small
+156,Grifeo Logistics S.p.A.,Logistics,Centro,19,Small
+157,Napolitano Food S.r.l.,Healthcare,Nord-Ovest,14,Small
+158,Ortolani Construction S.p.A.,Finance,Nord-Est,36,Small
+159,Sgarbi Food S.p.A.,Healthcare,Nord-Est,9,Micro
+160,Castiglione Construction S.r.l.,IT services,Nord-Ovest,21,Small
+161,Carpaccio Healthcare S.p.A.,Manufacturing,Centro,11,Small
+162,Sraffa Food S.p.A.,Finance,Nord-Est,12,Small
+163,Schiaparelli Hospitality S.r.l.,Manufacturing,Nord-Ovest,4,Micro
+164,Solari Finance S.p.A.,Finance,Nord-Ovest,37,Small
+165,Sordi Professional S.p.A.,Hospitality,Sud e Isole,47,Small
+166,Mazzacurati IT S.r.l.,Retail,Centro,298,Large
+167,Briccialdi Manufacturing S.r.l.,Finance,Sud e Isole,22,Small
+168,Collina Hospitality S.p.A.,Professional services,Nord-Ovest,49,Small
+169,Camicione Professional S.r.l.,Food & beverage,Nord-Ovest,3,Micro
+170,Moschino Food S.r.l.,Finance,Nord-Ovest,48,Small
+171,Iannuzzi IT S.r.l.,Food & beverage,Sud e Isole,18,Small
+172,Soderini IT S.r.l.,Professional services,Sud e Isole,83,Medium
+173,Cusano Retail S.p.A.,Healthcare,Centro,6,Micro
+174,Tozzo Food S.p.A.,Healthcare,Centro,9,Micro
+175,Ariasso Professional S.r.l.,Construction,Nord-Ovest,14,Small
+176,Florio Food S.p.A.,IT services,Sud e Isole,16,Small
+177,Tropea Food S.r.l.,Hospitality,Sud e Isole,660,Large
+178,Opizzi Hospitality S.r.l.,Hospitality,Sud e Isole,86,Medium
+179,Comencini Manufacturing S.r.l.,Manufacturing,Nord-Ovest,20,Small
+180,Vento Retail S.r.l.,Retail,Sud e Isole,41,Small
+181,Babati Finance S.r.l.,Food & beverage,Nord-Ovest,62,Medium
+182,Tropea Manufacturing S.r.l.,Healthcare,Nord-Est,14,Small
+183,Manacorda Construction S.p.A.,Healthcare,Nord-Ovest,47,Small
+184,Burcardo Construction S.p.A.,Hospitality,Nord-Est,14,Small
+185,Gulotta Manufacturing S.p.A.,Manufacturing,Nord-Est,233,Medium
+186,Travaglia Manufacturing S.r.l.,Retail,Nord-Est,76,Medium
+187,Ovadia Finance S.r.l.,Healthcare,Centro,12,Small
+188,Desio Logistics S.p.A.,Hospitality,Nord-Est,28,Small
+189,Nordio Logistics S.p.A.,Professional services,Sud e Isole,81,Medium
+190,Garobbio Retail S.p.A.,Finance,Centro,14,Small
+191,Tutino Food S.p.A.,Retail,Nord-Est,46,Small
+192,Venditti Healthcare S.p.A.,Food & beverage,Sud e Isole,50,Medium
+193,Tedesco Professional S.p.A.,Logistics,Nord-Est,30,Small
+194,Monicelli Manufacturing S.p.A.,Hospitality,Nord-Ovest,298,Large
+195,Garobbio Logistics S.p.A.,IT services,Centro,121,Medium
+196,Ferraris Construction S.p.A.,Professional services,Nord-Est,14,Small
+197,Giradello Hospitality S.r.l.,Logistics,Sud e Isole,3,Micro
+198,Piccio Construction S.r.l.,Professional services,Nord-Ovest,104,Medium
+199,Gentileschi Retail S.r.l.,Food & beverage,Nord-Ovest,52,Medium
+200,Filippini Healthcare S.p.A.,Healthcare,Nord-Ovest,9,Micro
+201,Trapani Professional S.p.A.,IT services,Nord-Ovest,42,Small
+202,Tacchini Professional S.p.A.,IT services,Nord-Ovest,10,Small
+203,Nordio Manufacturing S.r.l.,Food & beverage,Centro,3,Micro
+204,Badoer Professional S.r.l.,Logistics,Centro,52,Medium
+205,Babbo Retail S.p.A.,Professional services,Centro,25,Small
+206,Lippomano Healthcare S.p.A.,IT services,Nord-Est,108,Medium
+207,Sermonti Logistics S.p.A.,Manufacturing,Nord-Est,47,Small
+208,Guidone Manufacturing S.p.A.,Finance,Nord-Ovest,12,Small
+209,Ferrante Hospitality S.p.A.,Finance,Nord-Ovest,10,Small
+210,Murialdo Construction S.p.A.,Food & beverage,Centro,28,Small
+211,Saffi Retail S.p.A.,Manufacturing,Nord-Ovest,7,Micro
+212,Necci Retail S.p.A.,Food & beverage,Centro,22,Small
+213,Oscuro Retail S.r.l.,Healthcare,Centro,75,Medium
+214,Botticelli Professional S.p.A.,IT services,Nord-Ovest,238,Medium
+215,Galuppi IT S.r.l.,Logistics,Nord-Est,197,Medium
+216,Camicione Food S.p.A.,Healthcare,Centro,165,Medium
+217,Gentileschi IT S.p.A.,Professional services,Nord-Ovest,136,Medium
+218,Segni Food S.r.l.,IT services,Nord-Ovest,20,Small
+219,Ferretti Professional S.p.A.,Construction,Nord-Est,59,Medium
+220,Moresi Construction S.r.l.,Healthcare,Sud e Isole,19,Small
+221,Fittipaldi Manufacturing S.r.l.,Retail,Centro,40,Small
+222,Soprano Logistics S.r.l.,Logistics,Centro,16,Small
+223,Abbagnale Food S.r.l.,Hospitality,Sud e Isole,20,Small
+224,Soffici Finance S.p.A.,Professional services,Nord-Est,90,Medium
+225,Muratori IT S.r.l.,Finance,Nord-Ovest,14,Small
+226,Brenna IT S.p.A.,Finance,Nord-Ovest,10,Small
+227,Casarin IT S.r.l.,IT services,Nord-Ovest,27,Small
+228,Pedroni Logistics S.p.A.,IT services,Centro,69,Medium
+229,Filippelli IT S.p.A.,Food & beverage,Nord-Est,29,Small
+230,Sobrero Manufacturing S.r.l.,Hospitality,Nord-Ovest,69,Medium
+231,Emo IT S.p.A.,Logistics,Nord-Ovest,64,Medium
+232,Ritacca Construction S.r.l.,Construction,Nord-Est,109,Medium
+233,Montanelli Professional S.p.A.,Food & beverage,Nord-Est,120,Medium
+234,Broggini Healthcare S.p.A.,Construction,Sud e Isole,16,Small
+235,Petrassi Healthcare S.p.A.,Professional services,Centro,19,Small
+236,Scaramucci Construction S.p.A.,Logistics,Centro,79,Medium
+237,Pigafetta Manufacturing S.p.A.,Finance,Sud e Isole,120,Medium
+238,Brenna Healthcare S.r.l.,Manufacturing,Nord-Ovest,33,Small
+239,Cundari Manufacturing S.p.A.,Hospitality,Nord-Ovest,117,Medium
+240,Donati Retail S.r.l.,Manufacturing,Centro,104,Medium
+241,Cendron Retail S.r.l.,Manufacturing,Nord-Est,20,Small
+242,Babato Healthcare S.p.A.,Logistics,Nord-Est,9,Micro
+243,Coppola Hospitality S.r.l.,IT services,Nord-Est,14,Small
+244,Scarponi Food S.p.A.,Retail,Nord-Ovest,152,Medium
+245,Comboni Logistics S.p.A.,Food & beverage,Nord-Est,16,Small
+246,Sgarbi Logistics S.r.l.,Food & beverage,Nord-Ovest,5,Micro
+247,Nicoletti Retail S.r.l.,Retail,Nord-Ovest,47,Small
+248,Crespi Logistics S.r.l.,Construction,Centro,3,Micro
+249,Vespucci Retail S.p.A.,Finance,Centro,809,Large
+250,Vespa Healthcare S.r.l.,Manufacturing,Nord-Ovest,8,Micro
+251,Chechi Logistics S.p.A.,Hospitality,Nord-Ovest,6,Micro
+252,Argentero IT S.p.A.,Logistics,Nord-Ovest,14,Small
+253,Angiolello Logistics S.p.A.,IT services,Nord-Est,84,Medium
+254,Camilleri Healthcare S.p.A.,Manufacturing,Centro,129,Medium
+255,Troisi Hospitality S.p.A.,Hospitality,Centro,163,Medium
+256,Cilea Professional S.p.A.,Food & beverage,Centro,178,Medium
+257,Ritacca IT S.p.A.,Manufacturing,Nord-Ovest,266,Large
+258,Ferrari Manufacturing S.p.A.,Logistics,Sud e Isole,16,Small
+259,Franceschi Healthcare S.p.A.,Construction,Nord-Est,202,Medium
+260,Babbo Food S.r.l.,Professional services,Nord-Ovest,35,Small
+261,Gremese Professional S.p.A.,Hospitality,Centro,5,Micro
+262,Frescobaldi Retail S.p.A.,Retail,Nord-Ovest,99,Medium
+263,Maglio Finance S.p.A.,IT services,Nord-Est,167,Medium
+264,Tasso Retail S.r.l.,Healthcare,Nord-Est,12,Small
+265,Giunti Finance S.r.l.,Professional services,Nord-Ovest,38,Small
+266,Modugno Retail S.p.A.,IT services,Centro,176,Medium
+267,Guidotti Construction S.p.A.,Finance,Centro,4,Micro
+268,Vercelloni Hospitality S.p.A.,Hospitality,Nord-Est,9,Micro
+269,Pucci Food S.r.l.,IT services,Centro,3,Micro
+270,Chechi Retail S.r.l.,Manufacturing,Nord-Ovest,13,Small
+271,Bignardi IT S.r.l.,Hospitality,Centro,11,Small
+272,Nitto Professional S.r.l.,Finance,Nord-Est,7,Micro
+273,Satta Professional S.r.l.,Logistics,Nord-Ovest,26,Small
+274,Traetta Finance S.r.l.,Manufacturing,Nord-Ovest,12,Small
+275,Puglisi IT S.r.l.,Retail,Nord-Ovest,33,Small
+276,Tassoni Hospitality S.p.A.,Retail,Nord-Est,52,Medium
+277,Ceschi Construction S.p.A.,Food & beverage,Nord-Ovest,18,Small
+278,Turrini Manufacturing S.p.A.,Professional services,Centro,15,Small
+279,Corbo Construction S.r.l.,IT services,Sud e Isole,3,Micro
+280,Trevisan Manufacturing S.r.l.,IT services,Sud e Isole,140,Medium
+281,Tonisto Retail S.p.A.,Logistics,Nord-Ovest,17,Small
+282,Antonini IT S.r.l.,IT services,Sud e Isole,56,Medium
+283,Rossellini Logistics S.r.l.,Healthcare,Nord-Est,12,Small
+284,Falcone Healthcare S.p.A.,Retail,Nord-Ovest,3,Micro
+285,Agnesi Professional S.p.A.,Healthcare,Nord-Ovest,426,Large
+286,Conte Professional S.r.l.,Retail,Nord-Est,24,Small
+287,Doria Healthcare S.r.l.,Manufacturing,Nord-Est,23,Small
+288,Cipolla IT S.r.l.,Finance,Nord-Ovest,31,Small
+289,Sforza Food S.r.l.,Healthcare,Nord-Est,21,Small
+290,Casellati Professional S.r.l.,Professional services,Centro,11,Small
+291,Viviani Logistics S.r.l.,Logistics,Centro,258,Large
+292,Bixio Hospitality S.p.A.,Professional services,Nord-Ovest,350,Large
+293,Modugno Manufacturing S.p.A.,Construction,Nord-Ovest,73,Medium
+294,Travaglia IT S.r.l.,Healthcare,Nord-Ovest,6,Micro
+295,Turchetta Construction S.p.A.,Finance,Nord-Ovest,97,Medium
+296,Vitturi Construction S.p.A.,Hospitality,Centro,19,Small
+297,Soprano Finance S.r.l.,Finance,Sud e Isole,222,Medium
+298,Canali Retail S.r.l.,Hospitality,Nord-Ovest,10,Small
+299,Zaguri Manufacturing S.r.l.,Retail,Sud e Isole,9,Micro
+300,Bettin Hospitality S.p.A.,Finance,Nord-Ovest,61,Medium
+301,Grassi Retail S.r.l.,Manufacturing,Nord-Ovest,24,Small
+302,Federico Healthcare S.r.l.,Retail,Nord-Ovest,24,Small
+303,Lerner Professional S.r.l.,Logistics,Centro,194,Medium
+304,Basso Manufacturing S.p.A.,Food & beverage,Centro,26,Small
+305,Cainero Manufacturing S.p.A.,Construction,Nord-Est,38,Small
+306,Tomaselli Hospitality S.p.A.,Food & beverage,Sud e Isole,425,Large
+307,Samele Construction S.r.l.,Food & beverage,Centro,3,Micro
+308,Zampa Professional S.r.l.,Professional services,Nord-Ovest,10,Small
+309,Babbo Hospitality S.p.A.,Finance,Sud e Isole,46,Small
+310,Bocca Logistics S.r.l.,Manufacturing,Centro,7,Micro
+311,Ruberto Healthcare S.r.l.,IT services,Centro,242,Medium
+312,Modigliani Finance S.r.l.,Healthcare,Sud e Isole,167,Medium
+313,Togliatti Retail S.p.A.,IT services,Centro,38,Small
+314,Torricelli Professional S.p.A.,IT services,Sud e Isole,46,Small
+315,Filippelli Healthcare S.r.l.,Professional services,Nord-Ovest,12,Small
+316,Lerner Hospitality S.p.A.,Manufacturing,Sud e Isole,6,Micro
+317,Samele Healthcare S.p.A.,Professional services,Nord-Ovest,16,Small
+318,Tomasetti Retail S.p.A.,IT services,Centro,61,Medium
+319,Ubaldi Construction S.r.l.,Finance,Nord-Ovest,37,Small
+320,Sobrero Construction S.r.l.,Professional services,Centro,9,Micro
+321,Tomaselli IT S.p.A.,Logistics,Nord-Est,34,Small
+322,Granatelli Finance S.r.l.,IT services,Nord-Est,6,Micro
+323,Treves Hospitality S.r.l.,Food & beverage,Sud e Isole,88,Medium
+324,Guidotti Construction S.p.A.,Construction,Nord-Est,54,Medium
+325,Zacchia Construction S.r.l.,IT services,Nord-Est,36,Small
+326,Finzi Logistics S.p.A.,Hospitality,Nord-Est,11,Small
+327,Sagese Construction S.p.A.,Hospitality,Sud e Isole,3,Micro
+328,Ciani Manufacturing S.r.l.,Manufacturing,Nord-Ovest,4,Micro
+329,Prati Finance S.p.A.,Finance,Centro,105,Medium
+330,Castelli Food S.p.A.,IT services,Nord-Est,13,Small
+331,Perini Manufacturing S.r.l.,Finance,Nord-Ovest,41,Small
+332,Roth Finance S.r.l.,Professional services,Sud e Isole,19,Small
+333,Mercadante Hospitality S.p.A.,Finance,Centro,28,Small
+334,Bonolis Construction S.r.l.,Healthcare,Nord-Est,7,Micro
+335,Giunti Finance S.p.A.,Logistics,Nord-Est,317,Large
+336,Renzi Professional S.p.A.,Logistics,Nord-Ovest,72,Medium
+337,Bonomo Hospitality S.r.l.,Food & beverage,Nord-Ovest,35,Small
+338,Frescobaldi Food S.r.l.,Hospitality,Nord-Ovest,124,Medium
+339,Marcacci Finance S.r.l.,Hospitality,Nord-Ovest,119,Medium
+340,Castellitto Finance S.r.l.,Manufacturing,Nord-Ovest,39,Small
+341,Costalonga IT S.p.A.,Manufacturing,Centro,6,Micro
+342,Ostinelli Logistics S.r.l.,Construction,Nord-Ovest,79,Medium
+343,Cocci Professional S.p.A.,Hospitality,Centro,39,Small
+344,Grisoni Logistics S.r.l.,Construction,Nord-Ovest,14,Small
+345,Cibin Food S.p.A.,IT services,Sud e Isole,134,Medium
+346,Schicchi Food S.p.A.,Food & beverage,Sud e Isole,76,Medium
+347,Galilei Professional S.r.l.,Logistics,Nord-Ovest,25,Small
+348,Caccianemico Construction S.r.l.,Construction,Nord-Est,122,Medium
+349,Pezzali Retail S.r.l.,Food & beverage,Sud e Isole,19,Small
+350,Spinola Professional S.p.A.,Healthcare,Nord-Est,19,Small
+351,Cuzzocrea Manufacturing S.p.A.,Logistics,Nord-Ovest,24,Small
+352,Garrone Finance S.r.l.,Finance,Nord-Est,10,Small
+353,Cusano Food S.p.A.,Hospitality,Nord-Ovest,9,Micro
+354,Ricolfi Professional S.p.A.,Logistics,Sud e Isole,228,Medium
+355,Totino Finance S.r.l.,Logistics,Sud e Isole,34,Small
+356,Piovani Finance S.p.A.,Food & beverage,Nord-Ovest,5,Micro
+357,Morlacchi Manufacturing S.p.A.,Retail,Centro,52,Medium
+358,Pulci Professional S.r.l.,Retail,Nord-Est,66,Medium
+359,Ferrata Healthcare S.r.l.,Retail,Centro,16,Small
+360,Notarbartolo Food S.p.A.,Construction,Nord-Est,8,Micro
+361,Metella Manufacturing S.p.A.,Construction,Sud e Isole,9,Micro
+362,Busoni Retail S.r.l.,Healthcare,Nord-Ovest,3,Micro
+363,Ostinelli Manufacturing S.r.l.,Food & beverage,Nord-Ovest,49,Small
+364,Antonioni Manufacturing S.p.A.,Logistics,Nord-Est,14,Small
+365,Moretti Finance S.p.A.,Food & beverage,Centro,8,Micro
+366,Visintini Retail S.p.A.,Manufacturing,Sud e Isole,407,Large
+367,Sauli Professional S.r.l.,Manufacturing,Centro,55,Medium
+368,Rossetti Food S.r.l.,Healthcare,Nord-Est,55,Medium
+369,Antonetti Finance S.p.A.,Finance,Nord-Ovest,24,Small
+370,Pausini Finance S.r.l.,IT services,Centro,64,Medium
+371,Montanari Finance S.r.l.,Professional services,Nord-Est,75,Medium
+372,Trapanese Construction S.p.A.,Food & beverage,Nord-Ovest,16,Small
+373,Malaparte IT S.p.A.,Professional services,Centro,42,Small
+374,Toscani Healthcare S.r.l.,Logistics,Centro,3,Micro
+375,Boccherini Retail S.p.A.,Logistics,Centro,6,Micro
+376,Carfagna Professional S.r.l.,Healthcare,Nord-Ovest,107,Medium
+377,Germano Healthcare S.p.A.,Professional services,Nord-Ovest,29,Small
+378,Campano Hospitality S.p.A.,Healthcare,Nord-Ovest,7,Micro
+379,Branciforte Food S.p.A.,Professional services,Centro,5,Micro
+380,Impastato Retail S.p.A.,Hospitality,Sud e Isole,16,Small
+381,Lancisi Professional S.r.l.,Logistics,Centro,47,Small
+382,Barsanti Logistics S.p.A.,Construction,Nord-Ovest,5,Micro
+383,Fabrizi Logistics S.r.l.,Healthcare,Centro,220,Medium
+384,Jovinelli Construction S.p.A.,Professional services,Nord-Est,18,Small
+385,Cesaroni Healthcare S.r.l.,Manufacturing,Nord-Ovest,35,Small
+386,Querini Food S.r.l.,Professional services,Nord-Est,44,Small
+387,Guicciardini Healthcare S.r.l.,Logistics,Centro,29,Small
+388,Pisani Food S.r.l.,Manufacturing,Sud e Isole,7,Micro
+389,Contarini Construction S.r.l.,Manufacturing,Sud e Isole,28,Small
+390,Valguarnera Manufacturing S.p.A.,Construction,Nord-Ovest,23,Small
+391,Tosto Food S.p.A.,Manufacturing,Nord-Est,3,Micro
+392,Tagliafierro Professional S.p.A.,Retail,Nord-Est,37,Small
+393,Molesini Finance S.r.l.,Food & beverage,Sud e Isole,31,Small
+394,Bruscantini Manufacturing S.p.A.,Hospitality,Centro,123,Medium
+395,Liguori Construction S.p.A.,Logistics,Nord-Ovest,38,Small
+396,Bettoni Manufacturing S.r.l.,Professional services,Centro,3,Micro
+397,Falcone Hospitality S.p.A.,Finance,Centro,26,Small
+398,Ravaglioli Hospitality S.p.A.,Food & beverage,Nord-Ovest,20,Small
+399,Bonolis Professional S.p.A.,Retail,Nord-Ovest,3,Micro
+400,Ioppi Professional S.p.A.,Professional services,Nord-Est,110,Medium
+401,Antonacci Hospitality S.r.l.,Food & beverage,Centro,157,Medium
+402,Brunello Finance S.r.l.,Finance,Nord-Ovest,64,Medium
+403,Gullotta Logistics S.r.l.,Hospitality,Nord-Est,100,Medium
+404,Brancaccio Hospitality S.r.l.,Food & beverage,Nord-Ovest,7,Micro
+405,Garibaldi Hospitality S.r.l.,IT services,Nord-Ovest,22,Small
+406,Boiardo Retail S.r.l.,Hospitality,Nord-Ovest,67,Medium
+407,Iannucci Construction S.p.A.,Manufacturing,Sud e Isole,65,Medium
+408,Castelli Finance S.p.A.,IT services,Nord-Ovest,7,Micro
+409,Sansoni Finance S.p.A.,Hospitality,Nord-Ovest,38,Small
+410,Amato IT S.r.l.,Hospitality,Nord-Est,15,Small
+411,Morlacchi Retail S.p.A.,Logistics,Nord-Ovest,106,Medium
+412,Virgilio Hospitality S.p.A.,Finance,Sud e Isole,301,Large
+413,Procacci IT S.r.l.,Manufacturing,Nord-Est,66,Medium
+414,Interminelli Manufacturing S.r.l.,Retail,Nord-Ovest,6,Micro
+415,Cerutti Food S.p.A.,Logistics,Centro,274,Large
+416,Battaglia Hospitality S.r.l.,Construction,Nord-Ovest,25,Small
+417,Trombetta Logistics S.p.A.,IT services,Nord-Ovest,36,Small
+418,Giorgetti Construction S.r.l.,Construction,Nord-Est,9,Micro
+419,Capecchi Healthcare S.r.l.,Finance,Sud e Isole,50,Medium
+420,Cusano Hospitality S.r.l.,Manufacturing,Sud e Isole,14,Small
+421,Iacobucci Hospitality S.r.l.,Construction,Centro,9,Micro
+422,Benussi Logistics S.r.l.,Healthcare,Sud e Isole,70,Medium
+423,Fabbri Professional S.p.A.,Finance,Centro,17,Small
+424,Finotto Construction S.p.A.,Finance,Nord-Est,8,Micro
+425,Mazzacurati Construction S.r.l.,Logistics,Nord-Ovest,14,Small
+426,Marini Food S.p.A.,Food & beverage,Nord-Est,419,Large
+427,Turchi Retail S.r.l.,Healthcare,Centro,17,Small
+428,Fo Construction S.r.l.,Professional services,Centro,8,Micro
+429,Luzi Hospitality S.p.A.,IT services,Nord-Est,9,Micro
+430,Rusticucci Retail S.p.A.,Construction,Sud e Isole,87,Medium
+431,Tartini Manufacturing S.r.l.,Healthcare,Nord-Ovest,15,Small
+432,Emanuelli Healthcare S.r.l.,Professional services,Nord-Ovest,10,Small
+433,Juvara Logistics S.r.l.,Professional services,Nord-Ovest,157,Medium
+434,Nadi Construction S.p.A.,Manufacturing,Centro,19,Small
+435,Antonetti Construction S.r.l.,Manufacturing,Sud e Isole,15,Small
+436,Greggio Hospitality S.p.A.,IT services,Sud e Isole,61,Medium
+437,Barese Manufacturing S.r.l.,Construction,Nord-Est,3,Micro
+438,Anguissola Construction S.r.l.,Retail,Nord-Ovest,75,Medium
+439,Antonetti Retail S.p.A.,Construction,Nord-Est,7,Micro
+440,Togliatti Finance S.r.l.,Hospitality,Nord-Est,36,Small
+441,Vigorelli IT S.r.l.,Healthcare,Centro,6,Micro
+442,Faugno Finance S.p.A.,Construction,Nord-Est,43,Small
+443,Toso Construction S.r.l.,Professional services,Nord-Est,3,Micro
+444,Sibilia Finance S.r.l.,Finance,Centro,41,Small
+445,Gozzano Logistics S.r.l.,Logistics,Nord-Est,7,Micro
+446,Saffi IT S.p.A.,Professional services,Centro,9,Micro
+447,Canali IT S.r.l.,Construction,Centro,5,Micro
+448,Righi Food S.p.A.,Food & beverage,Sud e Isole,19,Small
+449,Taliani Healthcare S.r.l.,Healthcare,Centro,43,Small
+450,Vergassola Construction S.p.A.,Healthcare,Nord-Ovest,12,Small
+451,Persico Healthcare S.r.l.,Healthcare,Nord-Ovest,36,Small
+452,Toldo Professional S.r.l.,Construction,Centro,14,Small
+453,Marzorati Hospitality S.r.l.,Professional services,Sud e Isole,44,Small
+454,Gabrieli IT S.r.l.,Food & beverage,Sud e Isole,51,Medium
+455,Giacometti Logistics S.p.A.,Food & beverage,Nord-Ovest,53,Medium
+456,Moschino Manufacturing S.r.l.,Logistics,Nord-Est,3,Micro
+457,Fieramosca Retail S.r.l.,Manufacturing,Sud e Isole,10,Small
+458,Cilibrasi Retail S.p.A.,Logistics,Nord-Est,3,Micro
+459,Pirandello Finance S.r.l.,Finance,Nord-Est,38,Small
+460,Napolitano Construction S.r.l.,Professional services,Centro,27,Small
+461,Berrè Healthcare S.p.A.,Retail,Sud e Isole,16,Small
+462,Cesaroni Manufacturing S.p.A.,Finance,Nord-Ovest,13,Small
+463,Angiolello Healthcare S.p.A.,Food & beverage,Nord-Ovest,15,Small
+464,Bonaventura Food S.r.l.,Manufacturing,Nord-Ovest,19,Small
+465,Guarana Hospitality S.p.A.,Professional services,Sud e Isole,36,Small
+466,Ricciardi Hospitality S.r.l.,Manufacturing,Nord-Est,44,Small
+467,Dalla IT S.p.A.,IT services,Sud e Isole,45,Small
+468,Bertoli Hospitality S.p.A.,Professional services,Sud e Isole,149,Medium
+469,Brenna Finance S.p.A.,Hospitality,Centro,21,Small
+470,Parri Hospitality S.p.A.,Healthcare,Sud e Isole,215,Medium
+471,Tognazzi Finance S.p.A.,Hospitality,Nord-Ovest,24,Small
+472,Lombardo Finance S.r.l.,Construction,Nord-Ovest,34,Small
+473,Golgi Manufacturing S.p.A.,Food & beverage,Nord-Est,23,Small
+474,Magnani Food S.r.l.,Healthcare,Nord-Est,123,Medium
+475,Beccaria Finance S.p.A.,IT services,Centro,12,Small
+476,Sauro IT S.r.l.,IT services,Centro,14,Small
+477,Fantini Finance S.r.l.,Manufacturing,Centro,55,Medium
+478,Cristoforetti Professional S.p.A.,Finance,Nord-Est,16,Small
+479,Ioppi Professional S.r.l.,Hospitality,Nord-Ovest,22,Small
+480,Sabatini Finance S.p.A.,Construction,Nord-Ovest,40,Small
+481,Agazzi Finance S.p.A.,Retail,Nord-Ovest,11,Small
+482,Iannelli Hospitality S.p.A.,Manufacturing,Centro,13,Small
+483,Ortolani Healthcare S.p.A.,Food & beverage,Centro,22,Small
+484,Monduzzi Food S.r.l.,Hospitality,Nord-Ovest,87,Medium
+485,Verri Construction S.r.l.,Retail,Centro,12,Small
+486,Missoni IT S.r.l.,Retail,Centro,16,Small
+487,Gottardi Food S.p.A.,IT services,Nord-Ovest,25,Small
+488,Baracca Logistics S.r.l.,Professional services,Centro,5,Micro
+489,Maspero Healthcare S.p.A.,Food & beverage,Centro,23,Small
+490,Gaito Retail S.r.l.,Retail,Nord-Est,10,Small
+491,Notarbartolo IT S.r.l.,Professional services,Centro,80,Medium
+492,Fagotto Food S.r.l.,Food & beverage,Sud e Isole,28,Small
+493,Abba Construction S.r.l.,Finance,Sud e Isole,79,Medium
+494,Monti Finance S.p.A.,Retail,Nord-Ovest,6,Micro
+495,Paruta Food S.r.l.,Healthcare,Nord-Ovest,38,Small
+496,Brancaccio Professional S.r.l.,Manufacturing,Nord-Ovest,87,Medium
+497,Sibilia Logistics S.p.A.,Construction,Nord-Ovest,99,Medium
+498,Liguori Manufacturing S.p.A.,Manufacturing,Nord-Est,246,Medium
+499,Tedesco Construction S.r.l.,Healthcare,Nord-Ovest,18,Small
+500,Filzi Professional S.p.A.,Food & beverage,Sud e Isole,25,Small
+501,Grassi Manufacturing S.r.l.,Food & beverage,Sud e Isole,10,Small
+502,Tiepolo Retail S.p.A.,Logistics,Nord-Ovest,11,Small
+503,Agostini Logistics S.p.A.,Professional services,Centro,195,Medium
+504,Burcardo Professional S.r.l.,Logistics,Centro,52,Medium
+505,Iannucci IT S.r.l.,Professional services,Centro,80,Medium
+506,Bruscantini Healthcare S.p.A.,Food & beverage,Nord-Ovest,166,Medium
+507,Colletti Hospitality S.p.A.,Finance,Centro,16,Small
+508,Piazzi Finance S.r.l.,Logistics,Sud e Isole,16,Small
+509,Bassi Manufacturing S.p.A.,Food & beverage,Nord-Ovest,48,Small
+510,Pertile Retail S.r.l.,IT services,Nord-Ovest,7,Micro
+511,Argurio Food S.r.l.,Manufacturing,Sud e Isole,10,Small
+512,Manolesso Construction S.r.l.,IT services,Sud e Isole,32,Small
+513,Marinetti Healthcare S.p.A.,Hospitality,Centro,94,Medium
+514,Giannini IT S.p.A.,Professional services,Nord-Est,61,Medium
+515,Brenna Retail S.r.l.,Construction,Nord-Ovest,10,Small
+516,Trupiano Logistics S.p.A.,Construction,Nord-Est,9,Micro
+517,Costanzi Logistics S.r.l.,Healthcare,Sud e Isole,3,Micro
+518,Pelli Finance S.r.l.,Logistics,Centro,74,Medium
+519,Modugno Finance S.r.l.,Food & beverage,Centro,27,Small
+520,Tagliafierro Construction S.r.l.,Construction,Centro,4,Micro
+521,Conte Retail S.p.A.,Manufacturing,Sud e Isole,67,Medium
+522,Loredan Logistics S.p.A.,Retail,Nord-Ovest,148,Medium
+523,Collodi Healthcare S.r.l.,Construction,Nord-Est,15,Small
+524,Battelli Finance S.p.A.,Construction,Sud e Isole,5,Micro
+525,Toscanini Logistics S.r.l.,Finance,Nord-Est,10,Small
+526,Riccardi Hospitality S.r.l.,Professional services,Nord-Ovest,206,Medium
+527,Togliatti Hospitality S.r.l.,Healthcare,Nord-Est,206,Medium
+528,Cilea Professional S.r.l.,Professional services,Centro,3,Micro
+529,Trevisan Manufacturing S.r.l.,Retail,Centro,267,Large
+530,Terragni Healthcare S.p.A.,Retail,Sud e Isole,70,Medium
+531,Anichini Manufacturing S.p.A.,Food & beverage,Centro,10,Small
+532,Giacometti Logistics S.r.l.,Construction,Centro,6,Micro
+533,Bresciani Retail S.r.l.,IT services,Nord-Ovest,124,Medium
+534,Bajamonti Retail S.r.l.,Professional services,Sud e Isole,32,Small
+535,Bassi Food S.r.l.,Construction,Centro,6,Micro
+536,Chiaramonte IT S.r.l.,Healthcare,Sud e Isole,113,Medium
+537,Onio Hospitality S.r.l.,Food & beverage,Nord-Est,781,Large
+538,Campano Hospitality S.r.l.,Retail,Sud e Isole,33,Small
+539,Paolini Professional S.r.l.,Professional services,Centro,70,Medium
+540,Salvini Hospitality S.r.l.,Food & beverage,Centro,92,Medium
+541,Zaccagnini Construction S.p.A.,Food & beverage,Sud e Isole,15,Small
+542,Benussi Construction S.p.A.,Healthcare,Nord-Ovest,4,Micro
+543,Antonini Retail S.p.A.,Food & beverage,Nord-Est,29,Small
+544,Turci Finance S.r.l.,Retail,Nord-Est,17,Small
+545,Gottardi Healthcare S.p.A.,Retail,Sud e Isole,225,Medium
+546,Stein Professional S.r.l.,Professional services,Centro,19,Small
+547,Iannotti Logistics S.p.A.,Logistics,Nord-Ovest,11,Small
+548,Adinolfi Food S.p.A.,IT services,Nord-Ovest,278,Large
+549,Saracino Logistics S.p.A.,Finance,Nord-Ovest,157,Medium
+550,Bonatti Healthcare S.p.A.,Retail,Sud e Isole,8,Micro
+551,Telesio Food S.r.l.,Healthcare,Centro,249,Medium
+552,Ungaretti IT S.p.A.,Healthcare,Nord-Est,3,Micro
+553,Busoni Food S.r.l.,IT services,Nord-Est,79,Medium
+554,Trobbiani Healthcare S.r.l.,Hospitality,Centro,7,Micro
+555,Boezio Logistics S.r.l.,Healthcare,Nord-Ovest,6,Micro
+556,Sgalambro Manufacturing S.p.A.,Logistics,Centro,47,Small
+557,Grifeo Professional S.p.A.,Finance,Nord-Ovest,46,Small
+558,Borrani Retail S.p.A.,IT services,Sud e Isole,35,Small
+559,Impastato Healthcare S.p.A.,Logistics,Sud e Isole,136,Medium
+560,Gianvecchio Finance S.p.A.,Logistics,Nord-Ovest,29,Small
+561,Florio Healthcare S.r.l.,Hospitality,Nord-Ovest,12,Small
+562,Gianetti IT S.p.A.,Retail,Centro,11,Small
+563,Sbarbaro IT S.p.A.,Retail,Nord-Ovest,19,Small
+564,Tafuri Food S.r.l.,Construction,Nord-Ovest,157,Medium
+565,Pasolini Finance S.p.A.,Retail,Nord-Ovest,10,Small
+566,Borsiere Finance S.p.A.,Retail,Nord-Ovest,3,Micro
+567,Soffici Construction S.p.A.,Healthcare,Sud e Isole,160,Medium
+568,Luna Food S.r.l.,Healthcare,Nord-Ovest,3,Micro
+569,Belletini Retail S.p.A.,Food & beverage,Sud e Isole,3,Micro
+570,Fieramosca Construction S.p.A.,Logistics,Centro,19,Small
+571,Borzomì Healthcare S.r.l.,Professional services,Nord-Ovest,3,Micro
+572,Comeriato Finance S.r.l.,Hospitality,Centro,5,Micro
+573,Montanariello Hospitality S.p.A.,Logistics,Nord-Ovest,40,Small
+574,Grossi Finance S.r.l.,Healthcare,Sud e Isole,142,Medium
+575,Marinetti Food S.p.A.,Logistics,Centro,618,Large
+576,Zoppetti Healthcare S.r.l.,Hospitality,Centro,116,Medium
+577,Chiesa Professional S.p.A.,Retail,Nord-Est,31,Small
+578,Anastasi Retail S.p.A.,Manufacturing,Centro,118,Medium
+579,Sonnino Healthcare S.r.l.,IT services,Centro,41,Small
+580,Bignardi Finance S.p.A.,Retail,Nord-Est,37,Small
+581,Spanevello Professional S.r.l.,Finance,Centro,272,Large
+582,Ioppi Manufacturing S.r.l.,Logistics,Nord-Ovest,132,Medium
+583,Calbo Retail S.p.A.,Retail,Centro,30,Small
+584,Gaiatto Hospitality S.p.A.,Professional services,Centro,18,Small
+585,Stein Healthcare S.r.l.,IT services,Nord-Est,16,Small
+586,Maderna Professional S.p.A.,Hospitality,Nord-Ovest,275,Large
+587,Tozzo Professional S.r.l.,Finance,Nord-Ovest,22,Small
+588,Lucchesi Professional S.p.A.,Professional services,Nord-Est,572,Large
+589,Scarpa Professional S.p.A.,Manufacturing,Sud e Isole,50,Medium
+590,Schiaparelli Finance S.p.A.,Finance,Nord-Est,104,Medium
+591,Schiavo Construction S.p.A.,Retail,Nord-Ovest,3,Micro
+592,Casale Manufacturing S.p.A.,Retail,Nord-Est,9,Micro
+593,Vezzali IT S.p.A.,Retail,Sud e Isole,105,Medium
+594,Filippelli Logistics S.r.l.,Finance,Nord-Est,105,Medium
+595,Mazzacurati Healthcare S.r.l.,Professional services,Centro,30,Small
+596,Briccialdi Food S.r.l.,Food & beverage,Nord-Ovest,17,Small
+597,Serraglio Manufacturing S.r.l.,IT services,Centro,40,Small
+598,Antonelli Retail S.p.A.,Construction,Centro,6,Micro
+599,Luzi Professional S.r.l.,Professional services,Nord-Ovest,158,Medium
+600,Sauli Retail S.r.l.,Professional services,Nord-Est,3,Micro
+601,Borsellino IT S.r.l.,Hospitality,Centro,226,Medium
+602,Toldo Food S.r.l.,IT services,Centro,4,Micro
+603,Salata IT S.p.A.,Retail,Centro,27,Small
+604,Ioppi Manufacturing S.r.l.,Retail,Sud e Isole,60,Medium
+605,Pederiva Professional S.r.l.,Finance,Centro,26,Small
+606,Foscari Logistics S.p.A.,Manufacturing,Nord-Est,106,Medium
+607,Fracci Hospitality S.p.A.,Retail,Nord-Est,5,Micro
+608,Borrani Manufacturing S.r.l.,Manufacturing,Nord-Est,155,Medium
+609,Bulzoni Hospitality S.r.l.,Manufacturing,Centro,126,Medium
+610,Civaschi Manufacturing S.r.l.,Manufacturing,Nord-Ovest,48,Small
+611,Trevisani Professional S.r.l.,Professional services,Centro,32,Small
+612,Iacobucci Retail S.r.l.,Professional services,Sud e Isole,4,Micro
+613,Olivetti Healthcare S.r.l.,IT services,Centro,19,Small
+614,Chiappetta Hospitality S.r.l.,Finance,Nord-Est,3,Micro
+615,Tomasini Retail S.r.l.,Manufacturing,Centro,36,Small
+616,Lippomano Manufacturing S.r.l.,Hospitality,Sud e Isole,118,Medium
+617,Carducci Healthcare S.p.A.,Construction,Nord-Ovest,19,Small
+618,Ossani Logistics S.p.A.,Hospitality,Sud e Isole,21,Small
+619,Gianinazzi Food S.r.l.,Construction,Nord-Ovest,15,Small
+620,Tanzini Professional S.p.A.,Retail,Nord-Est,5,Micro
+621,Speri Construction S.r.l.,Finance,Nord-Ovest,9,Micro
+622,Pertini Manufacturing S.r.l.,Food & beverage,Sud e Isole,26,Small
+623,Armellini Retail S.r.l.,Professional services,Nord-Ovest,36,Small
+624,Cundari Logistics S.p.A.,Hospitality,Centro,4,Micro
+625,Agazzi Food S.r.l.,Construction,Nord-Ovest,159,Medium
+626,Strangio Hospitality S.r.l.,Retail,Centro,12,Small
+627,Salvemini Retail S.r.l.,Finance,Nord-Ovest,55,Medium
+628,Pisacane Retail S.p.A.,Finance,Centro,20,Small
+629,Marangoni Logistics S.r.l.,Healthcare,Nord-Ovest,3,Micro
+630,Cimini IT S.r.l.,IT services,Nord-Est,15,Small
+631,Pratesi Professional S.p.A.,Construction,Nord-Ovest,77,Medium
+632,Muratori Hospitality S.p.A.,Healthcare,Nord-Ovest,87,Medium
+633,Paoletti Retail S.r.l.,Manufacturing,Nord-Ovest,171,Medium
+634,Mercadante Logistics S.p.A.,Healthcare,Nord-Est,10,Small
+635,Casini Professional S.r.l.,Healthcare,Centro,3,Micro
+636,Montanari Food S.p.A.,Professional services,Centro,557,Large
+637,Abbagnale Manufacturing S.r.l.,Food & beverage,Sud e Isole,18,Small
+638,Mocenigo IT S.p.A.,Retail,Nord-Est,25,Small
+639,Moretti Professional S.p.A.,IT services,Nord-Ovest,19,Small
+640,Pezzali IT S.p.A.,Professional services,Sud e Isole,11,Small
+641,Casarin Professional S.p.A.,Professional services,Nord-Est,34,Small
+642,Ferrata Professional S.r.l.,Finance,Sud e Isole,240,Medium
+643,Ammaniti Healthcare S.p.A.,IT services,Centro,14,Small
+644,Luzi Healthcare S.p.A.,Retail,Nord-Ovest,41,Small
+645,Grisoni Logistics S.r.l.,Finance,Sud e Isole,240,Medium
+646,Palladio Manufacturing S.r.l.,IT services,Centro,83,Medium
+647,Bocelli Food S.p.A.,Manufacturing,Sud e Isole,8,Micro
+648,Perozzo Logistics S.r.l.,Manufacturing,Centro,3,Micro
+649,Pennetta Professional S.p.A.,Construction,Centro,25,Small
+650,Borsellino Logistics S.r.l.,Construction,Sud e Isole,154,Medium
+651,Onio Finance S.p.A.,Professional services,Centro,9,Micro
+652,Rensi Construction S.r.l.,Food & beverage,Nord-Ovest,26,Small
+653,Leone Hospitality S.p.A.,Logistics,Nord-Ovest,15,Small
+654,Bellucci Healthcare S.p.A.,IT services,Nord-Est,72,Medium
+655,Liverotti Professional S.r.l.,Healthcare,Sud e Isole,51,Medium
+656,Camanni Finance S.r.l.,Hospitality,Nord-Ovest,12,Small
+657,Bergoglio Food S.r.l.,Retail,Centro,59,Medium
+658,Lucchesi Hospitality S.r.l.,Logistics,Sud e Isole,25,Small
+659,Condoleo Retail S.r.l.,Healthcare,Nord-Ovest,24,Small
+660,Gravina Logistics S.p.A.,Retail,Nord-Est,59,Medium
+661,Infantino Retail S.p.A.,Professional services,Nord-Est,60,Medium
+662,Roero Construction S.r.l.,Food & beverage,Nord-Ovest,37,Small
+663,Torlonia Logistics S.p.A.,Professional services,Nord-Est,235,Medium
+664,Mennea Retail S.r.l.,Hospitality,Centro,117,Medium
+665,Faugno Manufacturing S.p.A.,IT services,Nord-Est,11,Small
+666,Palombi Construction S.r.l.,Food & beverage,Nord-Ovest,152,Medium
+667,Rensi Food S.r.l.,Professional services,Nord-Est,297,Large
+668,Badoer IT S.p.A.,Logistics,Sud e Isole,63,Medium
+669,Piccinni Retail S.r.l.,Finance,Nord-Ovest,393,Large
+670,Visintini Retail S.p.A.,Hospitality,Nord-Est,20,Small
+671,Vezzali Construction S.p.A.,Construction,Nord-Ovest,13,Small
+672,Fiorucci Logistics S.p.A.,Construction,Nord-Ovest,28,Small
+673,Bottigliero Finance S.r.l.,Professional services,Centro,45,Small
+674,Benedetti Healthcare S.r.l.,Retail,Centro,70,Medium
+675,Polani Manufacturing S.p.A.,Finance,Nord-Ovest,38,Small
+676,Salvemini Manufacturing S.r.l.,Professional services,Nord-Ovest,3,Micro
+677,Cicilia Retail S.p.A.,Construction,Nord-Ovest,8,Micro
+678,Luciani Retail S.r.l.,Healthcare,Nord-Ovest,14,Small
+679,Spanevello Finance S.p.A.,Logistics,Nord-Ovest,101,Medium
+680,Bembo Manufacturing S.r.l.,Food & beverage,Nord-Est,264,Large
+681,Vidoni Retail S.p.A.,Retail,Nord-Ovest,56,Medium
+682,Cendron Professional S.r.l.,IT services,Nord-Est,24,Small
+683,Donatoni Hospitality S.r.l.,Retail,Sud e Isole,11,Small
+684,Sermonti Finance S.p.A.,Finance,Nord-Est,20,Small
+685,Pozzecco Healthcare S.r.l.,IT services,Centro,56,Medium
+686,Munari Healthcare S.p.A.,Logistics,Nord-Ovest,92,Medium
+687,Lombardo Healthcare S.p.A.,Construction,Nord-Est,3,Micro
+688,Malpighi Construction S.r.l.,Healthcare,Nord-Ovest,4,Micro
+689,Guarana Professional S.p.A.,Manufacturing,Nord-Ovest,31,Small
+690,Guinizzelli Finance S.p.A.,IT services,Nord-Est,5,Micro
+691,Pisani Retail S.p.A.,Food & beverage,Nord-Est,59,Medium
+692,Giorgetti Professional S.p.A.,Construction,Sud e Isole,5,Micro
+693,Manunta Construction S.p.A.,Construction,Centro,160,Medium
+694,Soranzo Healthcare S.r.l.,Manufacturing,Sud e Isole,5,Micro
+695,Volterra Retail S.p.A.,Hospitality,Nord-Ovest,280,Large
+696,Pertini Construction S.p.A.,Finance,Nord-Ovest,324,Large
+697,Casarin Manufacturing S.r.l.,Healthcare,Sud e Isole,23,Small
+698,Desio Retail S.p.A.,Logistics,Sud e Isole,67,Medium
+699,Cutrufo Professional S.r.l.,Food & beverage,Centro,44,Small
+700,Borromeo Retail S.r.l.,IT services,Sud e Isole,23,Small
+701,Foletti Food S.p.A.,Professional services,Sud e Isole,9,Micro
+702,Tasca IT S.p.A.,Professional services,Centro,41,Small
+703,Tamburini IT S.r.l.,Finance,Nord-Ovest,10,Small
+704,Vigliotti IT S.r.l.,Hospitality,Nord-Ovest,14,Small
+705,Galtarossa Construction S.r.l.,Food & beverage,Nord-Ovest,3,Micro
+706,Sandi Healthcare S.r.l.,Manufacturing,Sud e Isole,5,Micro
+707,Monte Healthcare S.p.A.,Healthcare,Nord-Est,3,Micro
+708,Salgari Retail S.r.l.,Manufacturing,Sud e Isole,17,Small
+709,Renier Hospitality S.r.l.,Manufacturing,Sud e Isole,17,Small
+710,Cilea Healthcare S.p.A.,Finance,Centro,238,Medium
+711,Versace Logistics S.r.l.,Finance,Centro,5,Micro
+712,Ferragamo Logistics S.p.A.,Logistics,Sud e Isole,44,Small
+713,Gori Finance S.p.A.,Construction,Nord-Est,87,Medium
+714,Buonauro Professional S.p.A.,Construction,Nord-Ovest,21,Small
+715,Druso Manufacturing S.r.l.,Professional services,Nord-Est,7,Micro
+716,Morucci Manufacturing S.r.l.,IT services,Centro,49,Small
+717,Vivaldi Food S.p.A.,Hospitality,Nord-Est,13,Small
+718,Burcardo Hospitality S.r.l.,Hospitality,Centro,3,Micro
+719,Meucci IT S.p.A.,Food & beverage,Nord-Ovest,137,Medium
+720,Giovine Professional S.p.A.,Finance,Nord-Est,111,Medium
+721,Pacetti Food S.r.l.,Logistics,Nord-Est,17,Small
+722,Guicciardini Hospitality S.r.l.,Professional services,Nord-Est,19,Small
+723,Finotto Retail S.p.A.,Professional services,Nord-Ovest,3,Micro
+724,Aporti Finance S.r.l.,Logistics,Centro,237,Medium
+725,Pontecorvo Logistics S.r.l.,Manufacturing,Sud e Isole,5,Micro
+726,Pasqua Hospitality S.p.A.,Manufacturing,Sud e Isole,48,Small
+727,Porcellato Professional S.p.A.,Logistics,Nord-Est,31,Small
+728,Trevisani Manufacturing S.p.A.,Logistics,Centro,3,Micro
+729,Foà Food S.r.l.,Finance,Centro,14,Small
+730,Paolini Logistics S.r.l.,Hospitality,Nord-Ovest,33,Small
+731,Jovinelli IT S.r.l.,Healthcare,Sud e Isole,52,Medium
+732,Moretti IT S.r.l.,IT services,Sud e Isole,21,Small
+733,Blasi Construction S.p.A.,Logistics,Centro,37,Small
+734,Tarantini Professional S.r.l.,Logistics,Sud e Isole,65,Medium
+735,Letta Healthcare S.r.l.,Professional services,Nord-Est,16,Small
+736,Omma Retail S.p.A.,Logistics,Nord-Est,4,Micro
+737,Cavanna Healthcare S.p.A.,Finance,Nord-Ovest,44,Small
+738,Telesio Logistics S.r.l.,Retail,Nord-Est,38,Small
+739,Trupiano Retail S.p.A.,Food & beverage,Nord-Ovest,22,Small
+740,Gaggini Logistics S.p.A.,Hospitality,Nord-Est,524,Large
+741,Cabibbo Food S.p.A.,Hospitality,Nord-Ovest,26,Small
+742,Lamborghini Manufacturing S.r.l.,Construction,Centro,42,Small
+743,Grassi Hospitality S.r.l.,Construction,Sud e Isole,21,Small
+744,Pausini Logistics S.p.A.,Retail,Nord-Ovest,5,Micro
+745,Piazzi IT S.p.A.,Healthcare,Nord-Est,114,Medium
+746,Sabatini Finance S.p.A.,IT services,Nord-Ovest,116,Medium
+747,Rienzo Hospitality S.p.A.,Manufacturing,Nord-Est,7,Micro
+748,Mazzanti Finance S.r.l.,Healthcare,Sud e Isole,20,Small
+749,Argenti Food S.r.l.,Retail,Nord-Ovest,11,Small
+750,Cendron Manufacturing S.p.A.,Healthcare,Nord-Ovest,10,Small
+751,Balbo Finance S.r.l.,Logistics,Nord-Est,10,Small
+752,Raurica Food S.p.A.,Retail,Centro,3,Micro
+753,Sforza Logistics S.p.A.,Manufacturing,Nord-Ovest,52,Medium
+754,Stoppani Logistics S.r.l.,IT services,Nord-Ovest,8,Micro
+755,Abatantuono Professional S.p.A.,Retail,Sud e Isole,4,Micro
+756,Bonomo Healthcare S.p.A.,Professional services,Nord-Est,23,Small
+757,Peranda Logistics S.p.A.,Manufacturing,Nord-Est,87,Medium
+758,Tropea IT S.r.l.,IT services,Nord-Est,535,Large
+759,Scialpi Logistics S.r.l.,Finance,Nord-Est,62,Medium
+760,Salandra Logistics S.r.l.,Finance,Sud e Isole,29,Small
+761,Grassi Manufacturing S.p.A.,Food & beverage,Centro,111,Medium
+762,Cantimori Food S.p.A.,IT services,Sud e Isole,9,Micro
+763,Garrone Construction S.p.A.,Professional services,Nord-Ovest,359,Large
+764,Costalonga Healthcare S.p.A.,Logistics,Nord-Est,5,Micro
+765,Corcos Retail S.p.A.,Manufacturing,Nord-Ovest,254,Large
+766,Trentini Healthcare S.p.A.,Manufacturing,Nord-Ovest,117,Medium
+767,Cantimori Healthcare S.r.l.,Hospitality,Sud e Isole,59,Medium
+768,Saragat Healthcare S.r.l.,IT services,Centro,18,Small
+769,Bresciani Healthcare S.r.l.,Retail,Centro,5,Micro
+770,Villadicani Finance S.p.A.,Hospitality,Centro,13,Small
+771,Barracco Construction S.p.A.,IT services,Sud e Isole,47,Small
+772,Abba Hospitality S.r.l.,Construction,Centro,80,Medium
+773,Cavanna Finance S.r.l.,IT services,Nord-Est,20,Small
+774,Giannini Retail S.p.A.,Construction,Sud e Isole,25,Small
+775,Baresi Logistics S.p.A.,Construction,Nord-Ovest,114,Medium
+776,Marenzio Professional S.p.A.,Healthcare,Sud e Isole,96,Medium
+777,Ceri Finance S.p.A.,Professional services,Nord-Ovest,154,Medium
+778,Gremese Professional S.p.A.,IT services,Sud e Isole,146,Medium
+779,Tropea Finance S.p.A.,Food & beverage,Sud e Isole,3,Micro
+780,Romano Hospitality S.p.A.,Retail,Nord-Est,10,Small
+781,Cardano Logistics S.p.A.,Retail,Nord-Est,124,Medium
+782,Calbo Construction S.p.A.,Hospitality,Nord-Est,4,Micro
+783,Bonaventura Professional S.p.A.,Retail,Sud e Isole,19,Small
+784,Mantegna Construction S.p.A.,Professional services,Nord-Est,25,Small
+785,Trezzini Construction S.r.l.,Hospitality,Nord-Ovest,347,Large
+786,Fermi Hospitality S.r.l.,Food & beverage,Nord-Ovest,6,Micro
+787,Pedrazzini Finance S.r.l.,Professional services,Centro,34,Small
+788,Gulotta Healthcare S.p.A.,Hospitality,Centro,5,Micro
+789,Garozzo Hospitality S.r.l.,Manufacturing,Nord-Est,31,Small
+790,Abba Retail S.p.A.,Hospitality,Sud e Isole,13,Small
+791,Altera Food S.p.A.,Manufacturing,Nord-Ovest,31,Small
+792,Valmarana Construction S.r.l.,Manufacturing,Sud e Isole,16,Small
+793,Manzoni Construction S.r.l.,Construction,Sud e Isole,45,Small
+794,Scaduto Logistics S.r.l.,Logistics,Nord-Ovest,15,Small
+795,Ligorio Logistics S.p.A.,Finance,Nord-Est,80,Medium
+796,Mercadante IT S.r.l.,Manufacturing,Nord-Ovest,5,Micro
+797,Golgi IT S.p.A.,Food & beverage,Nord-Ovest,7,Micro
+798,Siffredi Manufacturing S.p.A.,Finance,Nord-Ovest,64,Medium
+799,Trobbiani Construction S.r.l.,Construction,Centro,12,Small
+800,Gianvecchio Finance S.p.A.,Professional services,Centro,23,Small
+801,Verri Retail S.p.A.,Logistics,Centro,8,Micro
+802,Gradenigo Logistics S.r.l.,Healthcare,Nord-Est,18,Small
+803,Badoer Professional S.p.A.,Logistics,Nord-Ovest,19,Small
+804,Polizzi IT S.r.l.,Professional services,Sud e Isole,12,Small
+805,Martucci Retail S.p.A.,Construction,Nord-Ovest,22,Small
+806,Bertoli Professional S.r.l.,Food & beverage,Nord-Est,6,Micro
+807,Argenti Retail S.p.A.,Finance,Centro,11,Small
+808,Ferrara IT S.p.A.,Healthcare,Nord-Ovest,16,Small
+809,Tarantini Logistics S.r.l.,Retail,Nord-Est,189,Medium
+810,Pugliese Logistics S.r.l.,Retail,Nord-Ovest,3,Micro
+811,Bova Hospitality S.p.A.,Construction,Nord-Ovest,19,Small
+812,Guarneri Healthcare S.r.l.,IT services,Nord-Est,103,Medium
+813,Gentilini Healthcare S.r.l.,Retail,Sud e Isole,42,Small
+814,Rastelli Logistics S.r.l.,Construction,Nord-Ovest,9,Micro
+815,Paganini Finance S.p.A.,Hospitality,Nord-Est,10,Small
+816,Gentileschi Construction S.r.l.,Construction,Nord-Est,17,Small
+817,Tacchini Logistics S.r.l.,Food & beverage,Nord-Est,65,Medium
+818,Bandello Healthcare S.p.A.,Retail,Centro,37,Small
+819,Moretti Finance S.p.A.,Professional services,Centro,238,Medium
+820,Puglisi Finance S.p.A.,Healthcare,Nord-Est,183,Medium
+821,Orlando IT S.p.A.,Professional services,Centro,389,Large
+822,Petrocelli IT S.p.A.,Retail,Centro,481,Large
+823,Ficino Professional S.p.A.,Healthcare,Centro,57,Medium
+824,Alboni Manufacturing S.p.A.,Construction,Nord-Est,54,Medium
+825,Maggioli Healthcare S.r.l.,Construction,Nord-Ovest,20,Small
+826,Tiepolo Construction S.r.l.,Healthcare,Sud e Isole,84,Medium
+827,Boito IT S.p.A.,Food & beverage,Nord-Ovest,16,Small
+828,Florio Logistics S.p.A.,Healthcare,Nord-Ovest,3,Micro
+829,Tamborini Manufacturing S.r.l.,Manufacturing,Nord-Est,50,Medium
+830,Filogamo Construction S.r.l.,Retail,Sud e Isole,3,Micro
+831,Mazzacurati Hospitality S.p.A.,Manufacturing,Nord-Est,23,Small
+832,Ferrara Construction S.p.A.,Logistics,Centro,54,Medium
+833,Gianetti Manufacturing S.r.l.,Healthcare,Nord-Ovest,42,Small
+834,Scarpetta Professional S.r.l.,IT services,Centro,647,Large
+835,Gangemi Manufacturing S.p.A.,Finance,Centro,38,Small
+836,Iannuzzi Retail S.r.l.,Professional services,Nord-Est,47,Small
+837,Malacarne Food S.r.l.,Construction,Centro,16,Small
+838,Cantimori Finance S.p.A.,Healthcare,Nord-Est,22,Small
+839,Tamborini Manufacturing S.r.l.,Food & beverage,Nord-Est,73,Medium
+840,Faranda Hospitality S.p.A.,Finance,Sud e Isole,39,Small
+841,Garozzo Professional S.r.l.,Retail,Nord-Ovest,101,Medium
+842,Spallanzani Food S.p.A.,Finance,Nord-Est,7,Micro
+843,Priuli Construction S.r.l.,Retail,Nord-Est,125,Medium
+844,Bertoni Finance S.r.l.,Professional services,Sud e Isole,29,Small
+845,Comboni Hospitality S.p.A.,Healthcare,Centro,18,Small
+846,Persico Retail S.p.A.,Finance,Centro,75,Medium
+847,Berrè Retail S.p.A.,Logistics,Nord-Est,3,Micro
+848,Fusani Food S.r.l.,Logistics,Sud e Isole,147,Medium
+849,Ariosto Construction S.p.A.,Healthcare,Nord-Ovest,7,Micro
+850,Civaschi Construction S.r.l.,Manufacturing,Nord-Est,98,Medium
+851,Prada Food S.r.l.,IT services,Nord-Est,106,Medium
+852,Berlusconi Retail S.r.l.,Logistics,Nord-Ovest,129,Medium
+853,Bignami Hospitality S.r.l.,Finance,Sud e Isole,43,Small
+854,Fallaci IT S.r.l.,Logistics,Nord-Ovest,10,Small
+855,Persico Hospitality S.r.l.,IT services,Centro,17,Small
+856,Salata Construction S.p.A.,IT services,Nord-Est,18,Small
+857,Mazzocchi Finance S.r.l.,Healthcare,Sud e Isole,59,Medium
+858,Carfagna Retail S.p.A.,Finance,Nord-Ovest,42,Small
+859,Botta Construction S.r.l.,Logistics,Nord-Ovest,10,Small
+860,Delle Logistics S.p.A.,Healthcare,Nord-Ovest,41,Small
+861,Moneta Professional S.p.A.,Hospitality,Centro,53,Medium
+862,Federici Professional S.p.A.,Retail,Sud e Isole,398,Large
+863,Fantini Hospitality S.r.l.,Food & beverage,Centro,60,Medium
+864,Trezzini IT S.r.l.,Professional services,Nord-Ovest,20,Small
+865,Schicchi Professional S.r.l.,Healthcare,Nord-Est,761,Large
+866,Balbi Construction S.p.A.,Finance,Nord-Est,13,Small
+867,Mazzacurati Construction S.p.A.,Professional services,Nord-Ovest,27,Small
+868,Pareto Food S.r.l.,Finance,Centro,27,Small
+869,Paltrinieri Finance S.r.l.,Professional services,Centro,24,Small
+870,Montanariello Retail S.p.A.,Healthcare,Nord-Est,8,Micro
+871,Rubbia Hospitality S.r.l.,Construction,Nord-Est,9,Micro
+872,Doglioni Finance S.r.l.,Logistics,Nord-Ovest,3,Micro
+873,Cantimori Food S.p.A.,Professional services,Sud e Isole,257,Large
+874,Acerbi Logistics S.p.A.,Professional services,Centro,11,Small
+875,Bossi Retail S.r.l.,Hospitality,Sud e Isole,24,Small
+876,Littizzetto Professional S.p.A.,Finance,Nord-Est,4,Micro
+877,Bottigliero Hospitality S.r.l.,Finance,Nord-Est,133,Medium
+878,Nicolucci Hospitality S.r.l.,Construction,Nord-Est,61,Medium
+879,Pugliese Logistics S.p.A.,Logistics,Nord-Ovest,28,Small
+880,Catalano Manufacturing S.r.l.,Professional services,Nord-Ovest,3,Micro
+881,Zamorani Healthcare S.p.A.,Logistics,Nord-Ovest,3,Micro
+882,Fogazzaro Construction S.r.l.,Food & beverage,Nord-Ovest,13,Small
+883,Parmitano IT S.r.l.,Professional services,Nord-Ovest,19,Small
+884,Notarbartolo Food S.r.l.,Healthcare,Nord-Est,3,Micro
+885,Mascheroni IT S.p.A.,Hospitality,Centro,119,Medium
+886,Righi Logistics S.p.A.,Food & beverage,Nord-Ovest,122,Medium
+887,Brugnaro Food S.r.l.,Manufacturing,Nord-Ovest,3,Micro
+888,Bembo Professional S.p.A.,Logistics,Sud e Isole,29,Small
+889,Sforza Professional S.r.l.,Food & beverage,Centro,20,Small
+890,Ferrata IT S.p.A.,Finance,Centro,42,Small
+891,Palmisano Retail S.p.A.,Manufacturing,Centro,19,Small
+892,Venditti Logistics S.r.l.,Retail,Centro,11,Small
+893,Sabbatini Food S.p.A.,Retail,Nord-Ovest,20,Small
+894,Ferragni IT S.p.A.,Retail,Nord-Est,25,Small
+895,Missoni Food S.p.A.,Finance,Centro,9,Micro
+896,Ortolani Manufacturing S.p.A.,Healthcare,Sud e Isole,17,Small
+897,Sgarbi Hospitality S.p.A.,Construction,Nord-Ovest,9,Micro
+898,Baglioni Healthcare S.r.l.,Retail,Nord-Est,32,Small
+899,Polani IT S.p.A.,Hospitality,Nord-Est,24,Small
+900,Granatelli Retail S.p.A.,Healthcare,Nord-Est,57,Medium
+901,Pirandello Retail S.r.l.,Manufacturing,Nord-Ovest,6,Micro
+902,Barzini Retail S.r.l.,Hospitality,Nord-Est,15,Small
+903,Panzera Professional S.p.A.,Manufacturing,Nord-Est,23,Small
+904,Barbarigo Manufacturing S.r.l.,Retail,Nord-Est,49,Small
+905,Scarlatti Healthcare S.p.A.,Healthcare,Nord-Ovest,36,Small
+906,Boaga Hospitality S.p.A.,Healthcare,Nord-Est,24,Small
+907,Bixio Retail S.p.A.,Construction,Nord-Ovest,56,Medium
+908,Guarneri Finance S.p.A.,Healthcare,Nord-Est,5,Micro
+909,Ferraris Healthcare S.r.l.,Food & beverage,Sud e Isole,4,Micro
+910,Boaga Hospitality S.r.l.,Logistics,Sud e Isole,3,Micro
+911,Morlacchi Finance S.r.l.,Retail,Nord-Ovest,169,Medium
+912,Orsini Hospitality S.r.l.,Food & beverage,Nord-Est,60,Medium
+913,Lanfranchi Retail S.r.l.,IT services,Centro,50,Medium
+914,Monti Professional S.p.A.,Food & beverage,Centro,33,Small
+915,Battelli Finance S.p.A.,Food & beverage,Centro,3,Micro
+916,Iacobucci Food S.r.l.,Finance,Centro,20,Small
+917,Mercalli Retail S.r.l.,Retail,Centro,234,Medium
+918,Leonetti IT S.p.A.,Construction,Nord-Ovest,95,Medium
+919,Malpighi Logistics S.r.l.,Logistics,Nord-Ovest,6,Micro
+920,Agazzi IT S.p.A.,Retail,Nord-Est,192,Medium
+921,Bocelli Construction S.p.A.,Healthcare,Nord-Ovest,5,Micro
+922,Armani IT S.r.l.,IT services,Sud e Isole,108,Medium
+923,Giannotti Professional S.p.A.,Healthcare,Nord-Ovest,43,Small
+924,Canevascini Manufacturing S.r.l.,Hospitality,Nord-Ovest,3,Micro
+925,Siffredi IT S.r.l.,Food & beverage,Nord-Ovest,354,Large
+926,Scarponi Food S.r.l.,Professional services,Nord-Ovest,33,Small
+927,Peano Food S.r.l.,Healthcare,Nord-Est,51,Medium
+928,Gregorio Construction S.p.A.,Healthcare,Centro,21,Small
+929,Riccati Hospitality S.p.A.,Retail,Centro,23,Small
+930,Taccola Logistics S.r.l.,Logistics,Nord-Ovest,13,Small
+931,Chiappetta Construction S.p.A.,IT services,Centro,47,Small
+932,Tamburello Manufacturing S.r.l.,IT services,Nord-Ovest,42,Small
+933,Fagotto IT S.p.A.,Finance,Sud e Isole,26,Small
+934,Alighieri Manufacturing S.p.A.,Professional services,Nord-Ovest,8,Micro
+935,Marconi Manufacturing S.r.l.,Construction,Nord-Ovest,49,Small
+936,Coppola Professional S.p.A.,Manufacturing,Nord-Ovest,92,Medium
+937,Gilardoni IT S.p.A.,Retail,Centro,143,Medium
+938,Mondadori Food S.p.A.,Food & beverage,Centro,35,Small
+939,Mezzetta Food S.r.l.,IT services,Nord-Ovest,3,Micro
+940,Scaduto Food S.r.l.,Retail,Centro,60,Medium
+941,Orengo Healthcare S.r.l.,Hospitality,Sud e Isole,22,Small
+942,Bosurgi Manufacturing S.p.A.,Professional services,Nord-Est,49,Small
+943,Torricelli Hospitality S.r.l.,Construction,Nord-Ovest,27,Small
+944,Fibonacci Food S.r.l.,Food & beverage,Nord-Est,3,Micro
+945,Pergolesi Logistics S.p.A.,Healthcare,Centro,45,Small
+946,Curatoli Manufacturing S.r.l.,Construction,Centro,38,Small
+947,Gramsci Professional S.r.l.,Logistics,Sud e Isole,202,Medium
+948,Pizzamano Professional S.p.A.,Hospitality,Centro,11,Small
+949,Boccioni Finance S.p.A.,Construction,Nord-Ovest,114,Medium
+950,Bandello Healthcare S.p.A.,Manufacturing,Nord-Est,14,Small
+951,Sommaruga Construction S.p.A.,Retail,Nord-Ovest,148,Medium
+952,Viola Manufacturing S.r.l.,IT services,Nord-Est,9,Micro
+953,Verdi Logistics S.p.A.,Professional services,Sud e Isole,74,Medium
+954,Modugno Finance S.p.A.,Logistics,Sud e Isole,8,Micro
+955,Curiel Logistics S.p.A.,Healthcare,Sud e Isole,8,Micro
+956,Regge Hospitality S.p.A.,Logistics,Nord-Ovest,39,Small
+957,Campise Retail S.r.l.,Healthcare,Centro,115,Medium
+958,Bonino Healthcare S.p.A.,Finance,Nord-Ovest,18,Small
+959,Iannuzzi Logistics S.r.l.,Professional services,Nord-Ovest,7,Micro
+960,Branciforte Food S.r.l.,Logistics,Nord-Ovest,55,Medium
+961,Folliero Food S.p.A.,Retail,Nord-Ovest,536,Large
+962,Caffarelli Food S.p.A.,IT services,Nord-Est,18,Small
+963,Pulci Food S.r.l.,Healthcare,Nord-Est,49,Small
+964,Tarantini Food S.p.A.,IT services,Nord-Ovest,17,Small
+965,Saffi IT S.p.A.,Food & beverage,Centro,283,Large
+966,Dossi Food S.p.A.,IT services,Nord-Ovest,5,Micro
+967,Giannuzzi Logistics S.p.A.,Professional services,Sud e Isole,5,Micro
+968,Chiaramonte Construction S.p.A.,Retail,Nord-Est,27,Small
+969,Prati Food S.r.l.,Healthcare,Nord-Est,51,Medium
+970,Scaduto IT S.p.A.,Hospitality,Nord-Est,8,Micro
+971,Gibilisco Manufacturing S.p.A.,Manufacturing,Nord-Ovest,407,Large
+972,Varano Professional S.p.A.,Manufacturing,Nord-Est,35,Small
+973,Cassarà Retail S.r.l.,Professional services,Nord-Ovest,23,Small
+974,Magrassi IT S.p.A.,Construction,Nord-Est,10,Small
+975,Magrassi Retail S.p.A.,Food & beverage,Centro,12,Small
+976,Lippomano Professional S.p.A.,Construction,Nord-Ovest,45,Small
+977,Zito IT S.r.l.,IT services,Nord-Est,13,Small
+978,Interminelli Retail S.r.l.,Professional services,Nord-Est,9,Micro
+979,Palmisano Retail S.r.l.,Professional services,Centro,24,Small
+980,Grossi Healthcare S.p.A.,Retail,Nord-Ovest,3,Micro
+981,Gullotta Retail S.r.l.,Retail,Nord-Est,15,Small
+982,Filangieri IT S.r.l.,Healthcare,Nord-Ovest,44,Small
+983,Rosmini Construction S.r.l.,Hospitality,Centro,20,Small
+984,Gramsci Retail S.r.l.,Healthcare,Sud e Isole,559,Large
+985,Fantoni Retail S.p.A.,Food & beverage,Nord-Ovest,68,Medium
+986,Govoni Construction S.p.A.,IT services,Nord-Ovest,11,Small
+987,Gigli Construction S.p.A.,Hospitality,Nord-Est,57,Medium
+988,Cortese Hospitality S.p.A.,Construction,Nord-Est,59,Medium
+989,Lombardi Hospitality S.r.l.,IT services,Sud e Isole,19,Small
+990,Farinelli Construction S.p.A.,Manufacturing,Centro,16,Small
+991,Mogherini Logistics S.p.A.,Hospitality,Centro,6,Micro
+992,Boccioni Hospitality S.r.l.,Professional services,Sud e Isole,7,Micro
+993,Petrocelli Healthcare S.p.A.,Professional services,Nord-Est,23,Small
+994,Gremese Retail S.p.A.,Hospitality,Nord-Ovest,3,Micro
+995,Gozzano Finance S.p.A.,Healthcare,Centro,8,Micro
+996,Tomaselli Finance S.p.A.,Healthcare,Centro,11,Small
+997,Trobbiani Professional S.p.A.,Healthcare,Sud e Isole,13,Small
+998,Gianinazzi Professional S.p.A.,Retail,Centro,101,Medium
+999,Callegari Food S.p.A.,Retail,Nord-Est,14,Small
+1000,Scarlatti Finance S.r.l.,Construction,Nord-Est,25,Small
+1001,Barese Logistics S.p.A.,IT services,Nord-Ovest,43,Small
+1002,Camicione Professional S.r.l.,Manufacturing,Nord-Ovest,39,Small
+1003,Agostinelli IT S.p.A.,IT services,Nord-Est,31,Small
+1004,Sibilia IT S.r.l.,Manufacturing,Centro,8,Micro
+1005,Gianinazzi Retail S.p.A.,Logistics,Nord-Est,7,Micro
+1006,Sagredo Logistics S.p.A.,Logistics,Nord-Ovest,54,Medium
+1007,Paltrinieri Retail S.p.A.,Construction,Centro,39,Small
+1008,Bartoli Manufacturing S.p.A.,IT services,Nord-Ovest,3,Micro
+1009,Magrassi Retail S.p.A.,Professional services,Centro,170,Medium
+1010,Giannini Retail S.p.A.,Retail,Centro,62,Medium
+1011,Casalodi IT S.p.A.,Construction,Nord-Ovest,8,Micro
+1012,Benussi IT S.r.l.,Retail,Nord-Ovest,33,Small
+1013,Faugno Professional S.r.l.,Retail,Nord-Est,13,Small
+1014,Ferrara IT S.p.A.,Hospitality,Centro,5,Micro
+1015,Borromeo Finance S.r.l.,Healthcare,Nord-Ovest,18,Small
+1016,Palladio Hospitality S.p.A.,Logistics,Nord-Est,14,Small
+1017,Toscani Food S.p.A.,Manufacturing,Nord-Est,3,Micro
+1018,Emanuelli Manufacturing S.p.A.,Logistics,Nord-Est,103,Medium
+1019,Salandra Finance S.p.A.,Logistics,Nord-Est,29,Small
+1020,Guinizzelli Retail S.r.l.,Retail,Nord-Est,113,Medium
+1021,Albertini Finance S.r.l.,Finance,Nord-Ovest,64,Medium
+1022,Camuccini Construction S.r.l.,Retail,Nord-Ovest,6,Micro
+1023,Nibali IT S.p.A.,Professional services,Centro,13,Small
+1024,Gaiatto Professional S.r.l.,Finance,Centro,5,Micro
+1025,Baresi Manufacturing S.p.A.,Finance,Sud e Isole,25,Small
+1026,Pacillo Retail S.r.l.,Construction,Centro,10,Small
+1027,Morpurgo Finance S.r.l.,Manufacturing,Centro,108,Medium
+1028,Cipolla Food S.r.l.,Logistics,Nord-Ovest,44,Small
+1029,Battisti Professional S.p.A.,Finance,Nord-Est,40,Small
+1030,Fischetti Hospitality S.r.l.,IT services,Nord-Ovest,23,Small
+1031,Gualtieri IT S.r.l.,Hospitality,Nord-Ovest,67,Medium
+1032,Baroffio Construction S.r.l.,Professional services,Sud e Isole,1100,Large
+1033,Fiorucci IT S.p.A.,Food & beverage,Nord-Ovest,13,Small
+1034,Amato Construction S.p.A.,Logistics,Sud e Isole,82,Medium
+1035,Monaco IT S.p.A.,Hospitality,Nord-Ovest,24,Small
+1036,Pizziol Retail S.r.l.,IT services,Nord-Est,19,Small
+1037,Palazzo IT S.r.l.,Finance,Nord-Ovest,38,Small
+1038,Fantini Retail S.p.A.,Food & beverage,Sud e Isole,11,Small
+1039,Mazzanti Manufacturing S.p.A.,Retail,Nord-Ovest,7,Micro
+1040,Bosio Finance S.p.A.,Healthcare,Sud e Isole,32,Small
+1041,Fiorucci Logistics S.p.A.,Healthcare,Centro,62,Medium
+1042,Bajardi Hospitality S.r.l.,IT services,Nord-Ovest,5,Micro
+1043,Tamborini Food S.p.A.,Food & beverage,Sud e Isole,11,Small
+1044,Vespa Healthcare S.r.l.,Finance,Nord-Ovest,21,Small
+1045,Sordi Construction S.p.A.,Finance,Nord-Est,68,Medium
+1046,Bocca Construction S.p.A.,Manufacturing,Centro,13,Small
+1047,Pizzamano Healthcare S.r.l.,Professional services,Nord-Ovest,59,Medium
+1048,Calvo Hospitality S.r.l.,Healthcare,Sud e Isole,12,Small
+1049,Petralli Manufacturing S.r.l.,Hospitality,Nord-Ovest,217,Medium
+1050,Vidoni Finance S.r.l.,Hospitality,Sud e Isole,10,Small
+1051,Costalonga Finance S.p.A.,IT services,Nord-Ovest,7,Micro
+1052,Udinese Construction S.p.A.,Retail,Centro,72,Medium
+1053,Burcardo Construction S.p.A.,Healthcare,Nord-Ovest,67,Medium
+1054,Dallapé Food S.p.A.,Healthcare,Nord-Ovest,19,Small
+1055,Petruzzi Finance S.p.A.,Logistics,Nord-Est,3,Micro
+1056,Lamborghini Manufacturing S.r.l.,Construction,Nord-Est,215,Medium
+1057,Platini Food S.p.A.,Logistics,Nord-Ovest,26,Small
+1058,Lopresti Hospitality S.r.l.,Logistics,Nord-Ovest,18,Small
+1059,Martucci Retail S.r.l.,Food & beverage,Centro,3,Micro
+1060,Procacci Logistics S.r.l.,IT services,Nord-Ovest,34,Small
+1061,Bergoglio Food S.r.l.,Finance,Nord-Ovest,23,Small
+1062,Mazzanti Retail S.p.A.,Hospitality,Sud e Isole,11,Small
+1063,Zito Hospitality S.r.l.,Hospitality,Nord-Ovest,107,Medium
+1064,Novaro Finance S.r.l.,Retail,Nord-Ovest,15,Small
+1065,Porzio Healthcare S.p.A.,Manufacturing,Nord-Ovest,161,Medium
+1066,Pratesi Construction S.p.A.,Construction,Centro,200,Medium
+1067,Antonetti Manufacturing S.p.A.,Healthcare,Nord-Ovest,170,Medium
+1068,Ortolani Manufacturing S.p.A.,Finance,Nord-Est,33,Small
+1069,Ferrucci Healthcare S.r.l.,Retail,Sud e Isole,36,Small
+1070,Pepe Professional S.p.A.,Manufacturing,Nord-Ovest,18,Small
+1071,Pirelli Finance S.r.l.,Food & beverage,Sud e Isole,113,Medium
+1072,Fischetti Professional S.r.l.,Logistics,Sud e Isole,33,Small
+1073,Albertini Manufacturing S.r.l.,Manufacturing,Nord-Ovest,21,Small
+1074,Rizzo Logistics S.p.A.,Finance,Sud e Isole,227,Medium
+1075,Crisafulli Construction S.p.A.,Finance,Centro,79,Medium
+1076,Randazzo Construction S.p.A.,Logistics,Centro,25,Small
+1077,Carli Finance S.p.A.,Manufacturing,Centro,23,Small
+1078,Buonauro Manufacturing S.p.A.,IT services,Centro,38,Small
+1079,Pisani Manufacturing S.p.A.,Manufacturing,Sud e Isole,94,Medium
+1080,Oscuro Food S.p.A.,Professional services,Nord-Ovest,27,Small
+1081,Scaduto Finance S.p.A.,Hospitality,Nord-Ovest,26,Small
+1082,Cutuli Professional S.p.A.,Retail,Nord-Est,42,Small
+1083,Cesarotti Finance S.p.A.,Professional services,Sud e Isole,32,Small
+1084,Anguillara Manufacturing S.p.A.,Healthcare,Nord-Ovest,13,Small
+1085,Bergoglio Finance S.p.A.,Hospitality,Centro,4,Micro
+1086,Villadicani Logistics S.p.A.,IT services,Nord-Est,117,Medium
+1087,Coardi IT S.p.A.,Logistics,Centro,18,Small
+1088,Petrucci IT S.r.l.,Professional services,Nord-Ovest,30,Small
+1089,Bruno Hospitality S.r.l.,Construction,Nord-Ovest,18,Small
+1090,Pagliaro Logistics S.r.l.,Manufacturing,Centro,418,Large
+1091,Tiepolo Professional S.r.l.,Manufacturing,Nord-Est,42,Small
+1092,Donà Manufacturing S.r.l.,Finance,Nord-Ovest,117,Medium
+1093,Combi Hospitality S.p.A.,Hospitality,Nord-Ovest,37,Small
+1094,Natta Healthcare S.r.l.,Construction,Nord-Ovest,3,Micro
+1095,Lopresti Finance S.p.A.,Retail,Centro,3,Micro
+1096,Cutrufo Healthcare S.p.A.,Retail,Nord-Ovest,13,Small
+1097,Tremonti Professional S.r.l.,Finance,Sud e Isole,103,Medium
+1098,Donà IT S.p.A.,Food & beverage,Centro,130,Medium
+1099,Boitani Retail S.r.l.,Finance,Nord-Est,74,Medium
+1100,Canova IT S.p.A.,Logistics,Nord-Est,36,Small
+1101,Passalacqua Professional S.r.l.,Retail,Sud e Isole,89,Medium
+1102,Storladi IT S.r.l.,Manufacturing,Sud e Isole,33,Small
+1103,Fibonacci Healthcare S.r.l.,Professional services,Centro,19,Small
+1104,Manzoni IT S.r.l.,Construction,Nord-Est,9,Micro
+1105,Celentano Logistics S.p.A.,Food & beverage,Centro,104,Medium
+1106,Battelli Retail S.p.A.,Finance,Sud e Isole,13,Small
+1107,Soprano Logistics S.r.l.,Hospitality,Centro,54,Medium
+1108,Medici Food S.p.A.,Logistics,Sud e Isole,21,Small
+1109,Bernetti Hospitality S.r.l.,Construction,Nord-Est,17,Small
+1110,Pedrazzini Professional S.r.l.,IT services,Centro,95,Medium
+1111,Brichese IT S.p.A.,Finance,Centro,186,Medium
+1112,Curci Construction S.p.A.,Retail,Nord-Ovest,83,Medium
+1113,Gargallo IT S.p.A.,Manufacturing,Nord-Est,10,Small
+1114,Pirandello Professional S.r.l.,Finance,Sud e Isole,43,Small
+1115,Ferrazzi Professional S.p.A.,Hospitality,Nord-Ovest,17,Small
+1116,Serraglio Manufacturing S.r.l.,Construction,Centro,100,Medium
+1117,Fagotto Manufacturing S.p.A.,Logistics,Centro,70,Medium
+1118,Zetticci Hospitality S.p.A.,Finance,Nord-Est,73,Medium
+1119,Gaito Manufacturing S.p.A.,Retail,Centro,5,Micro
+1120,Bassi Retail S.r.l.,Healthcare,Nord-Ovest,22,Small
+1121,Piazzi Professional S.p.A.,Professional services,Nord-Ovest,136,Medium
+1122,Trapani Hospitality S.r.l.,Finance,Centro,188,Medium
+1123,Crisafulli Construction S.p.A.,Manufacturing,Nord-Est,12,Small
+1124,Passalacqua IT S.r.l.,Healthcare,Nord-Est,62,Medium
+1125,Oliboni Food S.r.l.,IT services,Centro,73,Medium
+1126,Castioni Construction S.p.A.,Hospitality,Nord-Ovest,104,Medium
+1127,Conte Retail S.r.l.,Retail,Nord-Ovest,143,Medium
+1128,Gradenigo Hospitality S.r.l.,Professional services,Nord-Ovest,181,Medium
+1129,Ferragamo Food S.p.A.,Professional services,Nord-Ovest,35,Small
+1130,Basadonna Finance S.p.A.,Manufacturing,Sud e Isole,11,Small
+1131,Zanazzo Healthcare S.p.A.,Manufacturing,Centro,13,Small
+1132,Baroffio Retail S.r.l.,Professional services,Centro,42,Small
+1133,Moccia Logistics S.p.A.,Logistics,Nord-Ovest,226,Medium
+1134,Casagrande Professional S.p.A.,Manufacturing,Sud e Isole,12,Small
+1135,Pellico Logistics S.p.A.,Healthcare,Nord-Est,534,Large
+1136,Sanudo IT S.r.l.,Professional services,Nord-Ovest,530,Large
+1137,Vidoni IT S.r.l.,Retail,Sud e Isole,24,Small
+1138,Marsili Hospitality S.p.A.,Finance,Nord-Ovest,33,Small
+1139,Pugliese Professional S.p.A.,Healthcare,Sud e Isole,9,Micro
+1140,Mascagni Food S.r.l.,Healthcare,Nord-Est,8,Micro
+1141,Gravina Healthcare S.r.l.,Logistics,Nord-Est,13,Small
+1142,Ravaglioli Logistics S.r.l.,Professional services,Nord-Ovest,7,Micro
+1143,Pelli Construction S.r.l.,Professional services,Nord-Ovest,18,Small
+1144,Pace Hospitality S.r.l.,Retail,Centro,74,Medium
+1145,Saffi Finance S.p.A.,Construction,Sud e Isole,7,Micro
+1146,Tencalla Finance S.r.l.,Finance,Sud e Isole,20,Small
+1147,Roncalli Professional S.r.l.,Logistics,Nord-Est,7,Micro
+1148,Endrizzi IT S.r.l.,Retail,Nord-Est,25,Small
+1149,Ariasso Healthcare S.p.A.,Healthcare,Centro,17,Small
+1150,Agazzi Manufacturing S.p.A.,IT services,Nord-Est,432,Large
+1151,Stein Finance S.p.A.,Healthcare,Nord-Ovest,4,Micro
+1152,Scarpetta Logistics S.p.A.,IT services,Sud e Isole,28,Small
+1153,Gibilisco Construction S.p.A.,Hospitality,Nord-Ovest,28,Small
+1154,Saffi Construction S.p.A.,Construction,Centro,128,Medium
+1155,Satta Manufacturing S.r.l.,Logistics,Sud e Isole,27,Small
+1156,Errani Construction S.p.A.,Logistics,Sud e Isole,96,Medium
+1157,Sforza Manufacturing S.r.l.,Construction,Centro,21,Small
+1158,Piccinni Hospitality S.r.l.,Healthcare,Nord-Est,53,Medium
+1159,Canevascini Finance S.p.A.,Professional services,Nord-Ovest,46,Small
+1160,Boitani Healthcare S.r.l.,IT services,Centro,92,Medium
+1161,Cerquiglini IT S.r.l.,Food & beverage,Nord-Est,224,Medium
+1162,Offredi Retail S.r.l.,Retail,Nord-Est,52,Medium
+1163,Ricci IT S.p.A.,Healthcare,Sud e Isole,112,Medium
+1164,Ossola Professional S.p.A.,Hospitality,Nord-Ovest,344,Large
+1165,Buscetta Retail S.p.A.,Healthcare,Centro,27,Small
+1166,Roth Hospitality S.p.A.,Retail,Sud e Isole,57,Medium
+1167,Terragni Logistics S.r.l.,Logistics,Centro,37,Small
+1168,Toninelli Construction S.p.A.,Healthcare,Sud e Isole,3,Micro
+1169,Barzini Healthcare S.r.l.,Logistics,Nord-Ovest,19,Small
+1170,Barzini Construction S.p.A.,Construction,Nord-Est,80,Medium
+1171,Cesarotti Healthcare S.p.A.,Manufacturing,Centro,65,Medium
+1172,Bragaglia Retail S.p.A.,Logistics,Nord-Ovest,28,Small
+1173,Mazzini Manufacturing S.p.A.,Retail,Centro,89,Medium
+1174,Tornatore Manufacturing S.r.l.,Finance,Nord-Est,31,Small
+1175,Bottaro Construction S.r.l.,Construction,Centro,23,Small
+1176,Berrè Finance S.r.l.,Construction,Sud e Isole,7,Micro
+1177,Terragni Professional S.p.A.,Retail,Nord-Ovest,90,Medium
+1178,Papafava Retail S.r.l.,Construction,Sud e Isole,36,Small
+1179,Ciampi Manufacturing S.r.l.,Hospitality,Nord-Ovest,42,Small
+1180,Asprucci Manufacturing S.r.l.,Retail,Nord-Ovest,20,Small
+1181,Boezio Retail S.p.A.,Healthcare,Centro,43,Small
+1182,Capecchi IT S.r.l.,Hospitality,Sud e Isole,19,Small
+1183,Ferrante Manufacturing S.p.A.,Food & beverage,Nord-Est,5,Micro
+1184,Cheda Food S.r.l.,Manufacturing,Centro,15,Small
+1185,Stucchi Logistics S.r.l.,Finance,Nord-Ovest,14,Small
+1186,Lupo IT S.r.l.,Healthcare,Nord-Ovest,34,Small
+1187,Deledda IT S.r.l.,Construction,Nord-Ovest,113,Medium
+1188,Galvani Construction S.r.l.,Healthcare,Nord-Ovest,9,Micro
+1189,Bodoni Healthcare S.p.A.,Hospitality,Nord-Est,40,Small
+1190,Nicolini Construction S.r.l.,Retail,Centro,48,Small
+1191,Grifeo Professional S.p.A.,Manufacturing,Nord-Ovest,37,Small
+1192,Cundari IT S.p.A.,IT services,Nord-Ovest,56,Medium
+1193,Moccia Manufacturing S.p.A.,Food & beverage,Nord-Ovest,21,Small
+1194,Leone Hospitality S.r.l.,Finance,Nord-Est,19,Small
+1195,Saraceno Logistics S.r.l.,Food & beverage,Nord-Ovest,19,Small
+1196,Colletti Hospitality S.r.l.,Manufacturing,Nord-Est,90,Medium
+1197,Grossi Logistics S.r.l.,Construction,Nord-Ovest,31,Small
+1198,Tebaldi Logistics S.r.l.,Retail,Nord-Ovest,217,Medium
+1199,Solari Logistics S.r.l.,Hospitality,Centro,171,Medium
+1200,Folliero Hospitality S.p.A.,Retail,Centro,478,Large
+1201,Iadanza Logistics S.p.A.,Manufacturing,Sud e Isole,6,Micro
+1202,Tognazzi Logistics S.r.l.,Retail,Centro,81,Medium
+1203,Gioberti Construction S.p.A.,Retail,Nord-Ovest,40,Small
+1204,Meucci Logistics S.p.A.,Finance,Nord-Ovest,474,Large
+1205,Palladio IT S.p.A.,Food & beverage,Nord-Ovest,104,Medium
+1206,Barese Healthcare S.p.A.,Construction,Centro,33,Small
+1207,Filangieri Manufacturing S.p.A.,Healthcare,Nord-Ovest,7,Micro
+1208,Faggiani Professional S.r.l.,Retail,Centro,13,Small
+1209,Pininfarina Retail S.p.A.,IT services,Nord-Ovest,9,Micro
+1210,Cusano Healthcare S.r.l.,Construction,Nord-Ovest,56,Medium
+1211,Lettiere Retail S.r.l.,Hospitality,Sud e Isole,90,Medium
+1212,Mondadori Finance S.r.l.,Healthcare,Nord-Ovest,48,Small
+1213,Paolini Hospitality S.p.A.,IT services,Nord-Est,15,Small
+1214,Disdero Manufacturing S.p.A.,Retail,Centro,31,Small
+1215,Iannucci Healthcare S.r.l.,Manufacturing,Nord-Est,34,Small
+1216,Carosone Finance S.r.l.,Retail,Nord-Ovest,127,Medium
+1217,Turchetta Retail S.p.A.,Professional services,Nord-Est,10,Small
+1218,Bellò Hospitality S.p.A.,Finance,Centro,19,Small
+1219,Olivetti Professional S.r.l.,Finance,Centro,15,Small
+1220,Sandi Retail S.r.l.,Construction,Nord-Est,43,Small
+1221,Vitturi Construction S.r.l.,Logistics,Centro,37,Small
+1222,Tremonti Finance S.r.l.,Construction,Nord-Ovest,87,Medium
+1223,Campano Professional S.p.A.,IT services,Sud e Isole,25,Small
+1224,Grifeo Logistics S.p.A.,Food & beverage,Nord-Est,19,Small
+1225,Valentino IT S.p.A.,Finance,Nord-Ovest,8,Micro
+1226,Pertini Logistics S.r.l.,Logistics,Nord-Est,33,Small
+1227,Pagnotto Manufacturing S.r.l.,Food & beverage,Sud e Isole,6,Micro
+1228,Iannuzzi Food S.r.l.,IT services,Nord-Est,10,Small
+1229,Panzera Finance S.p.A.,Manufacturing,Sud e Isole,22,Small
+1230,Pacillo Finance S.p.A.,Professional services,Centro,13,Small
+1231,Comboni Healthcare S.p.A.,Professional services,Nord-Ovest,3,Micro
+1232,Omma IT S.p.A.,Construction,Nord-Ovest,33,Small
+1233,Montalti Hospitality S.p.A.,Food & beverage,Nord-Ovest,24,Small
+1234,Bova Logistics S.r.l.,Construction,Nord-Ovest,10,Small
+1235,Roth Hospitality S.p.A.,Retail,Sud e Isole,120,Medium
+1236,Giammusso Hospitality S.p.A.,Retail,Sud e Isole,59,Medium
+1237,Duse Retail S.r.l.,Retail,Nord-Est,13,Small
+1238,Bellucci Construction S.p.A.,Logistics,Sud e Isole,92,Medium
+1239,Malatesta Food S.r.l.,Food & beverage,Centro,59,Medium
+1240,Tozzi Professional S.r.l.,Healthcare,Sud e Isole,62,Medium
+1241,Gritti Healthcare S.p.A.,Manufacturing,Sud e Isole,115,Medium
+1242,Mastroianni Finance S.p.A.,Manufacturing,Nord-Ovest,4,Micro
+1243,Mazzeo Professional S.p.A.,Logistics,Nord-Est,28,Small
+1244,Abbagnale Finance S.r.l.,Finance,Nord-Est,14,Small
+1245,Bandello Food S.r.l.,Food & beverage,Centro,5,Micro
+1246,Gangemi Hospitality S.p.A.,Manufacturing,Nord-Ovest,36,Small
+1247,Contarini Hospitality S.r.l.,Finance,Centro,101,Medium
+1248,Maderna Logistics S.r.l.,Food & beverage,Nord-Ovest,33,Small
+1249,Righi Hospitality S.r.l.,Finance,Centro,3,Micro
+1250,Procacci IT S.r.l.,Professional services,Sud e Isole,31,Small
+1251,Toscani Food S.r.l.,Hospitality,Centro,27,Small
+1252,Ortolani Logistics S.p.A.,IT services,Centro,3,Micro
+1253,Bellocchio Food S.p.A.,Finance,Sud e Isole,7,Micro
+1254,Cherubini Healthcare S.p.A.,Manufacturing,Sud e Isole,130,Medium
+1255,Staglieno Manufacturing S.p.A.,Hospitality,Sud e Isole,136,Medium
+1256,Gentili Food S.r.l.,Manufacturing,Sud e Isole,25,Small
+1257,Beccheria Finance S.r.l.,Retail,Nord-Ovest,6,Micro
+1258,Argento Construction S.p.A.,Hospitality,Nord-Ovest,37,Small
+1259,Berrè Retail S.p.A.,IT services,Nord-Ovest,9,Micro
+1260,Acerbi IT S.r.l.,Finance,Nord-Est,3,Micro
+1261,Zola Finance S.r.l.,Construction,Centro,14,Small
+1262,Nonis IT S.r.l.,Professional services,Nord-Ovest,111,Medium
+1263,Marenzio IT S.p.A.,Healthcare,Sud e Isole,33,Small
+1264,Canali Food S.r.l.,IT services,Nord-Est,29,Small
+1265,Treves IT S.r.l.,Professional services,Sud e Isole,18,Small
+1266,Novaro Logistics S.r.l.,Retail,Nord-Ovest,10,Small
+1267,Udinese Professional S.p.A.,Finance,Nord-Ovest,9,Micro
+1268,Garzoni Finance S.r.l.,Hospitality,Nord-Ovest,38,Small
+1269,Ponti Hospitality S.r.l.,Hospitality,Nord-Est,35,Small
+1270,Manunta Logistics S.r.l.,Finance,Nord-Est,24,Small
+1271,Chiesa Finance S.r.l.,Finance,Nord-Ovest,12,Small
+1272,Fittipaldi IT S.r.l.,Finance,Centro,45,Small
+1273,Ottino Logistics S.r.l.,Construction,Centro,6,Micro
+1274,Sibilia Finance S.r.l.,Logistics,Nord-Ovest,116,Medium
+1275,Cugia Manufacturing S.r.l.,Professional services,Nord-Est,3,Micro
+1276,Chindamo Construction S.p.A.,Retail,Nord-Est,5,Micro
+1277,Angeli Finance S.r.l.,Logistics,Nord-Ovest,226,Medium
+1278,Gonzaga Retail S.p.A.,Hospitality,Sud e Isole,20,Small
+1279,Contarini Healthcare S.p.A.,Professional services,Sud e Isole,18,Small
+1280,Salvemini Hospitality S.p.A.,Logistics,Nord-Ovest,334,Large
+1281,Cafarchia Manufacturing S.p.A.,Finance,Nord-Est,17,Small
+1282,Boccaccio Finance S.r.l.,Healthcare,Sud e Isole,54,Medium
+1283,Collodi Logistics S.r.l.,IT services,Sud e Isole,71,Medium
+1284,Jilani Healthcare S.p.A.,Finance,Centro,3,Micro
+1285,Pignatti IT S.p.A.,Healthcare,Nord-Est,378,Large
+1286,Iannucci Logistics S.p.A.,Logistics,Nord-Ovest,37,Small
+1287,Amato Manufacturing S.r.l.,Healthcare,Nord-Ovest,873,Large
+1288,Bertolucci IT S.p.A.,Construction,Nord-Est,256,Large
+1289,Zanazzo Food S.p.A.,Finance,Nord-Est,146,Medium
+1290,Nicoletti Logistics S.p.A.,Healthcare,Centro,12,Small
+1291,Ruffini Finance S.r.l.,IT services,Nord-Ovest,31,Small
+1292,Trapani Manufacturing S.r.l.,Healthcare,Nord-Ovest,24,Small
+1293,Tacchini Food S.p.A.,Finance,Nord-Est,90,Medium
+1294,Grassi Manufacturing S.r.l.,Retail,Nord-Ovest,272,Large
+1295,Deledda Professional S.r.l.,Construction,Sud e Isole,16,Small
+1296,Abatantuono Logistics S.r.l.,Retail,Nord-Ovest,100,Medium
+1297,Battisti Manufacturing S.r.l.,IT services,Centro,28,Small
+1298,Bixio Construction S.p.A.,Finance,Nord-Est,3,Micro
+1299,Turci Finance S.p.A.,Healthcare,Sud e Isole,3,Micro
+1300,Asmundo Construction S.r.l.,Logistics,Centro,14,Small
+1301,Pisani Retail S.p.A.,Hospitality,Nord-Est,302,Large
+1302,Fantoni Retail S.r.l.,IT services,Sud e Isole,65,Medium
+1303,Gioberti Construction S.p.A.,Logistics,Nord-Est,1359,Large
+1304,Cuomo Healthcare S.p.A.,Healthcare,Sud e Isole,180,Medium
+1305,Biagi Manufacturing S.r.l.,Logistics,Centro,58,Medium
+1306,Campano Healthcare S.p.A.,IT services,Nord-Ovest,33,Small
+1307,Anastasi Manufacturing S.p.A.,IT services,Nord-Est,9,Micro
+1308,Vigorelli Finance S.p.A.,Retail,Nord-Ovest,817,Large
+1309,Ferrucci Hospitality S.r.l.,Hospitality,Sud e Isole,943,Large
+1310,Coardi Healthcare S.r.l.,Food & beverage,Nord-Ovest,269,Large
+1311,Ponti Logistics S.p.A.,IT services,Nord-Ovest,3,Micro
+1312,Filippelli Hospitality S.r.l.,Manufacturing,Nord-Ovest,28,Small
+1313,Travaglia Finance S.p.A.,Healthcare,Nord-Ovest,5,Micro
+1314,Tolentino Food S.r.l.,Professional services,Nord-Est,105,Medium
+1315,Prada Manufacturing S.p.A.,Finance,Sud e Isole,143,Medium
+1316,Druso Manufacturing S.r.l.,Food & beverage,Nord-Ovest,27,Small
+1317,Tomasini Construction S.r.l.,IT services,Sud e Isole,13,Small
+1318,Maspero Healthcare S.p.A.,Finance,Centro,26,Small
+1319,Boccaccio Construction S.r.l.,IT services,Sud e Isole,3,Micro
+1320,Mantegazza IT S.p.A.,Food & beverage,Sud e Isole,22,Small
+1321,Bellò Construction S.r.l.,Manufacturing,Nord-Ovest,61,Medium
+1322,Smirnoff Food S.r.l.,Professional services,Nord-Ovest,61,Medium
+1323,Varano Healthcare S.p.A.,Professional services,Centro,76,Medium
+1324,Alboni Manufacturing S.r.l.,Healthcare,Sud e Isole,63,Medium
+1325,Panicucci Hospitality S.r.l.,Professional services,Centro,92,Medium
+1326,Romagnoli Logistics S.r.l.,Professional services,Nord-Ovest,482,Large
+1327,Scarpetta Professional S.r.l.,Logistics,Nord-Ovest,503,Large
+1328,Botticelli Hospitality S.p.A.,Retail,Sud e Isole,44,Small
+1329,Samele Logistics S.r.l.,Food & beverage,Nord-Ovest,3,Micro
+1330,Duodo Manufacturing S.p.A.,Healthcare,Nord-Ovest,51,Medium
+1331,Gelli Manufacturing S.r.l.,Healthcare,Nord-Ovest,97,Medium
+1332,Campise Manufacturing S.r.l.,Hospitality,Nord-Est,83,Medium
+1333,Gussoni Finance S.p.A.,IT services,Sud e Isole,33,Small
+1334,Giannetti Professional S.p.A.,Food & beverage,Nord-Ovest,7,Micro
+1335,Barozzi Professional S.r.l.,Retail,Nord-Est,4,Micro
+1336,Castioni Food S.p.A.,Logistics,Sud e Isole,361,Large
+1337,Morabito Retail S.p.A.,Retail,Nord-Ovest,74,Medium
+1338,Iannelli Finance S.r.l.,Logistics,Centro,17,Small
+1339,Bernardi Retail S.p.A.,Hospitality,Nord-Ovest,39,Small
+1340,Infantino Food S.r.l.,Healthcare,Centro,26,Small
+1341,Visintini Food S.r.l.,Retail,Sud e Isole,32,Small
+1342,Roero Finance S.p.A.,Finance,Nord-Ovest,272,Large
+1343,Treves Food S.r.l.,Construction,Sud e Isole,10,Small
+1344,Impastato Food S.r.l.,Retail,Nord-Est,485,Large
+1345,Malaparte Healthcare S.p.A.,Finance,Nord-Ovest,65,Medium
+1346,Gagliardi Professional S.p.A.,Manufacturing,Nord-Ovest,31,Small
+1347,Bresciani Manufacturing S.r.l.,Retail,Nord-Ovest,27,Small
+1348,Tomaselli Food S.r.l.,Professional services,Nord-Est,542,Large
+1349,Anguissola Healthcare S.p.A.,Healthcare,Nord-Est,96,Medium
+1350,Donarelli Retail S.p.A.,Logistics,Sud e Isole,16,Small
+1351,Gullotta Healthcare S.p.A.,Manufacturing,Nord-Est,19,Small
+1352,Gilardoni Hospitality S.r.l.,Manufacturing,Nord-Est,54,Medium
+1353,Fioravanti Retail S.r.l.,Retail,Nord-Ovest,133,Medium
+1354,Cuomo Manufacturing S.r.l.,Professional services,Centro,132,Medium
+1355,Molesini Logistics S.r.l.,Retail,Nord-Ovest,131,Medium
+1356,Ferrabosco Food S.r.l.,Hospitality,Nord-Est,18,Small
+1357,Pellegrini Construction S.p.A.,Food & beverage,Sud e Isole,13,Small
+1358,Mondaini Hospitality S.p.A.,Logistics,Sud e Isole,42,Small
+1359,Giovine IT S.p.A.,IT services,Nord-Ovest,26,Small
+1360,Parisi Manufacturing S.p.A.,Construction,Nord-Ovest,36,Small
+1361,Valguarnera Finance S.p.A.,Food & beverage,Sud e Isole,55,Medium
+1362,Seddio Hospitality S.p.A.,Professional services,Sud e Isole,255,Large
+1363,Serlupi Food S.p.A.,Manufacturing,Nord-Est,77,Medium
+1364,Turchetta Manufacturing S.r.l.,Logistics,Sud e Isole,6,Micro
+1365,Alboni Hospitality S.p.A.,Professional services,Centro,103,Medium
+1366,Avogadro Manufacturing S.r.l.,IT services,Centro,12,Small
+1367,Romano Food S.p.A.,Construction,Nord-Ovest,8,Micro
+1368,Giannotti Logistics S.r.l.,Construction,Nord-Est,464,Large
+1369,Marzorati Retail S.p.A.,Professional services,Sud e Isole,29,Small
+1370,Franzese Hospitality S.p.A.,Finance,Nord-Est,47,Small
+1371,Peranda Manufacturing S.p.A.,Professional services,Nord-Ovest,31,Small
+1372,Bosio Healthcare S.p.A.,Construction,Centro,20,Small
+1373,Zetticci Hospitality S.r.l.,Manufacturing,Centro,18,Small
+1374,Donà IT S.r.l.,Food & beverage,Centro,24,Small
+1375,Collodi Healthcare S.r.l.,Retail,Centro,36,Small
+1376,Balla Professional S.p.A.,IT services,Centro,20,Small
+1377,Babati Finance S.r.l.,Construction,Sud e Isole,35,Small
+1378,Cardano Manufacturing S.r.l.,Healthcare,Sud e Isole,41,Small
+1379,Canetta Construction S.p.A.,Retail,Nord-Ovest,46,Small
+1380,Cutrufo Manufacturing S.r.l.,Manufacturing,Centro,13,Small
+1381,Murri Healthcare S.p.A.,IT services,Nord-Ovest,15,Small
+1382,Civaschi Healthcare S.p.A.,Construction,Centro,35,Small
+1383,Bacosi Food S.p.A.,IT services,Centro,616,Large
+1384,Bajamonti Manufacturing S.p.A.,Healthcare,Centro,12,Small
+1385,Bassi Logistics S.p.A.,Logistics,Nord-Ovest,48,Small
+1386,Cicilia Logistics S.p.A.,Logistics,Nord-Est,5,Micro
+1387,Bataglia Finance S.r.l.,Finance,Nord-Est,13,Small
+1388,Boito Retail S.p.A.,IT services,Nord-Ovest,136,Medium
+1389,Belletini Professional S.p.A.,Manufacturing,Nord-Est,38,Small
+1390,Bodoni Retail S.p.A.,Finance,Nord-Est,27,Small
+1391,Ortese Logistics S.p.A.,Retail,Nord-Ovest,51,Medium
+1392,Filippelli Food S.p.A.,Manufacturing,Nord-Est,9,Micro
+1393,Udinese Construction S.p.A.,Food & beverage,Nord-Ovest,36,Small
+1394,Boezio Food S.p.A.,Healthcare,Nord-Est,3,Micro
+1395,Pastine Construction S.r.l.,Finance,Nord-Ovest,49,Small
+1396,Canevascini Retail S.p.A.,Professional services,Centro,7,Micro
+1397,Gozzi Professional S.p.A.,Logistics,Nord-Ovest,27,Small
+1398,Fo Hospitality S.p.A.,Construction,Nord-Est,28,Small
+1399,Fiorucci Retail S.p.A.,IT services,Nord-Est,131,Medium
+1400,Cardano Manufacturing S.r.l.,IT services,Centro,15,Small
+1401,Bandello IT S.p.A.,Retail,Nord-Ovest,24,Small
+1402,Baracca Manufacturing S.p.A.,Healthcare,Nord-Est,94,Medium
+1403,Brugnaro Retail S.r.l.,Construction,Centro,49,Small
+1404,Luna Construction S.r.l.,Food & beverage,Nord-Ovest,8,Micro
+1405,Sismondi Finance S.r.l.,Manufacturing,Nord-Ovest,25,Small
+1406,Calgari Logistics S.p.A.,Professional services,Nord-Est,22,Small
+1407,Chiappetta Logistics S.p.A.,Hospitality,Nord-Ovest,188,Medium
+1408,Cainero Logistics S.r.l.,Manufacturing,Centro,6,Micro
+1409,Flaiano Manufacturing S.r.l.,Healthcare,Centro,3,Micro
+1410,Majorana Construction S.r.l.,Food & beverage,Nord-Est,45,Small
+1411,Meucci Healthcare S.r.l.,IT services,Nord-Ovest,22,Small
+1412,Morandini Construction S.p.A.,Logistics,Sud e Isole,8,Micro
+1413,Randazzo Food S.r.l.,Manufacturing,Nord-Est,259,Large
+1414,Gulotta Logistics S.r.l.,Healthcare,Nord-Est,4,Micro
+1415,Argan Manufacturing S.p.A.,IT services,Sud e Isole,6,Micro
+1416,Nicolini IT S.r.l.,Food & beverage,Nord-Est,5,Micro
+1417,Guariento IT S.p.A.,Hospitality,Centro,26,Small
+1418,Lombroso Food S.r.l.,Retail,Nord-Est,12,Small
+1419,Bellò Hospitality S.r.l.,Finance,Nord-Ovest,16,Small
+1420,Pacelli Hospitality S.r.l.,Construction,Centro,51,Medium
+1421,Micheletti Food S.r.l.,Professional services,Sud e Isole,216,Medium
+1422,Tencalla Finance S.p.A.,IT services,Sud e Isole,8,Micro
+1423,Simeoni Professional S.r.l.,Professional services,Centro,22,Small
+1424,Lupo Hospitality S.p.A.,Healthcare,Centro,15,Small
+1425,Bajamonti Retail S.p.A.,Professional services,Nord-Ovest,192,Medium
+1426,Pontecorvo Professional S.p.A.,IT services,Sud e Isole,191,Medium
+1427,Bajamonti Professional S.p.A.,Food & beverage,Nord-Ovest,12,Small
+1428,Roero Logistics S.r.l.,Finance,Nord-Est,4,Micro
+1429,Travaglio Logistics S.p.A.,IT services,Centro,239,Medium
+1430,Caironi Finance S.p.A.,Logistics,Sud e Isole,58,Medium
+1431,Nadi Healthcare S.r.l.,Manufacturing,Nord-Est,208,Medium
+1432,Scotto Construction S.r.l.,Food & beverage,Nord-Ovest,17,Small
+1433,Bellucci Hospitality S.p.A.,Finance,Centro,36,Small
+1434,Vanvitelli Food S.p.A.,Construction,Sud e Isole,20,Small
+1435,Zichichi Manufacturing S.r.l.,Food & beverage,Sud e Isole,266,Large
+1436,Gagliano Professional S.p.A.,Retail,Nord-Ovest,28,Small
+1437,Burcardo Finance S.r.l.,IT services,Nord-Ovest,9,Micro
+1438,Luna Construction S.r.l.,Healthcare,Nord-Ovest,13,Small
+1439,Donati Logistics S.r.l.,Construction,Centro,57,Medium
+1440,Roero Food S.r.l.,Retail,Sud e Isole,49,Small
+1441,Abba Finance S.p.A.,Food & beverage,Sud e Isole,25,Small
+1442,Trevisan Construction S.p.A.,Construction,Nord-Est,40,Small
+1443,Finotto Construction S.r.l.,IT services,Nord-Ovest,22,Small
+1444,Luria Professional S.r.l.,Hospitality,Nord-Est,3,Micro
+1445,Bernini Professional S.p.A.,Professional services,Nord-Est,4,Micro
+1446,Agnesi IT S.r.l.,Food & beverage,Nord-Est,183,Medium
+1447,Natta Finance S.p.A.,Hospitality,Nord-Ovest,208,Medium
+1448,Stradivari IT S.p.A.,IT services,Nord-Ovest,71,Medium
+1449,Caetani Professional S.p.A.,Construction,Sud e Isole,37,Small
+1450,Strangio IT S.p.A.,Food & beverage,Sud e Isole,3,Micro
+1451,Fallaci Professional S.r.l.,IT services,Sud e Isole,3,Micro
+1452,Tagliafierro Manufacturing S.r.l.,Professional services,Sud e Isole,56,Medium
+1453,Napolitano Retail S.r.l.,Professional services,Centro,26,Small
+1454,Totino Food S.r.l.,Manufacturing,Nord-Ovest,19,Small
+1455,Gullotta Finance S.r.l.,Finance,Centro,16,Small
+1456,Cundari Manufacturing S.r.l.,Food & beverage,Sud e Isole,5,Micro
+1457,Loredan Construction S.r.l.,Retail,Nord-Ovest,5,Micro
+1458,Gabbana Logistics S.r.l.,Construction,Sud e Isole,306,Large
+1459,Giannelli Logistics S.p.A.,Manufacturing,Nord-Ovest,22,Small
+1460,Tarantini Professional S.r.l.,Food & beverage,Nord-Est,15,Small
+1461,Delle Logistics S.p.A.,Finance,Nord-Ovest,64,Medium
+1462,Capone Food S.r.l.,Construction,Nord-Est,40,Small
+1463,Bottigliero IT S.r.l.,Food & beverage,Centro,12,Small
+1464,Storladi Retail S.p.A.,Finance,Sud e Isole,14,Small
+1465,Zamorani Professional S.p.A.,Manufacturing,Nord-Ovest,15,Small
+1466,Campano Construction S.p.A.,Manufacturing,Nord-Ovest,19,Small
+1467,Mogherini Logistics S.p.A.,Logistics,Nord-Est,97,Medium
+1468,Nordio Construction S.r.l.,Retail,Nord-Ovest,307,Large
+1469,Cadorna IT S.p.A.,Manufacturing,Nord-Ovest,115,Medium
+1470,Pietrangeli Professional S.r.l.,Professional services,Nord-Ovest,523,Large
+1471,Peruzzi Construction S.r.l.,Food & beverage,Nord-Ovest,24,Small
+1472,Brichese Retail S.p.A.,Finance,Nord-Est,7,Micro
+1473,Querini Manufacturing S.r.l.,Construction,Nord-Ovest,38,Small
+1474,Asmundo Logistics S.r.l.,Healthcare,Nord-Est,181,Medium
+1475,Palazzo Construction S.p.A.,Logistics,Nord-Est,48,Small
+1476,Foa Logistics S.p.A.,Finance,Nord-Ovest,7,Micro
+1477,Marcacci Retail S.r.l.,Finance,Centro,56,Medium
+1478,Iannelli Finance S.p.A.,Hospitality,Centro,4,Micro
+1479,Rensi Hospitality S.r.l.,Construction,Nord-Est,46,Small
+1480,Verdone Finance S.p.A.,Manufacturing,Sud e Isole,212,Medium
+1481,Tasso Healthcare S.p.A.,IT services,Nord-Est,100,Medium
+1482,Donini Food S.p.A.,Professional services,Centro,6,Micro
+1483,Parini Construction S.r.l.,Construction,Sud e Isole,10,Small
+1484,Giannotti Logistics S.p.A.,Logistics,Nord-Est,35,Small
+1485,Scaduto Healthcare S.p.A.,Logistics,Nord-Est,128,Medium
+1486,Celentano Construction S.r.l.,Construction,Nord-Est,38,Small
+1487,Turci Retail S.r.l.,IT services,Centro,17,Small
+1488,Bandello Hospitality S.r.l.,Construction,Centro,15,Small
+1489,Navarria Retail S.p.A.,Construction,Nord-Est,24,Small
+1490,Molesini Logistics S.r.l.,Hospitality,Sud e Isole,41,Small
+1491,Trentin Healthcare S.p.A.,Hospitality,Nord-Ovest,4,Micro
+1492,Cremonesi Construction S.p.A.,IT services,Nord-Ovest,130,Medium
+1493,Salieri Food S.r.l.,Logistics,Nord-Ovest,10,Small
+1494,Visintini Finance S.r.l.,IT services,Nord-Ovest,129,Medium
+1495,Missoni Hospitality S.r.l.,Food & beverage,Nord-Est,73,Medium
+1496,Donarelli Retail S.r.l.,Food & beverage,Nord-Est,21,Small
+1497,Scaramucci Construction S.p.A.,Retail,Nord-Ovest,28,Small
+1498,Rosiello Manufacturing S.p.A.,Food & beverage,Centro,38,Small
+1499,Guarneri Retail S.r.l.,Manufacturing,Nord-Ovest,192,Medium
+1500,Gianinazzi Retail S.p.A.,Retail,Nord-Ovest,17,Small
+1501,Ceci Hospitality S.r.l.,Logistics,Nord-Ovest,4,Micro
+1502,Montessori Food S.r.l.,Food & beverage,Centro,63,Medium
+1503,Scamarcio IT S.r.l.,Food & beverage,Nord-Ovest,3,Micro
+1504,Giolitti Logistics S.p.A.,Hospitality,Nord-Ovest,52,Medium
+1505,Tomaselli Manufacturing S.p.A.,Retail,Nord-Ovest,129,Medium
+1506,Fermi Food S.r.l.,Construction,Sud e Isole,39,Small
+1507,Interminei Hospitality S.p.A.,Food & beverage,Nord-Est,19,Small
+1508,Manzoni Professional S.p.A.,Logistics,Nord-Est,50,Medium
+1509,Costalonga IT S.p.A.,Retail,Sud e Isole,122,Medium
+1510,Crespi Retail S.p.A.,IT services,Nord-Ovest,81,Medium
+1511,Granatelli IT S.p.A.,Food & beverage,Centro,4,Micro
+1512,Mogherini IT S.p.A.,IT services,Nord-Est,19,Small
+1513,Trentini Finance S.r.l.,Healthcare,Nord-Est,83,Medium
+1514,Navarria Logistics S.r.l.,Retail,Centro,32,Small
+1515,Curiel IT S.p.A.,IT services,Nord-Ovest,13,Small
+1516,Gilardoni Retail S.r.l.,Food & beverage,Nord-Ovest,81,Medium
+1517,Mondadori Construction S.p.A.,Construction,Nord-Ovest,12,Small
+1518,Fattori Healthcare S.p.A.,Retail,Nord-Est,46,Small
+1519,Guicciardini Construction S.r.l.,Healthcare,Nord-Est,28,Small
+1520,Camanni Manufacturing S.r.l.,Retail,Nord-Ovest,15,Small
+1521,Dandolo Manufacturing S.p.A.,Construction,Centro,52,Medium
+1522,Camanni Professional S.p.A.,Construction,Nord-Ovest,21,Small
+1523,Ferrata Construction S.r.l.,Food & beverage,Nord-Est,30,Small
+1524,Pastine Finance S.r.l.,Professional services,Sud e Isole,37,Small
+1525,Coppola Logistics S.r.l.,Manufacturing,Nord-Ovest,44,Small
+1526,Comolli Construction S.p.A.,Finance,Centro,103,Medium
+1527,Marangoni Manufacturing S.p.A.,Construction,Sud e Isole,361,Large
+1528,Malpighi Manufacturing S.p.A.,Professional services,Sud e Isole,22,Small
+1529,Rizzoli Logistics S.r.l.,IT services,Nord-Est,44,Small
+1530,Legnante Construction S.p.A.,Hospitality,Centro,7,Micro
+1531,Ferrazzi IT S.p.A.,IT services,Nord-Ovest,6,Micro
+1532,Cantimori IT S.p.A.,IT services,Nord-Ovest,24,Small
+1533,Canetta Healthcare S.r.l.,Food & beverage,Nord-Ovest,34,Small
+1534,Lollobrigida Healthcare S.r.l.,Professional services,Sud e Isole,18,Small
+1535,Foa IT S.r.l.,Manufacturing,Centro,51,Medium
+1536,Pedroni Hospitality S.p.A.,Retail,Sud e Isole,4,Micro
+1537,Scarlatti IT S.p.A.,Hospitality,Nord-Ovest,33,Small
+1538,Bandello Manufacturing S.r.l.,Logistics,Nord-Est,306,Large
+1539,Anastasi Finance S.p.A.,Finance,Nord-Est,59,Medium
+1540,Piane Retail S.r.l.,Construction,Sud e Isole,7,Micro
+1541,Romagnoli Food S.r.l.,Retail,Centro,3,Micro
+1542,Garibaldi IT S.r.l.,IT services,Nord-Ovest,3,Micro
+1543,Tartini Construction S.p.A.,Professional services,Nord-Ovest,429,Large
+1544,Malatesta Professional S.r.l.,IT services,Nord-Ovest,3,Micro
+1545,Scaramucci Retail S.r.l.,Professional services,Nord-Ovest,129,Medium
+1546,Argento Healthcare S.p.A.,Manufacturing,Sud e Isole,36,Small
+1547,Civaschi Finance S.r.l.,Healthcare,Nord-Est,222,Medium
+1548,Guarneri Finance S.r.l.,IT services,Nord-Est,19,Small
+1549,Pirandello Finance S.p.A.,Finance,Nord-Ovest,60,Medium
+1550,Ajello Food S.p.A.,Healthcare,Nord-Est,29,Small
+1551,Golgi Food S.r.l.,Healthcare,Centro,91,Medium
+1552,Riccati IT S.r.l.,Construction,Sud e Isole,12,Small
+1553,Pulci Finance S.r.l.,Healthcare,Nord-Est,17,Small
+1554,Germano Logistics S.p.A.,Retail,Centro,22,Small
+1555,Germano Finance S.p.A.,Finance,Nord-Est,16,Small
+1556,Fabrizi IT S.r.l.,Healthcare,Nord-Est,99,Medium
+1557,Catenazzi Construction S.p.A.,Hospitality,Nord-Est,8,Micro
+1558,Sansoni Construction S.p.A.,IT services,Nord-Ovest,82,Medium
+1559,Righi Manufacturing S.r.l.,Finance,Nord-Ovest,33,Small
+1560,Mazzi IT S.p.A.,Construction,Sud e Isole,49,Small
+1561,Guinizzelli Food S.p.A.,Professional services,Nord-Est,21,Small
+1562,Cainero Finance S.p.A.,Hospitality,Nord-Ovest,93,Medium
+1563,Puccini Hospitality S.r.l.,Hospitality,Centro,3,Micro
+1564,Golgi Healthcare S.p.A.,Hospitality,Nord-Est,5,Micro
+1565,Piccinni Healthcare S.p.A.,Finance,Nord-Ovest,7,Micro
+1566,Crisafulli Logistics S.r.l.,Construction,Nord-Est,30,Small
+1567,Greggio Construction S.r.l.,Logistics,Nord-Est,256,Large
+1568,Randazzo Professional S.r.l.,Manufacturing,Sud e Isole,12,Small
+1569,Soprano IT S.r.l.,Professional services,Centro,117,Medium
+1570,Santoro Finance S.r.l.,Construction,Nord-Est,45,Small
+1571,Antonucci Professional S.r.l.,IT services,Nord-Est,19,Small
+1572,Pizzo Professional S.p.A.,Food & beverage,Nord-Ovest,65,Medium
+1573,Travaglia Manufacturing S.r.l.,Construction,Nord-Est,28,Small
+1574,Fagotto Logistics S.r.l.,Food & beverage,Sud e Isole,15,Small
+1575,Mondadori Food S.r.l.,Professional services,Nord-Ovest,54,Medium
+1576,Altera Finance S.p.A.,Professional services,Centro,3,Micro
+1577,Pellegrini Food S.r.l.,Logistics,Centro,6,Micro
+1578,Stoppani Logistics S.p.A.,IT services,Nord-Ovest,3,Micro
+1579,Canali IT S.p.A.,Manufacturing,Nord-Est,41,Small
+1580,Baroffio Logistics S.r.l.,Food & beverage,Nord-Est,20,Small
+1581,Gregorio Logistics S.p.A.,Logistics,Nord-Ovest,11,Small
+1582,Vento Food S.p.A.,Retail,Nord-Ovest,107,Medium
+1583,Gaito Healthcare S.r.l.,Logistics,Sud e Isole,44,Small
+1584,Curiel Healthcare S.r.l.,Finance,Nord-Ovest,3,Micro
+1585,Filippini Professional S.p.A.,Healthcare,Centro,35,Small
+1586,Traversa IT S.p.A.,Food & beverage,Centro,16,Small
+1587,Navarria Retail S.r.l.,Finance,Nord-Est,27,Small
+1588,Calvo Food S.r.l.,Construction,Centro,23,Small
+1589,Saracino Manufacturing S.r.l.,Food & beverage,Nord-Est,46,Small
+1590,Vendetti Hospitality S.p.A.,Construction,Centro,5,Micro
+1591,Flaiano Hospitality S.p.A.,Healthcare,Nord-Est,59,Medium
+1592,Silvestri IT S.r.l.,Food & beverage,Sud e Isole,25,Small
+1593,Torricelli Construction S.r.l.,Hospitality,Nord-Est,62,Medium
+1594,Anichini Professional S.r.l.,Food & beverage,Centro,44,Small
+1595,Padovano Finance S.r.l.,Food & beverage,Nord-Ovest,35,Small
+1596,Trentin Food S.r.l.,Professional services,Centro,4,Micro
+1597,Mozart Food S.p.A.,Construction,Nord-Ovest,5,Micro
+1598,Poerio Healthcare S.p.A.,Healthcare,Nord-Est,80,Medium
+1599,Saracino Manufacturing S.p.A.,Retail,Nord-Ovest,4,Micro
+1600,Foà Manufacturing S.r.l.,Retail,Nord-Ovest,38,Small
+1601,Falier Food S.p.A.,Retail,Nord-Ovest,9,Micro
+1602,Perini Hospitality S.r.l.,Food & beverage,Nord-Est,103,Medium
+1603,Tosi Food S.p.A.,IT services,Nord-Ovest,80,Medium
+1604,Castellitto Healthcare S.p.A.,Logistics,Sud e Isole,14,Small
+1605,Nordio Healthcare S.p.A.,Manufacturing,Nord-Est,144,Medium
+1606,Bertoni Healthcare S.r.l.,Healthcare,Centro,44,Small
+1607,Grimani Healthcare S.p.A.,Healthcare,Centro,174,Medium
+1608,Leonardi Professional S.p.A.,Construction,Sud e Isole,20,Small
+1609,Pascarella Hospitality S.r.l.,Logistics,Nord-Est,48,Small
+1610,Piazzi Hospitality S.r.l.,Finance,Nord-Est,4,Micro
+1611,Binaghi Logistics S.r.l.,IT services,Nord-Est,28,Small
+1612,Andreozzi Retail S.r.l.,Professional services,Nord-Ovest,35,Small
+1613,Borromeo Construction S.p.A.,Manufacturing,Sud e Isole,96,Medium
+1614,Proietti Finance S.r.l.,Hospitality,Sud e Isole,264,Large
+1615,Puglisi Food S.r.l.,Hospitality,Nord-Est,9,Micro
+1616,Niggli Construction S.p.A.,Professional services,Nord-Est,80,Medium
+1617,Impastato Professional S.r.l.,Retail,Nord-Est,63,Medium
+1618,Cantimori Healthcare S.r.l.,Construction,Nord-Est,10,Small
+1619,Garzoni Finance S.p.A.,Manufacturing,Nord-Est,101,Medium
+1620,Marconi Finance S.p.A.,Retail,Nord-Ovest,129,Medium
+1621,Piccio Healthcare S.r.l.,Manufacturing,Nord-Est,14,Small
+1622,Trombetta Healthcare S.r.l.,Food & beverage,Sud e Isole,9,Micro
+1623,Galiazzo Finance S.p.A.,Logistics,Centro,9,Micro
+1624,Pergolesi Manufacturing S.p.A.,Retail,Centro,20,Small
+1625,Scamarcio Food S.p.A.,Food & beverage,Nord-Ovest,54,Medium
+1626,Franzese IT S.p.A.,Retail,Nord-Ovest,53,Medium
+1627,Dallara Hospitality S.r.l.,Logistics,Nord-Ovest,13,Small
+1628,Cerutti Retail S.r.l.,Manufacturing,Centro,41,Small
+1629,Bompiani Finance S.r.l.,Healthcare,Nord-Ovest,163,Medium
+1630,Ferragni IT S.p.A.,Professional services,Nord-Ovest,18,Small
+1631,Scotto Finance S.r.l.,Hospitality,Nord-Est,50,Medium
+1632,Zanazzo Professional S.p.A.,Healthcare,Nord-Ovest,12,Small
+1633,Gelli Food S.r.l.,Healthcare,Centro,21,Small
+1634,Comboni Professional S.r.l.,Manufacturing,Nord-Ovest,34,Small
+1635,Nitti Food S.r.l.,Hospitality,Nord-Ovest,24,Small
+1636,Ponti Construction S.p.A.,Healthcare,Nord-Ovest,143,Medium
+1637,Scialpi Hospitality S.p.A.,Construction,Nord-Ovest,36,Small
+1638,Majewski Manufacturing S.p.A.,Professional services,Sud e Isole,5,Micro
+1639,Vespa Professional S.p.A.,Finance,Centro,23,Small
+1640,Cavalcanti Food S.p.A.,Construction,Nord-Ovest,8,Micro
+1641,Seddio Healthcare S.r.l.,Manufacturing,Nord-Ovest,222,Medium
+1642,Nonis Finance S.r.l.,Logistics,Nord-Ovest,262,Large
+1643,Giammusso Professional S.p.A.,Retail,Nord-Ovest,40,Small
+1644,Interminei Healthcare S.p.A.,Logistics,Nord-Ovest,10,Small
+1645,Paoletti Healthcare S.p.A.,Finance,Nord-Ovest,59,Medium
+1646,Gritti Finance S.p.A.,Finance,Centro,7,Micro
+1647,Redi Healthcare S.p.A.,Finance,Nord-Est,148,Medium
+1648,Fantoni Healthcare S.r.l.,Retail,Nord-Ovest,49,Small
+1649,Sommaruga IT S.p.A.,Finance,Nord-Est,126,Medium
+1650,Acerbi Food S.r.l.,Logistics,Centro,18,Small
+1651,Lollobrigida Retail S.r.l.,Professional services,Sud e Isole,7,Micro
+1652,Odescalchi Finance S.p.A.,Healthcare,Nord-Est,30,Small
+1653,Gotti Retail S.r.l.,Food & beverage,Centro,32,Small
+1654,Marangoni IT S.p.A.,Professional services,Sud e Isole,15,Small
+1655,Michelangeli Retail S.r.l.,Construction,Nord-Ovest,18,Small
+1656,Sokolov Construction S.p.A.,Food & beverage,Centro,20,Small
+1657,Spallanzani Hospitality S.p.A.,IT services,Centro,81,Medium
+1658,Renzi Hospitality S.p.A.,Logistics,Nord-Ovest,24,Small
+1659,Bresciani Professional S.r.l.,Healthcare,Nord-Est,30,Small
+1660,Orlando Construction S.p.A.,Manufacturing,Nord-Est,17,Small
+1661,Corradi Manufacturing S.p.A.,Retail,Centro,4,Micro
+1662,Marcacci Hospitality S.r.l.,Professional services,Nord-Ovest,163,Medium
+1663,Pavanello Finance S.p.A.,Construction,Nord-Ovest,189,Medium
+1664,Bettin Retail S.r.l.,IT services,Centro,7,Micro
+1665,Bresciani Food S.r.l.,IT services,Nord-Ovest,7,Micro
+1666,Zeffirelli Retail S.p.A.,IT services,Nord-Ovest,55,Medium
+1667,Mocenigo Food S.p.A.,IT services,Sud e Isole,16,Small
+1668,Cimarosa IT S.p.A.,Professional services,Centro,4,Micro
+1669,Turchetta Logistics S.p.A.,Healthcare,Centro,5,Micro
+1670,Murri Food S.r.l.,IT services,Nord-Ovest,86,Medium
+1671,Anguillara Logistics S.p.A.,IT services,Nord-Est,122,Medium
+1672,Amato Construction S.p.A.,IT services,Nord-Est,39,Small
+1673,Foscari Retail S.r.l.,IT services,Nord-Est,21,Small
+1674,Bonino Finance S.p.A.,IT services,Centro,35,Small
+1675,Magnani Food S.p.A.,Food & beverage,Nord-Est,49,Small
+1676,Greggio Construction S.r.l.,Healthcare,Nord-Est,16,Small
+1677,Calvo Finance S.p.A.,Construction,Sud e Isole,25,Small
+1678,Cocci Retail S.p.A.,Retail,Nord-Ovest,101,Medium
+1679,Giannotti Healthcare S.r.l.,Finance,Nord-Ovest,49,Small
+1680,Fantoni IT S.r.l.,Logistics,Centro,162,Medium
+1681,Salvo Construction S.r.l.,Construction,Nord-Ovest,18,Small
+1682,Naccari Healthcare S.p.A.,Finance,Nord-Ovest,16,Small
+1683,Corradi Finance S.p.A.,Construction,Centro,339,Large
+1684,Fornaciari Manufacturing S.p.A.,Logistics,Nord-Est,3,Micro
+1685,Pinamonte Manufacturing S.r.l.,Retail,Nord-Ovest,3,Micro
+1686,Udinesi Food S.r.l.,Manufacturing,Nord-Ovest,208,Medium
+1687,Detti Manufacturing S.p.A.,Professional services,Sud e Isole,107,Medium
+1688,Buonauro IT S.p.A.,Food & beverage,Nord-Ovest,14,Small
+1689,Vespucci Construction S.p.A.,Logistics,Sud e Isole,37,Small
+1690,Malipiero Healthcare S.r.l.,Logistics,Nord-Ovest,30,Small
+1691,Fibonacci Hospitality S.p.A.,Healthcare,Nord-Ovest,8,Micro
+1692,Tagliafierro Hospitality S.p.A.,Retail,Sud e Isole,31,Small
+1693,Fusani Healthcare S.r.l.,Finance,Nord-Est,113,Medium
+1694,Turchi Retail S.r.l.,IT services,Sud e Isole,6,Micro
+1695,Bosurgi Finance S.p.A.,Manufacturing,Nord-Est,21,Small
+1696,Rosiello IT S.p.A.,Retail,Nord-Est,22,Small
+1697,Caruso Manufacturing S.r.l.,Retail,Sud e Isole,13,Small
+1698,Vittadello Manufacturing S.r.l.,Hospitality,Sud e Isole,6,Micro
+1699,Casale Hospitality S.r.l.,Retail,Sud e Isole,20,Small
+1700,Iannucci Hospitality S.r.l.,Logistics,Nord-Est,144,Medium
+1701,Pucci Retail S.r.l.,Hospitality,Nord-Ovest,30,Small
+1702,Giannuzzi Retail S.p.A.,IT services,Nord-Ovest,10,Small
+1703,Cilea Hospitality S.p.A.,Professional services,Centro,21,Small
+1704,Sforza Food S.p.A.,Manufacturing,Centro,5,Micro
+1705,Tacchini Professional S.p.A.,Construction,Nord-Ovest,3,Micro
+1706,Volterra Hospitality S.r.l.,Professional services,Nord-Ovest,3,Micro
+1707,Biagi Food S.r.l.,Professional services,Nord-Est,106,Medium
+1708,Sorrentino Healthcare S.r.l.,Retail,Centro,57,Medium
+1709,Schiavone Manufacturing S.r.l.,Manufacturing,Nord-Ovest,17,Small
+1710,Collina IT S.r.l.,Manufacturing,Nord-Est,14,Small
+1711,Strangio Logistics S.p.A.,IT services,Nord-Est,31,Small
+1712,Gozzi IT S.r.l.,Professional services,Centro,28,Small
+1713,Tarantini Construction S.p.A.,IT services,Sud e Isole,200,Medium
+1714,Dandolo Professional S.p.A.,Manufacturing,Nord-Ovest,12,Small
+1715,Vattimo Food S.p.A.,Professional services,Nord-Ovest,104,Medium
+1716,Alboni Manufacturing S.p.A.,Hospitality,Nord-Ovest,8,Micro
+1717,Curci Hospitality S.p.A.,Retail,Nord-Ovest,10,Small
+1718,Michelangeli Finance S.r.l.,Finance,Nord-Ovest,9,Micro
+1719,Scialpi Construction S.p.A.,Hospitality,Nord-Est,26,Small
+1720,Zanichelli Food S.r.l.,Hospitality,Centro,4,Micro
+1721,Tanzini Retail S.r.l.,Logistics,Nord-Ovest,11,Small
+1722,Malenchini Retail S.p.A.,Retail,Nord-Ovest,16,Small
+1723,Scarponi Construction S.r.l.,IT services,Nord-Est,811,Large
+1724,Panatta Retail S.r.l.,Manufacturing,Nord-Est,168,Medium
+1725,Redi Hospitality S.p.A.,Logistics,Centro,235,Medium
+1726,Proietti Logistics S.r.l.,Healthcare,Centro,472,Large
+1727,Borromini Construction S.r.l.,Manufacturing,Centro,236,Medium
+1728,Esposito Healthcare S.p.A.,Logistics,Centro,5,Micro
+1729,Onio Manufacturing S.r.l.,Manufacturing,Sud e Isole,60,Medium
+1730,Bacosi Food S.r.l.,Professional services,Sud e Isole,3,Micro
+1731,Argan Healthcare S.r.l.,Retail,Nord-Ovest,11,Small
+1732,Beccheria Healthcare S.r.l.,Food & beverage,Nord-Est,3,Micro
+1733,Montalcini Food S.r.l.,Finance,Nord-Est,42,Small
+1734,Caccianemico Professional S.p.A.,Food & beverage,Nord-Ovest,22,Small
+1735,Tonisto Finance S.r.l.,Hospitality,Centro,71,Medium
+1736,Sorrentino Professional S.p.A.,Professional services,Sud e Isole,253,Large
+1737,Spadafora Hospitality S.p.A.,Professional services,Nord-Ovest,13,Small
+1738,Collina Logistics S.p.A.,Logistics,Centro,16,Small
+1739,Bandello Finance S.r.l.,Finance,Nord-Ovest,472,Large
+1740,Fusani Construction S.p.A.,Manufacturing,Nord-Ovest,13,Small
+1741,Praga Food S.r.l.,Construction,Centro,76,Medium
+1742,Celentano Healthcare S.r.l.,Food & beverage,Nord-Ovest,7,Micro
+1743,Morgagni Construction S.r.l.,Professional services,Sud e Isole,51,Medium
+1744,Caccioppoli Manufacturing S.p.A.,Food & beverage,Centro,967,Large
+1745,Ostinelli Professional S.p.A.,Manufacturing,Sud e Isole,134,Medium
+1746,Mortati Logistics S.p.A.,Healthcare,Nord-Est,4,Micro
+1747,Sgarbi IT S.p.A.,Logistics,Sud e Isole,46,Small
+1748,Trincavelli Hospitality S.r.l.,Healthcare,Nord-Ovest,35,Small
+1749,Visintini Finance S.r.l.,Construction,Nord-Ovest,17,Small
+1750,Fracci Professional S.p.A.,Retail,Centro,557,Large
+1751,Loredan Hospitality S.r.l.,Manufacturing,Centro,51,Medium
+1752,Rocca Professional S.r.l.,Logistics,Centro,20,Small
+1753,Morucci Finance S.r.l.,Professional services,Sud e Isole,18,Small
+1754,Raimondi Retail S.p.A.,Logistics,Nord-Ovest,28,Small
+1755,Gremese Food S.r.l.,Logistics,Centro,59,Medium
+1756,Visintini Hospitality S.r.l.,Professional services,Sud e Isole,258,Large
+1757,Bernardi Hospitality S.p.A.,Construction,Nord-Ovest,220,Medium
+1758,Luxardo Professional S.p.A.,Manufacturing,Centro,19,Small
+1759,Maglio Retail S.r.l.,Healthcare,Sud e Isole,12,Small
+1760,Norbiato Logistics S.p.A.,Professional services,Centro,47,Small
+1761,Tafuri Hospitality S.p.A.,Hospitality,Nord-Est,40,Small
+1762,Pininfarina Healthcare S.r.l.,Hospitality,Nord-Ovest,3,Micro
+1763,Montesano Professional S.r.l.,IT services,Nord-Ovest,27,Small
+1764,Tencalla Professional S.r.l.,Construction,Nord-Ovest,19,Small
+1765,Lancisi Construction S.p.A.,Manufacturing,Nord-Est,4,Micro
+1766,Toldo Retail S.p.A.,Logistics,Sud e Isole,30,Small
+1767,Murri Hospitality S.p.A.,Manufacturing,Sud e Isole,5,Micro
+1768,Fiorucci IT S.p.A.,Hospitality,Centro,12,Small
+1769,Surian Finance S.p.A.,IT services,Nord-Ovest,81,Medium
+1770,Casagrande Retail S.p.A.,Finance,Nord-Ovest,11,Small
+1771,Montalti Retail S.p.A.,Finance,Nord-Est,3,Micro
+1772,Ferrabosco Food S.r.l.,Healthcare,Nord-Est,11,Small
+1773,Mercantini Hospitality S.p.A.,Professional services,Centro,16,Small
+1774,Mannoia Logistics S.r.l.,Manufacturing,Centro,18,Small
+1775,Ceravolo Construction S.r.l.,IT services,Nord-Ovest,6,Micro
+1776,Brugnaro Healthcare S.r.l.,Manufacturing,Nord-Ovest,11,Small
+1777,Bartoli Construction S.r.l.,Retail,Nord-Ovest,15,Small
+1778,Piacentini Logistics S.r.l.,Construction,Sud e Isole,72,Medium
+1779,Vismara Professional S.p.A.,Healthcare,Nord-Ovest,3,Micro
+1780,Pisani Hospitality S.p.A.,Professional services,Nord-Est,33,Small
+1781,Verdone Manufacturing S.r.l.,Professional services,Nord-Ovest,197,Medium
+1782,Benedetti Finance S.p.A.,IT services,Sud e Isole,24,Small
+1783,Piacentini Healthcare S.r.l.,Professional services,Nord-Est,3,Micro
+1784,Mantegna Logistics S.r.l.,Food & beverage,Sud e Isole,22,Small
+1785,Canova Logistics S.r.l.,Food & beverage,Sud e Isole,38,Small
+1786,Albertini Construction S.r.l.,Food & beverage,Nord-Ovest,18,Small
+1787,Belletini Healthcare S.p.A.,Food & beverage,Nord-Est,10,Small
+1788,Faugno Manufacturing S.p.A.,Construction,Nord-Est,18,Small
+1789,Sibilia IT S.p.A.,IT services,Centro,4,Micro
+1790,Bignami Healthcare S.r.l.,IT services,Centro,7,Micro
+1791,Tasca Logistics S.r.l.,Hospitality,Centro,35,Small
+1792,Venturi IT S.p.A.,Food & beverage,Centro,3,Micro
+1793,Paoletti IT S.r.l.,IT services,Nord-Ovest,98,Medium
+1794,Comeriato Hospitality S.p.A.,Retail,Nord-Est,5,Micro
+1795,Bramante Finance S.r.l.,Construction,Centro,213,Medium
+1796,Frescobaldi Logistics S.p.A.,Professional services,Nord-Ovest,22,Small
+1797,Barracco Logistics S.r.l.,Professional services,Nord-Est,32,Small
+1798,Satriani Food S.r.l.,Professional services,Nord-Est,44,Small
+1799,Draghi Food S.p.A.,Professional services,Nord-Ovest,6,Micro
+1800,Calvo Hospitality S.p.A.,Food & beverage,Nord-Est,4,Micro
+1801,Fabrizi Construction S.r.l.,Logistics,Nord-Ovest,46,Small
+1802,Barese Retail S.r.l.,Professional services,Nord-Ovest,11,Small
+1803,Quasimodo Hospitality S.p.A.,IT services,Nord-Ovest,25,Small
+1804,Callegaro Construction S.p.A.,Healthcare,Nord-Ovest,16,Small
+1805,Andreozzi Healthcare S.p.A.,Professional services,Sud e Isole,5,Micro
+1806,Pacillo Professional S.r.l.,Professional services,Nord-Ovest,83,Medium
+1807,Cignaroli Food S.p.A.,Professional services,Centro,17,Small
+1808,Maspero Finance S.r.l.,Professional services,Centro,21,Small
+1809,Zanazzo Hospitality S.p.A.,Professional services,Sud e Isole,10,Small
+1810,Guglielmi IT S.p.A.,Logistics,Sud e Isole,136,Medium
+1811,Marangoni Professional S.r.l.,Hospitality,Nord-Est,120,Medium
+1812,Falloppio Professional S.r.l.,Hospitality,Nord-Est,198,Medium
+1813,Quasimodo Food S.p.A.,IT services,Nord-Est,20,Small
+1814,Baracca Food S.p.A.,Construction,Centro,76,Medium
+1815,Metella Food S.p.A.,Professional services,Sud e Isole,60,Medium
+1816,Aporti Construction S.r.l.,Retail,Nord-Est,74,Medium
+1817,Ricciardi IT S.p.A.,Construction,Nord-Ovest,23,Small
+1818,Zichichi Food S.r.l.,Healthcare,Nord-Ovest,148,Medium
+1819,Berrè Hospitality S.r.l.,Healthcare,Nord-Ovest,481,Large
+1820,Tanzini Food S.r.l.,Healthcare,Nord-Ovest,28,Small
+1821,Zoppetti Hospitality S.p.A.,Construction,Sud e Isole,94,Medium
+1822,Trentini Healthcare S.p.A.,Professional services,Nord-Ovest,7,Micro
+1823,Barracco Healthcare S.p.A.,Food & beverage,Sud e Isole,8,Micro
+1824,Casaleggio Finance S.r.l.,Hospitality,Sud e Isole,26,Small
+1825,Pulci Professional S.r.l.,Finance,Nord-Est,5,Micro
+1826,Pirandello Healthcare S.r.l.,Retail,Centro,122,Medium
+1827,Sabbatini Retail S.r.l.,Healthcare,Nord-Ovest,4,Micro
+1828,Boitani IT S.p.A.,Hospitality,Nord-Est,18,Small
+1829,Angeli IT S.r.l.,Hospitality,Sud e Isole,20,Small
+1830,Pederiva Logistics S.r.l.,Retail,Sud e Isole,6,Micro
+1831,Cremonesi Professional S.r.l.,Healthcare,Centro,267,Large
+1832,Siffredi Retail S.r.l.,IT services,Nord-Ovest,66,Medium
+1833,Pometta Logistics S.p.A.,Finance,Nord-Ovest,3,Micro
+1834,Vespucci Finance S.p.A.,Hospitality,Nord-Ovest,5,Micro
+1835,Camanni Finance S.r.l.,Logistics,Centro,21,Small
+1836,Bramante Hospitality S.r.l.,Construction,Sud e Isole,5,Micro
+1837,Sermonti Construction S.r.l.,Finance,Nord-Ovest,19,Small
+1838,Franzese Finance S.r.l.,Manufacturing,Nord-Est,30,Small
+1839,Corbo Retail S.p.A.,Construction,Nord-Est,11,Small
+1840,Anguissola Construction S.r.l.,Logistics,Nord-Est,700,Large
+1841,Renault Logistics S.r.l.,Retail,Sud e Isole,574,Large
+1842,Agostinelli Construction S.p.A.,IT services,Centro,9,Micro
+1843,Aloisio Hospitality S.p.A.,Food & beverage,Sud e Isole,165,Medium
+1844,Castelli Food S.p.A.,Healthcare,Centro,75,Medium
+1845,Brunelleschi Food S.r.l.,Professional services,Nord-Est,62,Medium
+1846,Gaito Food S.r.l.,IT services,Nord-Est,401,Large
+1847,Cassarà Construction S.r.l.,Hospitality,Sud e Isole,7,Micro
+1848,Cerutti Manufacturing S.p.A.,IT services,Sud e Isole,6,Micro
+1849,Sermonti IT S.p.A.,Manufacturing,Nord-Ovest,13,Small
+1850,Antonello Retail S.r.l.,Hospitality,Nord-Ovest,16,Small
+1851,Leonetti Retail S.r.l.,IT services,Nord-Est,11,Small
+1852,Golgi Professional S.r.l.,Hospitality,Sud e Isole,128,Medium
+1853,Salvemini Manufacturing S.r.l.,Construction,Centro,91,Medium
+1854,Faranda IT S.r.l.,Manufacturing,Centro,192,Medium
+1855,Benigni IT S.p.A.,Hospitality,Nord-Ovest,3,Micro
+1856,Ostinelli Healthcare S.p.A.,IT services,Nord-Est,211,Medium
+1857,Collodi Food S.p.A.,Finance,Sud e Isole,7,Micro
+1858,Branciforte Hospitality S.p.A.,Hospitality,Nord-Ovest,83,Medium
+1859,Magnani IT S.p.A.,Food & beverage,Nord-Ovest,14,Small
+1860,Volterra Healthcare S.p.A.,Finance,Sud e Isole,48,Small
+1861,Tarantini IT S.p.A.,Retail,Nord-Ovest,41,Small
+1862,Scaduto Logistics S.r.l.,Healthcare,Nord-Est,114,Medium
+1863,Grossi Logistics S.p.A.,Construction,Nord-Ovest,42,Small
+1864,Bernardi Food S.p.A.,Logistics,Nord-Ovest,9,Micro
+1865,Balbi Construction S.r.l.,Construction,Nord-Est,74,Medium
+1866,Amato Professional S.p.A.,Healthcare,Nord-Ovest,7,Micro
+1867,Bignardi Healthcare S.r.l.,IT services,Centro,115,Medium
+1868,Anguillara Food S.r.l.,Professional services,Sud e Isole,41,Small
+1869,Bottaro Logistics S.p.A.,Finance,Centro,3,Micro
+1870,Pellegrini Healthcare S.r.l.,Healthcare,Nord-Est,13,Small
+1871,Matteotti Logistics S.p.A.,Logistics,Nord-Ovest,5,Micro
+1872,Mazzanti Logistics S.r.l.,IT services,Nord-Ovest,39,Small
+1873,Delle Manufacturing S.p.A.,Retail,Nord-Est,101,Medium
+1874,Spinelli Finance S.r.l.,Professional services,Nord-Est,10,Small
+1875,Bianchini Finance S.p.A.,Retail,Nord-Ovest,21,Small
+1876,Mercadante Construction S.r.l.,Manufacturing,Sud e Isole,25,Small
+1877,Pace Food S.r.l.,Finance,Nord-Est,25,Small
+1878,Rosiello Finance S.p.A.,Professional services,Nord-Est,67,Medium
+1879,Segni Manufacturing S.r.l.,Hospitality,Centro,29,Small
+1880,Dellucci Retail S.p.A.,IT services,Nord-Ovest,27,Small
+1881,Collodi Construction S.p.A.,Logistics,Nord-Ovest,3,Micro
+1882,Caruso Food S.r.l.,Healthcare,Nord-Ovest,30,Small
+1883,Orsini IT S.r.l.,Hospitality,Nord-Ovest,24,Small
+1884,Dallapé Finance S.r.l.,Hospitality,Centro,139,Medium
+1885,Procacci Finance S.r.l.,IT services,Sud e Isole,202,Medium
+1886,Sinisi Hospitality S.p.A.,Construction,Nord-Ovest,18,Small
+1887,Pavarotti Healthcare S.p.A.,Retail,Centro,31,Small
+1888,Sandi Healthcare S.p.A.,Manufacturing,Nord-Est,15,Small
+1889,Lanfranchi Retail S.r.l.,Hospitality,Nord-Ovest,4,Micro
+1890,Zito Food S.p.A.,IT services,Centro,261,Large
+1891,Montesano Food S.r.l.,Professional services,Nord-Est,24,Small
+1892,Maggioli Retail S.r.l.,Professional services,Nord-Ovest,53,Medium
+1893,Littizzetto Manufacturing S.r.l.,Manufacturing,Nord-Ovest,3,Micro
+1894,Bignardi IT S.p.A.,Construction,Nord-Ovest,7,Micro
+1895,Montanelli Food S.r.l.,Manufacturing,Sud e Isole,3,Micro
+1896,Anguissola Logistics S.p.A.,IT services,Centro,68,Medium
+1897,Coppola Hospitality S.p.A.,Construction,Centro,3,Micro
+1898,Mascheroni Finance S.r.l.,Manufacturing,Nord-Ovest,55,Medium
+1899,Renzi Logistics S.p.A.,Finance,Sud e Isole,5,Micro
+1900,Gozzi Finance S.r.l.,Finance,Nord-Ovest,13,Small
+1901,Paolini Food S.p.A.,Retail,Nord-Est,330,Large
+1902,Pedersoli Finance S.r.l.,IT services,Sud e Isole,47,Small
+1903,Paoletti Professional S.p.A.,Hospitality,Nord-Ovest,65,Medium
+1904,Giannuzzi Healthcare S.p.A.,Finance,Nord-Ovest,25,Small
+1905,Salvini Manufacturing S.p.A.,Healthcare,Centro,43,Small
+1906,Lopresti Food S.r.l.,IT services,Nord-Est,3,Micro
+1907,Abbagnale IT S.r.l.,Construction,Nord-Ovest,51,Medium
+1908,Migliaccio Hospitality S.p.A.,Construction,Nord-Ovest,201,Medium
+1909,Iadanza Food S.p.A.,Healthcare,Sud e Isole,3,Micro
+1910,Interminelli Construction S.p.A.,Manufacturing,Centro,7,Micro
+1911,Raimondi Professional S.r.l.,Construction,Nord-Ovest,41,Small
+1912,Cristoforetti Healthcare S.p.A.,Manufacturing,Nord-Est,32,Small
+1913,Basso Retail S.r.l.,Food & beverage,Centro,76,Medium
+1914,Luria IT S.r.l.,Healthcare,Nord-Est,13,Small
+1915,Cimini Logistics S.p.A.,Logistics,Centro,100,Medium
+1916,Comeriato Manufacturing S.p.A.,Retail,Nord-Est,21,Small
+1917,Legnante Healthcare S.p.A.,Food & beverage,Nord-Est,53,Medium
+1918,Versace Finance S.r.l.,Professional services,Sud e Isole,300,Large
+1919,Tartaglia Hospitality S.r.l.,Construction,Nord-Ovest,4,Micro
+1920,Nadi Manufacturing S.p.A.,Manufacturing,Nord-Ovest,97,Medium
+1921,Udinesi Logistics S.p.A.,Professional services,Nord-Est,30,Small
+1922,Bresciani Logistics S.r.l.,Professional services,Nord-Est,4,Micro
+1923,Vecellio Construction S.p.A.,Finance,Centro,84,Medium
+1924,Visconti Logistics S.r.l.,IT services,Sud e Isole,102,Medium
+1925,Spadafora IT S.r.l.,Hospitality,Nord-Ovest,13,Small
+1926,Paruta Manufacturing S.r.l.,Professional services,Nord-Est,18,Small
+1927,Filogamo Professional S.p.A.,Logistics,Sud e Isole,45,Small
+1928,Giannuzzi Hospitality S.r.l.,Professional services,Sud e Isole,14,Small
+1929,Maspero Logistics S.p.A.,Finance,Sud e Isole,87,Medium
+1930,Bettoni Professional S.p.A.,Logistics,Sud e Isole,3,Micro
+1931,Petralli Construction S.p.A.,Retail,Nord-Est,32,Small
+1932,Scarpetta Healthcare S.p.A.,Retail,Nord-Est,21,Small
+1933,Foconi Retail S.p.A.,Healthcare,Nord-Est,149,Medium
+1934,Gualandi Food S.p.A.,IT services,Nord-Ovest,29,Small
+1935,Aloisio Manufacturing S.r.l.,Logistics,Sud e Isole,79,Medium
+1936,Pavanello Logistics S.r.l.,Logistics,Sud e Isole,3,Micro
+1937,Savorgnan IT S.r.l.,Construction,Nord-Ovest,6,Micro
+1938,Veltroni Manufacturing S.p.A.,IT services,Centro,5,Micro
+1939,Brugnaro Finance S.r.l.,Logistics,Nord-Ovest,43,Small
+1940,Valguarnera Logistics S.p.A.,Construction,Nord-Ovest,25,Small
+1941,Norbiato Finance S.r.l.,Logistics,Sud e Isole,35,Small
+1942,Boaga Construction S.r.l.,Healthcare,Sud e Isole,89,Medium
+1943,Giannini Food S.r.l.,Manufacturing,Nord-Est,6,Micro
+1944,Pezzali Manufacturing S.r.l.,Manufacturing,Nord-Est,7,Micro
+1945,Tremonti Professional S.r.l.,Finance,Nord-Ovest,152,Medium
+1946,Guidotti IT S.r.l.,Manufacturing,Sud e Isole,75,Medium
+1947,Trentin Professional S.p.A.,Hospitality,Nord-Ovest,36,Small
+1948,Micheletti Food S.p.A.,Professional services,Nord-Est,27,Small
+1949,Sinisi Construction S.r.l.,Retail,Centro,28,Small
+1950,Tognazzi Retail S.r.l.,Retail,Nord-Est,50,Medium
+1951,Finotto Construction S.p.A.,Construction,Nord-Ovest,8,Micro
+1952,Fattori Logistics S.p.A.,Healthcare,Centro,178,Medium
+1953,Frescobaldi Finance S.p.A.,Hospitality,Nord-Est,5,Micro
+1954,Ferrabosco Logistics S.r.l.,Construction,Sud e Isole,10,Small
+1955,Busoni Professional S.p.A.,Hospitality,Nord-Est,59,Medium
+1956,Fabbri IT S.p.A.,Professional services,Nord-Ovest,21,Small
+1957,Luzi Manufacturing S.p.A.,Healthcare,Centro,96,Medium
+1958,Orsini Manufacturing S.p.A.,Finance,Nord-Ovest,262,Large
+1959,Zecchini Healthcare S.p.A.,Manufacturing,Sud e Isole,67,Medium
+1960,Oliboni Food S.r.l.,Professional services,Sud e Isole,8,Micro
+1961,Pinamonte Professional S.r.l.,Finance,Nord-Ovest,8,Micro
+1962,Trapanese Construction S.p.A.,Healthcare,Nord-Ovest,13,Small
+1963,Contarini Professional S.r.l.,Hospitality,Sud e Isole,34,Small
+1964,Gozzi Finance S.p.A.,Healthcare,Nord-Est,11,Small
+1965,Bazzi Manufacturing S.p.A.,IT services,Nord-Est,151,Medium
+1966,Taccola Healthcare S.r.l.,Manufacturing,Centro,20,Small
+1967,Palumbo Finance S.p.A.,Logistics,Sud e Isole,32,Small
+1968,Canali IT S.p.A.,Construction,Nord-Est,3,Micro
+1969,Palazzo Hospitality S.r.l.,Finance,Centro,3,Micro
+1970,Scarfoglio Healthcare S.p.A.,Food & beverage,Nord-Est,39,Small
+1971,Bragadin Retail S.r.l.,Professional services,Nord-Ovest,33,Small
+1972,Crespi Construction S.r.l.,IT services,Sud e Isole,84,Medium
+1973,Mennea Retail S.r.l.,Hospitality,Nord-Ovest,134,Medium
+1974,Baglioni Finance S.p.A.,Hospitality,Nord-Ovest,25,Small
+1975,Murri Food S.r.l.,Food & beverage,Nord-Est,48,Small
+1976,Liverotti Healthcare S.r.l.,Professional services,Nord-Ovest,30,Small
+1977,Traversa Retail S.r.l.,Retail,Nord-Ovest,41,Small
+1978,Argan Retail S.r.l.,Logistics,Centro,35,Small
+1979,Caccianemico Hospitality S.r.l.,Manufacturing,Nord-Est,60,Medium
+1980,Balotelli Manufacturing S.p.A.,Logistics,Centro,4,Micro
+1981,Flaiano IT S.r.l.,Manufacturing,Sud e Isole,84,Medium
+1982,Ziani Food S.p.A.,Food & beverage,Sud e Isole,33,Small
+1983,Speri Finance S.p.A.,Professional services,Nord-Ovest,3,Micro
+1984,Zola Logistics S.r.l.,IT services,Nord-Est,42,Small
+1985,Fuseli Manufacturing S.r.l.,Logistics,Nord-Ovest,11,Small
+1986,Gussoni Hospitality S.p.A.,Retail,Centro,7,Micro
+1987,Littizzetto Professional S.r.l.,Food & beverage,Nord-Est,71,Medium
+1988,Redi Healthcare S.r.l.,Logistics,Centro,6,Micro
+1989,Cagnin Food S.p.A.,Finance,Sud e Isole,24,Small
+1990,Saffi Hospitality S.p.A.,Construction,Centro,1013,Large
+1991,Chechi Manufacturing S.r.l.,Professional services,Nord-Est,4,Micro
+1992,Grossi Logistics S.p.A.,Hospitality,Nord-Ovest,51,Medium
+1993,Barillaro Construction S.r.l.,IT services,Centro,6,Micro
+1994,Morgagni Manufacturing S.p.A.,Logistics,Centro,52,Medium
+1995,Filzi Healthcare S.r.l.,Professional services,Centro,17,Small
+1996,Fabbri Food S.r.l.,Hospitality,Nord-Ovest,64,Medium
+1997,Papetti Food S.p.A.,Construction,Nord-Est,65,Medium
+1998,Brancaccio IT S.p.A.,Healthcare,Sud e Isole,95,Medium
+1999,Babato Healthcare S.p.A.,Construction,Nord-Est,4,Micro
+2000,Berengario Logistics S.r.l.,Food & beverage,Nord-Ovest,21,Small
+2001,Barbarigo IT S.p.A.,Healthcare,Nord-Est,18,Small
+2002,Volterra Healthcare S.r.l.,Logistics,Sud e Isole,165,Medium
+2003,Padovano Construction S.r.l.,Manufacturing,Centro,40,Small
+2004,Satta Manufacturing S.p.A.,IT services,Nord-Est,3,Micro
+2005,Spinola Professional S.p.A.,Retail,Centro,44,Small
+2006,Boccherini Healthcare S.r.l.,IT services,Nord-Ovest,4,Micro
+2007,Petrucelli Construction S.p.A.,Hospitality,Nord-Ovest,49,Small
+2008,Casarin IT S.r.l.,Finance,Nord-Ovest,8,Micro
+2009,Bulzoni Manufacturing S.p.A.,Healthcare,Nord-Est,17,Small
+2010,Guarneri Manufacturing S.r.l.,Food & beverage,Nord-Ovest,244,Medium
+2011,Metella Hospitality S.r.l.,IT services,Nord-Est,7,Micro
+2012,Zeffirelli Manufacturing S.r.l.,IT services,Nord-Ovest,8,Micro
+2013,Giannone Finance S.r.l.,Professional services,Sud e Isole,28,Small
+2014,Bruscantini Hospitality S.r.l.,Retail,Sud e Isole,88,Medium
+2015,Toldo Healthcare S.r.l.,Professional services,Nord-Ovest,5,Micro
+2016,Persico Manufacturing S.r.l.,Retail,Nord-Ovest,27,Small
+2017,Fagotto Professional S.p.A.,Logistics,Sud e Isole,291,Large
+2018,Sagredo Construction S.r.l.,Manufacturing,Centro,89,Medium
+2019,Curatoli Professional S.p.A.,Manufacturing,Nord-Ovest,14,Small
+2020,Pagliaro Finance S.r.l.,Healthcare,Centro,16,Small
+2021,Gibilisco Manufacturing S.r.l.,Professional services,Centro,95,Medium
+2022,Gargallo Manufacturing S.r.l.,Manufacturing,Nord-Ovest,28,Small
+2023,Doria Food S.p.A.,Construction,Nord-Ovest,62,Medium
+2024,Barozzi Food S.r.l.,Professional services,Sud e Isole,18,Small
+2025,Guarato Food S.p.A.,IT services,Centro,59,Medium
+2026,Nievo Hospitality S.p.A.,Manufacturing,Nord-Est,18,Small
+2027,Bianchi Finance S.p.A.,Construction,Nord-Ovest,3,Micro
+2028,Virgilio Retail S.r.l.,Hospitality,Nord-Ovest,252,Large
+2029,Babato Construction S.r.l.,Professional services,Nord-Ovest,460,Large
+2030,Bellini Food S.r.l.,Construction,Centro,10,Small
+2031,Guglielmi Manufacturing S.r.l.,Healthcare,Nord-Est,45,Small
+2032,Toselli Food S.r.l.,IT services,Sud e Isole,21,Small
+2033,Sordi Manufacturing S.r.l.,IT services,Nord-Ovest,3,Micro
+2034,Bertolucci Healthcare S.p.A.,Professional services,Centro,19,Small
+2035,Callegaro Construction S.r.l.,IT services,Sud e Isole,61,Medium
+2036,Collodi Hospitality S.p.A.,Professional services,Nord-Ovest,62,Medium
+2037,Mercati IT S.p.A.,Manufacturing,Nord-Est,146,Medium
+2038,Ajello Retail S.r.l.,Logistics,Nord-Est,198,Medium
+2039,Filangieri Healthcare S.r.l.,Healthcare,Sud e Isole,42,Small
+2040,Mancini Manufacturing S.r.l.,Food & beverage,Nord-Ovest,112,Medium
+2041,Rossi Construction S.p.A.,Logistics,Sud e Isole,36,Small
+2042,Campise Manufacturing S.p.A.,Construction,Nord-Est,3,Micro
+2043,Semitecolo Retail S.p.A.,IT services,Centro,51,Medium
+2044,Moccia Healthcare S.p.A.,Construction,Centro,51,Medium
+2045,Palazzo Finance S.p.A.,Professional services,Sud e Isole,3,Micro
+2046,Guarneri Food S.r.l.,Construction,Sud e Isole,26,Small
+2047,Pellico Professional S.p.A.,Manufacturing,Sud e Isole,33,Small
+2048,Catenazzi Finance S.p.A.,Construction,Centro,4,Micro
+2049,Panatta Logistics S.r.l.,Finance,Nord-Ovest,159,Medium
+2050,Sollima Retail S.p.A.,Construction,Nord-Est,45,Small
+2051,Parisi Healthcare S.p.A.,Professional services,Centro,24,Small
+2052,Disdero Construction S.r.l.,IT services,Nord-Ovest,40,Small
+2053,Rossi Retail S.r.l.,Professional services,Nord-Est,32,Small
+2054,Giorgetti Healthcare S.p.A.,IT services,Centro,18,Small
+2055,Cociarelli Manufacturing S.r.l.,IT services,Nord-Ovest,12,Small
+2056,Anastasi Hospitality S.r.l.,IT services,Sud e Isole,3,Micro
+2057,Scialpi Manufacturing S.r.l.,Professional services,Nord-Est,17,Small
+2058,Ferraris Retail S.p.A.,Professional services,Centro,135,Medium
+2059,Barcaccia Healthcare S.p.A.,IT services,Nord-Est,32,Small
+2060,Crispi Logistics S.r.l.,Logistics,Centro,3,Micro
+2061,Galuppi Construction S.p.A.,Retail,Sud e Isole,43,Small
+2062,Bosio Logistics S.p.A.,Professional services,Nord-Ovest,9,Micro
+2063,Palombi Construction S.p.A.,IT services,Nord-Ovest,153,Medium
+2064,Cilibrasi Manufacturing S.p.A.,Retail,Nord-Ovest,9,Micro
+2065,Saffi Retail S.r.l.,Food & beverage,Nord-Ovest,125,Medium
+2066,Cagnin Hospitality S.p.A.,Logistics,Nord-Est,209,Medium
+2067,Pavanello Finance S.p.A.,Healthcare,Nord-Est,28,Small
+2068,Argenti Manufacturing S.r.l.,Construction,Nord-Ovest,68,Medium
+2069,Borromeo Hospitality S.p.A.,Hospitality,Centro,27,Small
+2070,Samele Healthcare S.r.l.,Hospitality,Nord-Est,17,Small
+2071,Morosini Hospitality S.p.A.,Manufacturing,Nord-Est,27,Small
+2072,Mimun Healthcare S.p.A.,Hospitality,Nord-Ovest,38,Small
+2073,Giannotti Manufacturing S.p.A.,Professional services,Nord-Ovest,27,Small
+2074,Sismondi Professional S.r.l.,Healthcare,Sud e Isole,87,Medium
+2075,Carpaccio Hospitality S.r.l.,Professional services,Centro,262,Large
+2076,Ostinelli Finance S.p.A.,Logistics,Nord-Ovest,4,Micro
+2077,Cocci Professional S.p.A.,Hospitality,Nord-Est,7,Micro
+2078,Montanariello Hospitality S.r.l.,Retail,Nord-Ovest,201,Medium
+2079,Gangemi Healthcare S.r.l.,Manufacturing,Nord-Ovest,9,Micro
+2080,Bettin Logistics S.r.l.,IT services,Nord-Est,26,Small
+2081,Esposito Finance S.p.A.,Food & beverage,Sud e Isole,66,Medium
+2082,Salvini Finance S.p.A.,Retail,Nord-Ovest,8,Micro
+2083,Visconti Construction S.p.A.,Logistics,Centro,14,Small
+2084,Collodi Logistics S.p.A.,Professional services,Nord-Ovest,49,Small
+2085,Rosmini Construction S.r.l.,Construction,Nord-Est,47,Small
+2086,Contarini Hospitality S.r.l.,Construction,Nord-Est,360,Large
+2087,Innocenti Finance S.r.l.,Retail,Nord-Ovest,12,Small
+2088,Prodi Professional S.p.A.,Hospitality,Nord-Ovest,57,Medium
+2089,Polizzi Logistics S.p.A.,Healthcare,Nord-Est,35,Small
+2090,Gradenigo Hospitality S.r.l.,Healthcare,Nord-Ovest,11,Small
+2091,Cremonesi IT S.p.A.,Construction,Centro,48,Small
+2092,Asprucci Food S.r.l.,Finance,Nord-Ovest,128,Medium
+2093,Lamborghini Logistics S.r.l.,Finance,Sud e Isole,9,Micro
+2094,Malenchini IT S.p.A.,Retail,Centro,89,Medium
+2095,Monteverdi Manufacturing S.r.l.,Logistics,Sud e Isole,7,Micro
+2096,Detti Professional S.p.A.,Manufacturing,Sud e Isole,29,Small
+2097,Gullotta Food S.r.l.,Hospitality,Nord-Ovest,18,Small
+2098,Stradivari Professional S.r.l.,Construction,Centro,14,Small
+2099,Cantimori Manufacturing S.p.A.,Logistics,Nord-Est,279,Large
+2100,Merisi Healthcare S.r.l.,Retail,Sud e Isole,35,Small
+2101,Saraceno Hospitality S.p.A.,Professional services,Centro,3,Micro
+2102,Soprano Healthcare S.p.A.,Hospitality,Nord-Est,24,Small
+2103,Carnera Healthcare S.p.A.,Food & beverage,Sud e Isole,17,Small
+2104,Cortese Food S.p.A.,Finance,Centro,22,Small
+2105,Toselli Manufacturing S.r.l.,Hospitality,Nord-Ovest,18,Small
+2106,Bettin IT S.r.l.,Hospitality,Sud e Isole,105,Medium
+2107,Franceschi Professional S.p.A.,Healthcare,Nord-Est,10,Small
+2108,Zacco Finance S.p.A.,Retail,Nord-Ovest,40,Small
+2109,Sismondi Logistics S.r.l.,Healthcare,Sud e Isole,4,Micro
+2110,Luciani Construction S.p.A.,Healthcare,Nord-Ovest,15,Small
+2111,Casalodi Healthcare S.p.A.,Logistics,Nord-Est,21,Small
+2112,Gucci IT S.p.A.,Manufacturing,Nord-Est,45,Small
+2113,Finetti Construction S.p.A.,Finance,Nord-Est,4,Micro
+2114,Oscuro Hospitality S.r.l.,Manufacturing,Nord-Ovest,3,Micro
+2115,Rienzo Logistics S.r.l.,Manufacturing,Nord-Ovest,10,Small
+2116,Gussoni Healthcare S.p.A.,Finance,Nord-Ovest,21,Small
+2117,Giorgetti Hospitality S.p.A.,Construction,Centro,156,Medium
+2118,Giolitti Finance S.r.l.,Manufacturing,Centro,12,Small
+2119,Cagnotto Healthcare S.r.l.,Manufacturing,Sud e Isole,11,Small
+2120,Pennetta Healthcare S.r.l.,Healthcare,Centro,12,Small
+2121,Luxardo Manufacturing S.p.A.,Logistics,Nord-Ovest,95,Medium
+2122,Praga Logistics S.p.A.,Manufacturing,Nord-Est,99,Medium
+2123,Cutuli Food S.p.A.,Logistics,Nord-Est,3,Micro
+2124,Bettoni Manufacturing S.r.l.,Finance,Centro,50,Medium
+2125,Magrassi Retail S.r.l.,Professional services,Nord-Ovest,11,Small
+2126,Collina Hospitality S.p.A.,Retail,Nord-Est,23,Small
+2127,Anichini Construction S.p.A.,IT services,Nord-Est,5,Micro
+2128,Roth Professional S.p.A.,Finance,Nord-Ovest,48,Small
+2129,Tomaselli Hospitality S.p.A.,Retail,Sud e Isole,13,Small
+2130,Morrocco Construction S.r.l.,Logistics,Centro,86,Medium
+2131,Torlonia Retail S.r.l.,Manufacturing,Centro,13,Small
+2132,Cimarosa Retail S.r.l.,Food & beverage,Sud e Isole,126,Medium
+2133,Ruberto Manufacturing S.r.l.,Food & beverage,Nord-Est,341,Large
+2134,Abbagnale IT S.p.A.,Healthcare,Centro,23,Small
+2135,Troisi Food S.p.A.,Manufacturing,Nord-Ovest,43,Small
+2136,Luciani Finance S.p.A.,Food & beverage,Centro,7,Micro
+2137,Fantoni Professional S.r.l.,Food & beverage,Nord-Est,35,Small
+2138,Omma Manufacturing S.p.A.,Healthcare,Nord-Est,81,Medium
+2139,Rocca Retail S.r.l.,Logistics,Sud e Isole,17,Small
+2140,Barzini Food S.r.l.,IT services,Nord-Est,9,Micro
+2141,Pizziol Finance S.p.A.,Retail,Centro,55,Medium
+2142,Galeati Manufacturing S.p.A.,Logistics,Nord-Ovest,23,Small
+2143,Lercari Logistics S.p.A.,Retail,Sud e Isole,11,Small
+2144,Fabbri Finance S.p.A.,Professional services,Nord-Est,23,Small
+2145,Cicala Healthcare S.r.l.,IT services,Nord-Ovest,32,Small
+2146,Errigo Professional S.r.l.,Food & beverage,Nord-Est,3,Micro
+2147,Trentin Retail S.p.A.,Construction,Nord-Est,11,Small
+2148,Giammusso Finance S.p.A.,Logistics,Centro,59,Medium
+2149,Duodo Professional S.r.l.,Construction,Sud e Isole,80,Medium
+2150,Ferretti Professional S.r.l.,Logistics,Centro,45,Small
+2151,Botta Professional S.r.l.,Manufacturing,Sud e Isole,20,Small
+2152,Brugnaro Healthcare S.r.l.,Manufacturing,Centro,3,Micro
+2153,Taliercio Hospitality S.r.l.,Healthcare,Nord-Ovest,179,Medium
+2154,Legnante Finance S.p.A.,Finance,Centro,37,Small
+2155,Duodo Healthcare S.r.l.,Finance,Sud e Isole,59,Medium
+2156,Fo Professional S.r.l.,Healthcare,Nord-Est,6,Micro
+2157,Ciani Professional S.p.A.,Professional services,Nord-Ovest,21,Small
+2158,Ferrabosco Retail S.p.A.,Professional services,Centro,22,Small
+2159,Marzorati Retail S.r.l.,Professional services,Nord-Est,5,Micro
+2160,Finzi Logistics S.p.A.,Professional services,Nord-Ovest,50,Medium
+2161,Alonzi IT S.p.A.,IT services,Nord-Ovest,4,Micro
+2162,Bodoni Hospitality S.r.l.,IT services,Nord-Est,62,Medium
+2163,Travia Healthcare S.p.A.,Logistics,Sud e Isole,23,Small
+2164,Pizzamano Logistics S.p.A.,Retail,Centro,18,Small
+2165,Bertoli Manufacturing S.r.l.,Construction,Nord-Ovest,14,Small
+2166,Travaglia Professional S.r.l.,IT services,Centro,701,Large
+2167,Napolitano Healthcare S.r.l.,Logistics,Centro,36,Small
+2168,Monti Finance S.r.l.,Professional services,Nord-Ovest,175,Medium
+2169,Lombardo Food S.r.l.,Finance,Nord-Ovest,132,Medium
+2170,Tacchini Retail S.p.A.,Food & beverage,Nord-Ovest,116,Medium
+2171,Bulzoni Professional S.p.A.,Manufacturing,Nord-Ovest,859,Large
+2172,Anguissola IT S.p.A.,Healthcare,Nord-Ovest,36,Small
+2173,Pizzo Hospitality S.p.A.,Retail,Nord-Ovest,8,Micro
+2174,Sinisi Healthcare S.r.l.,Professional services,Nord-Ovest,81,Medium
+2175,Chiaramonte Finance S.r.l.,IT services,Nord-Est,98,Medium
+2176,Innocenti Retail S.p.A.,Healthcare,Nord-Est,3,Micro
+2177,Grassi Healthcare S.r.l.,Construction,Nord-Ovest,33,Small
+2178,Fantozzi IT S.r.l.,Logistics,Nord-Est,51,Medium
+2179,Zanzi Finance S.p.A.,Construction,Nord-Ovest,16,Small
+2180,Ovadia IT S.r.l.,Construction,Nord-Est,8,Micro
+2181,Barese IT S.p.A.,IT services,Sud e Isole,222,Medium
+2182,Dalla Manufacturing S.p.A.,Professional services,Nord-Ovest,146,Medium
+2183,Pagnotto IT S.r.l.,Healthcare,Nord-Est,42,Small
+2184,Agostinelli Construction S.r.l.,Healthcare,Nord-Est,19,Small
+2185,Nosiglia Professional S.p.A.,Retail,Sud e Isole,8,Micro
+2186,Travia Finance S.r.l.,Finance,Nord-Ovest,80,Medium
+2187,Rusticucci Hospitality S.p.A.,Manufacturing,Nord-Est,111,Medium
+2188,Tozzi Healthcare S.p.A.,Finance,Sud e Isole,23,Small
+2189,Bongiorno Healthcare S.p.A.,IT services,Nord-Ovest,3,Micro
+2190,Casini Food S.p.A.,Food & beverage,Centro,39,Small
+2191,Notarbartolo IT S.p.A.,Retail,Sud e Isole,3,Micro
+2192,Gotti Manufacturing S.p.A.,Logistics,Centro,53,Medium
+2193,Micheletti Healthcare S.r.l.,Food & beverage,Nord-Ovest,16,Small
+2194,Paruta IT S.p.A.,IT services,Nord-Ovest,27,Small
+2195,Binaghi Hospitality S.r.l.,Finance,Nord-Est,13,Small
+2196,Maffei Food S.p.A.,Manufacturing,Nord-Est,92,Medium
+2197,Canil Manufacturing S.r.l.,Hospitality,Sud e Isole,242,Medium
+2198,Taliani Logistics S.p.A.,Construction,Centro,19,Small
+2199,Sabbatini Finance S.r.l.,Hospitality,Nord-Est,290,Large
+2200,Toselli Manufacturing S.r.l.,Professional services,Sud e Isole,4,Micro
+2201,Asprucci IT S.p.A.,Healthcare,Sud e Isole,21,Small
+2202,Turchetta Finance S.p.A.,Food & beverage,Nord-Ovest,16,Small
+2203,Valmarana Logistics S.r.l.,Finance,Nord-Est,98,Medium
+2204,Chindamo Logistics S.p.A.,Retail,Nord-Est,53,Medium
+2205,Argan Finance S.r.l.,Manufacturing,Nord-Est,24,Small
+2206,Gonzaga Healthcare S.r.l.,IT services,Nord-Ovest,103,Medium
+2207,Brunello Construction S.p.A.,Retail,Nord-Ovest,37,Small
+2208,Garrone Healthcare S.p.A.,Healthcare,Nord-Est,36,Small
+2209,Fagiani Hospitality S.p.A.,Finance,Nord-Ovest,36,Small
+2210,Detti Manufacturing S.r.l.,Professional services,Centro,60,Medium
+2211,Camilleri Food S.r.l.,Hospitality,Nord-Ovest,94,Medium
+2212,Mazzacurati Professional S.p.A.,Food & beverage,Nord-Est,27,Small
+2213,Greggio Healthcare S.r.l.,Manufacturing,Centro,44,Small
+2214,Vitturi Healthcare S.r.l.,Logistics,Nord-Ovest,12,Small
+2215,Baggio Food S.p.A.,Retail,Centro,17,Small
+2216,Antonioni Hospitality S.p.A.,Professional services,Nord-Ovest,49,Small
+2217,Caffarelli Professional S.r.l.,IT services,Nord-Ovest,5,Micro
+2218,Ferraris Construction S.p.A.,Manufacturing,Nord-Est,67,Medium
+2219,Gussoni Healthcare S.r.l.,IT services,Nord-Ovest,69,Medium
+2220,Antonello Professional S.p.A.,Professional services,Nord-Ovest,17,Small
+2221,Scarlatti Logistics S.p.A.,Construction,Nord-Ovest,21,Small
+2222,Tresoldi Manufacturing S.p.A.,Hospitality,Nord-Ovest,98,Medium
+2223,Giorgetti Food S.r.l.,Retail,Centro,20,Small
+2224,Ruggeri Food S.p.A.,Manufacturing,Nord-Est,10,Small
+2225,Camilleri Hospitality S.r.l.,IT services,Nord-Est,1328,Large
+2226,Nicolini Manufacturing S.r.l.,Manufacturing,Nord-Ovest,3,Micro
+2227,Caccianemico Healthcare S.p.A.,Construction,Nord-Ovest,20,Small
+2228,Endrizzi Food S.p.A.,Manufacturing,Nord-Est,82,Medium
+2229,Beccaria Construction S.p.A.,Retail,Sud e Isole,31,Small
+2230,Leblanc Hospitality S.r.l.,Logistics,Nord-Ovest,125,Medium
+2231,Castioni Hospitality S.r.l.,Hospitality,Nord-Ovest,11,Small
+2232,Scarpetta Manufacturing S.r.l.,IT services,Nord-Ovest,15,Small
+2233,Taccola Logistics S.r.l.,Finance,Nord-Ovest,13,Small
+2234,Tasca Professional S.r.l.,Construction,Centro,38,Small
+2235,Lippomano Construction S.p.A.,Hospitality,Sud e Isole,80,Medium
+2236,Capone Construction S.r.l.,Hospitality,Centro,36,Small
+2237,Castelli Hospitality S.r.l.,Finance,Nord-Est,32,Small
+2238,Cassarà Manufacturing S.r.l.,Retail,Centro,808,Large
+2239,Pisacane Food S.r.l.,Manufacturing,Centro,12,Small
+2240,Ciani Logistics S.p.A.,Healthcare,Centro,6,Micro
+2241,Venditti Construction S.r.l.,Hospitality,Centro,95,Medium
+2242,Gentili Healthcare S.p.A.,Professional services,Centro,10,Small
+2243,Gentileschi Healthcare S.p.A.,Professional services,Sud e Isole,15,Small
+2244,Comeriato IT S.r.l.,Manufacturing,Sud e Isole,9,Micro
+2245,Scamarcio Logistics S.p.A.,Hospitality,Nord-Ovest,3,Micro
+2246,Petrucci Finance S.r.l.,Finance,Centro,5,Micro
+2247,Dallara Professional S.r.l.,IT services,Centro,24,Small
+2248,Antonetti IT S.r.l.,Hospitality,Sud e Isole,3,Micro
+2249,Pellegrini Professional S.p.A.,Professional services,Nord-Ovest,212,Medium
+2250,Puglisi Construction S.r.l.,Healthcare,Sud e Isole,4,Micro
+2251,Trincavelli Healthcare S.p.A.,Construction,Centro,13,Small
+2252,Barcella Professional S.r.l.,Manufacturing,Nord-Est,12,Small
+2253,Petrassi Construction S.p.A.,Professional services,Nord-Ovest,17,Small
+2254,Berlusconi Healthcare S.r.l.,Hospitality,Nord-Est,3,Micro
+2255,Orsini Hospitality S.p.A.,Construction,Nord-Ovest,51,Medium
+2256,Morgagni Retail S.r.l.,Hospitality,Sud e Isole,16,Small
+2257,Piccio Professional S.r.l.,Food & beverage,Sud e Isole,26,Small
+2258,Giunti Professional S.p.A.,IT services,Centro,129,Medium
+2259,Monti Retail S.r.l.,Manufacturing,Nord-Ovest,179,Medium
+2260,Roccabonella Manufacturing S.p.A.,Hospitality,Nord-Ovest,385,Large
+2261,Zecchini Retail S.r.l.,Retail,Centro,35,Small
+2262,Michelangeli Construction S.p.A.,Finance,Centro,13,Small
+2263,Piccio Logistics S.r.l.,Retail,Nord-Est,11,Small
+2264,Zamorani Logistics S.r.l.,Retail,Nord-Ovest,6,Micro
+2265,Bernetti Food S.p.A.,IT services,Nord-Est,11,Small
+2266,Modiano Healthcare S.r.l.,Professional services,Nord-Ovest,22,Small
+2267,Trapanese Food S.p.A.,Hospitality,Nord-Est,23,Small
+2268,Comencini IT S.p.A.,Logistics,Centro,182,Medium
+2269,Nitti Manufacturing S.p.A.,Hospitality,Centro,4,Micro
+2270,Gravina Construction S.r.l.,Logistics,Nord-Est,20,Small
+2271,Querini Retail S.p.A.,Retail,Centro,16,Small
+2272,Amato Manufacturing S.p.A.,Construction,Nord-Ovest,247,Medium
+2273,Oscuro Food S.r.l.,IT services,Nord-Ovest,256,Large
+2274,Cantimori Hospitality S.r.l.,Manufacturing,Nord-Ovest,8,Micro
+2275,Turchi Professional S.r.l.,Finance,Nord-Est,107,Medium
+2276,Faranda Food S.p.A.,IT services,Centro,15,Small
+2277,Bompiani Logistics S.p.A.,Logistics,Centro,80,Medium
+2278,Mocenigo Healthcare S.r.l.,Logistics,Sud e Isole,4,Micro
+2279,Rinaldi Finance S.r.l.,Retail,Nord-Est,20,Small
+2280,Filzi Professional S.r.l.,Manufacturing,Sud e Isole,36,Small
+2281,Tiepolo Manufacturing S.r.l.,Food & beverage,Centro,4,Micro
+2282,Argan Healthcare S.p.A.,Finance,Centro,79,Medium
+2283,Gatto Finance S.p.A.,Retail,Centro,15,Small
+2284,Cilea Logistics S.r.l.,Finance,Nord-Ovest,88,Medium
+2285,Puglisi Logistics S.r.l.,Manufacturing,Nord-Ovest,27,Small
+2286,Petrucelli Construction S.p.A.,Manufacturing,Sud e Isole,40,Small
+2287,Sansoni Retail S.p.A.,Hospitality,Nord-Est,27,Small
+2288,Belletini Healthcare S.p.A.,Construction,Sud e Isole,41,Small
+2289,Bartoli Healthcare S.p.A.,IT services,Nord-Ovest,18,Small
+2290,Baracca Finance S.p.A.,Food & beverage,Nord-Est,72,Medium
+2291,Infantino Logistics S.r.l.,Logistics,Sud e Isole,35,Small
+2292,Leblanc Logistics S.r.l.,Food & beverage,Nord-Est,10,Small
+2293,Veneziano Healthcare S.p.A.,Manufacturing,Nord-Est,291,Large
+2294,Barcaccia Healthcare S.r.l.,Manufacturing,Centro,16,Small
+2295,Callegari Retail S.p.A.,Finance,Centro,41,Small
+2296,Gregori IT S.p.A.,IT services,Nord-Ovest,33,Small
+2297,Castelli Logistics S.p.A.,Food & beverage,Centro,190,Medium
+2298,Trebbi Manufacturing S.r.l.,Manufacturing,Nord-Ovest,427,Large
+2299,Andreozzi Healthcare S.p.A.,Food & beverage,Nord-Ovest,142,Medium
+2300,Ritacca Logistics S.p.A.,IT services,Nord-Est,46,Small
+2301,Ginese Retail S.p.A.,Construction,Nord-Ovest,62,Medium
+2302,Barracco Construction S.r.l.,Professional services,Nord-Est,17,Small
+2303,Luna Logistics S.r.l.,Construction,Nord-Ovest,75,Medium
+2304,Carfagna Construction S.r.l.,Finance,Nord-Est,92,Medium
+2305,Marino Logistics S.p.A.,IT services,Sud e Isole,498,Large
+2306,Napolitano Healthcare S.r.l.,Hospitality,Nord-Ovest,5,Micro
+2307,Depero Construction S.p.A.,Construction,Centro,102,Medium
+2308,Casellati Logistics S.p.A.,Construction,Centro,371,Large
+2309,Bignami Food S.p.A.,Manufacturing,Nord-Ovest,151,Medium
+2310,Tosi Food S.p.A.,IT services,Nord-Est,16,Small
+2311,Inzaghi Logistics S.r.l.,Construction,Nord-Ovest,127,Medium
+2312,Brenna Construction S.p.A.,Manufacturing,Nord-Est,119,Medium
+2313,Schiavo Logistics S.r.l.,IT services,Centro,14,Small
+2314,Udinese Food S.p.A.,Professional services,Nord-Est,39,Small
+2315,Comolli Professional S.r.l.,IT services,Sud e Isole,178,Medium
+2316,Rossellini Finance S.p.A.,Finance,Nord-Est,35,Small
+2317,Catalano Finance S.p.A.,Finance,Nord-Est,15,Small
+2318,Tornatore Finance S.p.A.,Finance,Centro,174,Medium
+2319,Cheda IT S.r.l.,Hospitality,Sud e Isole,41,Small
+2320,Magrassi Healthcare S.r.l.,Finance,Nord-Ovest,27,Small
+2321,Pisano Finance S.p.A.,Retail,Centro,40,Small
+2322,Luria Professional S.r.l.,Construction,Nord-Est,3,Micro
+2323,Leonardi Construction S.p.A.,IT services,Sud e Isole,50,Medium
+2324,Gonzaga Hospitality S.p.A.,Logistics,Centro,34,Small
+2325,Brugnaro Professional S.p.A.,Retail,Sud e Isole,8,Micro
+2326,Vergassola Healthcare S.p.A.,Construction,Nord-Ovest,16,Small
+2327,Luna IT S.p.A.,Construction,Sud e Isole,49,Small
+2328,Santi Manufacturing S.r.l.,Logistics,Nord-Ovest,46,Small
+2329,Gangemi Logistics S.r.l.,Logistics,Sud e Isole,226,Medium
+2330,Peano Healthcare S.p.A.,Logistics,Sud e Isole,4,Micro
+2331,Finetti Food S.p.A.,Finance,Nord-Ovest,19,Small
+2332,Vespucci Healthcare S.r.l.,IT services,Nord-Est,11,Small
+2333,Ovadia Healthcare S.r.l.,IT services,Nord-Est,37,Small
+2334,Scaduto Healthcare S.r.l.,Healthcare,Centro,161,Medium
+2335,Vespa Logistics S.p.A.,Healthcare,Sud e Isole,124,Medium
+2336,Marconi IT S.p.A.,Food & beverage,Nord-Est,14,Small
+2337,Smirnoff Retail S.r.l.,Finance,Nord-Est,168,Medium
+2338,Scotto Logistics S.r.l.,Retail,Nord-Ovest,223,Medium
+2339,Mastroianni Hospitality S.r.l.,Professional services,Sud e Isole,154,Medium
+2340,Bajamonti Food S.p.A.,Professional services,Nord-Ovest,43,Small
+2341,Golgi Manufacturing S.p.A.,Logistics,Nord-Est,20,Small
+2342,Montesano Retail S.r.l.,Finance,Sud e Isole,68,Medium
+2343,Gangemi Construction S.p.A.,IT services,Nord-Est,249,Medium
+2344,Farnese Retail S.r.l.,Retail,Centro,143,Medium
+2345,Toscani IT S.p.A.,Retail,Nord-Est,4,Micro
+2346,Vergassola Professional S.r.l.,Manufacturing,Sud e Isole,4,Micro
+2347,Pasqua Manufacturing S.r.l.,Finance,Nord-Est,340,Large
+2348,Petrocelli Construction S.r.l.,Logistics,Sud e Isole,163,Medium
+2349,Ammaniti Food S.p.A.,Construction,Nord-Ovest,404,Large
+2350,Niscoromni IT S.p.A.,Retail,Nord-Ovest,6,Micro
+2351,Cutuli Food S.p.A.,Finance,Nord-Ovest,3,Micro
+2352,Giorgetti Professional S.r.l.,Food & beverage,Nord-Ovest,32,Small
+2353,Moccia Construction S.r.l.,Healthcare,Nord-Est,13,Small
+2354,Volta Logistics S.p.A.,Food & beverage,Centro,234,Medium
+2355,Modigliani Hospitality S.p.A.,Healthcare,Nord-Ovest,4,Micro
+2356,Strangio Hospitality S.r.l.,Construction,Centro,22,Small
+2357,Jilani Retail S.p.A.,Professional services,Nord-Ovest,38,Small
+2358,Lucarelli Retail S.r.l.,Retail,Sud e Isole,3,Micro
+2359,Gaggini IT S.p.A.,Professional services,Centro,3,Micro
+2360,Malaparte Construction S.p.A.,Manufacturing,Nord-Ovest,339,Large
+2361,Bettin Construction S.r.l.,Logistics,Nord-Ovest,22,Small
+2362,Argenti Construction S.r.l.,Healthcare,Nord-Ovest,28,Small
+2363,Cugia Construction S.p.A.,Healthcare,Nord-Ovest,53,Medium
+2364,Vigorelli Manufacturing S.r.l.,IT services,Nord-Est,58,Medium
+2365,Boiardo Healthcare S.r.l.,Healthcare,Sud e Isole,14,Small
+2366,Natta IT S.p.A.,Food & beverage,Centro,56,Medium
+2367,Rossellini Food S.r.l.,Manufacturing,Nord-Ovest,14,Small
+2368,Blasi Logistics S.p.A.,Logistics,Nord-Ovest,3,Micro
+2369,Traetta Professional S.p.A.,IT services,Nord-Est,12,Small
+2370,Pedrazzini IT S.r.l.,Finance,Centro,10,Small
+2371,Rosselli Food S.p.A.,Logistics,Centro,59,Medium
+2372,Nolcini Professional S.r.l.,Hospitality,Sud e Isole,136,Medium
+2373,Cantimori IT S.p.A.,Hospitality,Centro,47,Small
+2374,Treccani Construction S.r.l.,Healthcare,Nord-Est,76,Medium
+2375,Gatto Healthcare S.r.l.,Construction,Nord-Est,25,Small
+2376,Costalonga Hospitality S.p.A.,Construction,Nord-Est,38,Small
+2377,Prati Finance S.r.l.,Hospitality,Centro,3,Micro
+2378,Morellato Retail S.r.l.,Professional services,Centro,22,Small
+2379,Niggli Finance S.r.l.,Professional services,Nord-Est,9,Micro
+2380,Cimarosa IT S.p.A.,Manufacturing,Centro,306,Large
+2381,Finzi Manufacturing S.r.l.,Healthcare,Nord-Est,56,Medium
+2382,Lercari IT S.r.l.,Finance,Centro,130,Medium
+2383,Trapani IT S.p.A.,IT services,Nord-Est,90,Medium
+2384,Cadorna Finance S.r.l.,Manufacturing,Centro,116,Medium
+2385,Siffredi Logistics S.p.A.,Food & beverage,Sud e Isole,3,Micro
+2386,Ioppi Food S.p.A.,Healthcare,Sud e Isole,276,Large
+2387,Cendron Manufacturing S.r.l.,Construction,Nord-Ovest,138,Medium
+2388,Pontecorvo Professional S.p.A.,Healthcare,Nord-Ovest,3,Micro
+2389,Camiscione Finance S.r.l.,Manufacturing,Nord-Est,13,Small
+2390,Agnesi IT S.r.l.,Manufacturing,Sud e Isole,38,Small
+2391,Poerio Hospitality S.r.l.,Food & beverage,Centro,59,Medium
+2392,Vidoni Food S.p.A.,Retail,Sud e Isole,93,Medium
+2393,Casadei Food S.p.A.,Healthcare,Nord-Ovest,83,Medium
+2394,Tanzini Healthcare S.p.A.,Hospitality,Nord-Est,9,Micro
+2395,Petruzzi Food S.p.A.,Manufacturing,Nord-Est,9,Micro
+2396,Conte Healthcare S.r.l.,Retail,Nord-Ovest,65,Medium
+2397,Procacci Professional S.r.l.,Retail,Nord-Est,401,Large
+2398,Lippomano Finance S.r.l.,Logistics,Nord-Ovest,9,Micro
+2399,Capuana IT S.r.l.,Food & beverage,Sud e Isole,3,Micro
+2400,Parisi Healthcare S.r.l.,Professional services,Nord-Ovest,9,Micro
+2401,Samele Finance S.p.A.,Logistics,Nord-Ovest,19,Small
+2402,Satriani Logistics S.r.l.,Logistics,Nord-Est,191,Medium
+2403,Lupo Professional S.p.A.,Construction,Nord-Est,251,Large
+2404,Niscoromni Manufacturing S.p.A.,Professional services,Nord-Ovest,7,Micro
+2405,Maglio Food S.r.l.,Retail,Nord-Est,29,Small
+2406,Niscoromni Healthcare S.r.l.,Manufacturing,Nord-Est,118,Medium
+2407,Pepe Food S.p.A.,Professional services,Sud e Isole,77,Medium
+2408,Trobbiani Food S.r.l.,Construction,Nord-Est,158,Medium
+2409,Vitturi Manufacturing S.p.A.,Retail,Sud e Isole,39,Small
+2410,Pausini Manufacturing S.r.l.,Logistics,Sud e Isole,25,Small
+2411,Milanesi IT S.p.A.,Finance,Nord-Ovest,9,Micro
+2412,Alboni Retail S.r.l.,IT services,Nord-Ovest,32,Small
+2413,Tartaglia Retail S.p.A.,Finance,Nord-Est,6,Micro
+2414,Parpinel IT S.p.A.,Food & beverage,Nord-Est,38,Small
+2415,Ruggeri Hospitality S.p.A.,Finance,Sud e Isole,12,Small
+2416,Mantegazza Retail S.r.l.,Finance,Sud e Isole,14,Small
+2417,Fallaci Construction S.r.l.,Manufacturing,Centro,10,Small
+2418,Valier Finance S.r.l.,Healthcare,Nord-Est,8,Micro
+2419,Marenzio Hospitality S.p.A.,Hospitality,Sud e Isole,152,Medium
+2420,Collodi Hospitality S.p.A.,Construction,Centro,88,Medium
+2421,Roccabonella Healthcare S.r.l.,Logistics,Centro,38,Small
+2422,Paolucci Hospitality S.p.A.,Construction,Centro,108,Medium
+2423,Giannetti Food S.r.l.,Professional services,Nord-Est,15,Small
+2424,Brunelleschi Logistics S.r.l.,Finance,Nord-Est,40,Small
+2425,Montalcini Healthcare S.r.l.,Finance,Nord-Est,3,Micro
+2426,Moccia Retail S.p.A.,IT services,Sud e Isole,4,Micro
+2427,Golgi Food S.p.A.,Hospitality,Centro,33,Small
+2428,Modugno Food S.p.A.,Retail,Sud e Isole,15,Small
+2429,Fittipaldi Healthcare S.p.A.,IT services,Centro,209,Medium
+2430,Regge Healthcare S.r.l.,Logistics,Nord-Ovest,11,Small
+2431,Altera Construction S.p.A.,Professional services,Nord-Ovest,60,Medium
+2432,Asprucci Logistics S.p.A.,Manufacturing,Sud e Isole,39,Small
+2433,Bellocchio Finance S.p.A.,Food & beverage,Sud e Isole,5,Micro
+2434,Guariento Hospitality S.r.l.,Food & beverage,Centro,49,Small
+2435,Zeffirelli IT S.p.A.,Healthcare,Nord-Ovest,9,Micro
+2436,Tamburini Logistics S.r.l.,Professional services,Nord-Ovest,360,Large
+2437,Mantegazza IT S.r.l.,Hospitality,Nord-Est,113,Medium
+2438,Valguarnera Food S.p.A.,Construction,Sud e Isole,28,Small
+2439,Mazzanti Logistics S.p.A.,Manufacturing,Nord-Ovest,4,Micro
+2440,Varano Healthcare S.r.l.,IT services,Sud e Isole,65,Medium
+2441,Romano Professional S.r.l.,Food & beverage,Nord-Est,33,Small
+2442,Trapanese Healthcare S.r.l.,Manufacturing,Centro,4,Micro
+2443,Trapanese Manufacturing S.r.l.,Food & beverage,Nord-Ovest,28,Small
+2444,Riccati Healthcare S.p.A.,Professional services,Nord-Ovest,13,Small
+2445,Pelli Professional S.r.l.,Manufacturing,Sud e Isole,4,Micro
+2446,Scarlatti Construction S.r.l.,Logistics,Nord-Ovest,4,Micro
+2447,Nugnes Healthcare S.r.l.,Manufacturing,Sud e Isole,12,Small
+2448,Barzini Construction S.r.l.,Hospitality,Sud e Isole,130,Medium
+2449,Nicolucci Professional S.r.l.,IT services,Sud e Isole,48,Small
+2450,Sandi Manufacturing S.p.A.,Healthcare,Centro,61,Medium
+2451,Altera Manufacturing S.r.l.,Construction,Nord-Est,3,Micro
+2452,Boldù Construction S.p.A.,Retail,Nord-Ovest,18,Small
+2453,Trillini Manufacturing S.r.l.,Food & beverage,Sud e Isole,207,Medium
+2454,Giacconi Manufacturing S.p.A.,Construction,Sud e Isole,82,Medium
+2455,Calarco Manufacturing S.r.l.,Manufacturing,Nord-Est,42,Small
+2456,Pizzo Finance S.p.A.,Retail,Nord-Est,53,Medium
+2457,Palumbo Healthcare S.p.A.,Finance,Centro,39,Small
+2458,Tasca Professional S.p.A.,Manufacturing,Sud e Isole,6,Micro
+2459,Pietrangeli Food S.r.l.,IT services,Nord-Est,11,Small
+2460,Zamorani Food S.r.l.,Finance,Sud e Isole,7,Micro
+2461,Cossiga Hospitality S.p.A.,Food & beverage,Sud e Isole,62,Medium
+2462,Farinelli Hospitality S.p.A.,Hospitality,Nord-Est,111,Medium
+2463,Pulci Food S.p.A.,Professional services,Nord-Ovest,94,Medium
+2464,Spinelli Finance S.r.l.,IT services,Nord-Est,14,Small
+2465,Pigafetta Construction S.r.l.,Hospitality,Centro,33,Small
+2466,Rossellini Retail S.p.A.,Professional services,Sud e Isole,6,Micro
+2467,Munari Retail S.r.l.,Professional services,Sud e Isole,166,Medium
+2468,Turati Manufacturing S.r.l.,Healthcare,Sud e Isole,16,Small
+2469,Busoni Hospitality S.r.l.,Construction,Nord-Ovest,48,Small
+2470,Donatoni Manufacturing S.r.l.,Logistics,Centro,6,Micro
+2471,Orlando Construction S.p.A.,Manufacturing,Centro,28,Small
+2472,Merisi Professional S.p.A.,Food & beverage,Nord-Ovest,36,Small
+2473,Ottino Retail S.r.l.,Manufacturing,Nord-Ovest,145,Medium
+2474,Borromeo Food S.r.l.,Food & beverage,Centro,67,Medium
+2475,Mattarella Finance S.r.l.,Professional services,Centro,149,Medium
+2476,Toscani IT S.p.A.,Hospitality,Nord-Ovest,204,Medium
+2477,Duodo Finance S.r.l.,Manufacturing,Centro,19,Small
+2478,Cappelli Professional S.p.A.,Construction,Nord-Est,12,Small
+2479,Majorana Construction S.p.A.,Manufacturing,Nord-Ovest,16,Small
+2480,Munari Manufacturing S.r.l.,Construction,Sud e Isole,64,Medium
+2481,Tomei Construction S.r.l.,Logistics,Nord-Ovest,3,Micro
+2482,Puglisi Hospitality S.p.A.,Finance,Centro,48,Small
+2483,Crisafulli Logistics S.r.l.,Food & beverage,Centro,265,Large
+2484,Trevisani Construction S.p.A.,Retail,Nord-Est,111,Medium
+2485,Luzi Logistics S.r.l.,IT services,Nord-Est,140,Medium
+2486,Tornatore Professional S.r.l.,Logistics,Nord-Ovest,173,Medium
+2487,Foletti Construction S.p.A.,IT services,Nord-Ovest,186,Medium
+2488,Tirabassi Construction S.p.A.,Manufacturing,Centro,33,Small
+2489,Farinelli Logistics S.p.A.,Professional services,Nord-Est,83,Medium
+2490,Pometta Manufacturing S.p.A.,IT services,Nord-Est,61,Medium
+2491,Fagiani Healthcare S.p.A.,Finance,Nord-Est,124,Medium
+2492,Bignami Logistics S.r.l.,IT services,Centro,71,Medium
+2493,Zetticci IT S.r.l.,Healthcare,Nord-Est,7,Micro
+2494,Canetta Hospitality S.r.l.,Retail,Nord-Est,128,Medium
+2495,Nitti Manufacturing S.p.A.,Finance,Nord-Est,68,Medium
+2496,Basso Logistics S.r.l.,Hospitality,Nord-Ovest,3,Micro
+2497,Polesel IT S.r.l.,IT services,Nord-Est,24,Small
+2498,Altera IT S.p.A.,Healthcare,Sud e Isole,6,Micro
+2499,Acerbi Professional S.r.l.,Retail,Centro,13,Small
+2500,Martinelli Manufacturing S.p.A.,IT services,Centro,11,Small
+2501,Virgilio IT S.p.A.,Logistics,Centro,46,Small
+2502,Agnesi Professional S.r.l.,Construction,Nord-Est,99,Medium
+2503,Marinetti Healthcare S.p.A.,Hospitality,Nord-Est,28,Small
+2504,Petruzzi Retail S.r.l.,Professional services,Nord-Ovest,42,Small
+2505,Caironi Professional S.r.l.,Manufacturing,Sud e Isole,150,Medium
+2506,Anguissola IT S.r.l.,Construction,Nord-Est,77,Medium
+2507,Badoglio Healthcare S.p.A.,IT services,Centro,4,Micro
+2508,Ferretti Food S.p.A.,Retail,Nord-Est,39,Small
+2509,Dulbecco Healthcare S.p.A.,Finance,Nord-Est,5,Micro
+2510,Tanzini Hospitality S.p.A.,Food & beverage,Nord-Est,203,Medium
+2511,Visconti Food S.p.A.,Retail,Sud e Isole,511,Large
+2512,Zola Construction S.p.A.,Retail,Nord-Ovest,127,Medium
+2513,Infantino Construction S.p.A.,Logistics,Nord-Est,105,Medium
+2514,Turci Professional S.p.A.,Logistics,Nord-Ovest,9,Micro
+2515,Toso Manufacturing S.p.A.,Construction,Sud e Isole,16,Small
+2516,Colletti Logistics S.p.A.,Food & beverage,Sud e Isole,50,Medium
+2517,Fieramosca IT S.p.A.,Healthcare,Nord-Est,19,Small
+2518,Polani Food S.r.l.,Construction,Centro,108,Medium
+2519,Cassarà Healthcare S.r.l.,Professional services,Centro,53,Medium
+2520,Columbo Manufacturing S.p.A.,Retail,Sud e Isole,248,Medium
+2521,Crispi Finance S.p.A.,Professional services,Nord-Est,90,Medium
+2522,Travaglia Finance S.p.A.,Construction,Centro,15,Small
+2523,Tommaseo Manufacturing S.r.l.,Healthcare,Nord-Ovest,382,Large
+2524,Canetta IT S.p.A.,Hospitality,Nord-Ovest,24,Small
+2525,Badoer Finance S.r.l.,Construction,Nord-Est,34,Small
+2526,Callegari Construction S.p.A.,Professional services,Nord-Est,31,Small
+2527,Borroni Food S.p.A.,Retail,Nord-Est,5,Micro
+2528,Donatoni Retail S.p.A.,Professional services,Nord-Est,36,Small
+2529,Tresoldi Finance S.r.l.,Finance,Nord-Est,52,Medium
+2530,Storladi Logistics S.r.l.,Retail,Sud e Isole,39,Small
+2531,Schicchi Healthcare S.r.l.,Healthcare,Sud e Isole,27,Small
+2532,Ricci Professional S.p.A.,Construction,Nord-Ovest,127,Medium
+2533,Blasi Construction S.p.A.,Hospitality,Nord-Ovest,691,Large
+2534,Anastasi Construction S.p.A.,Food & beverage,Centro,83,Medium
+2535,Miniati Professional S.r.l.,IT services,Centro,113,Medium
+2536,Colletti Construction S.p.A.,IT services,Nord-Est,22,Small
+2537,Giolitti Logistics S.p.A.,Professional services,Centro,239,Medium
+2538,Nitto Construction S.p.A.,Hospitality,Nord-Ovest,37,Small
+2539,Leonetti Healthcare S.p.A.,Retail,Nord-Est,54,Medium
+2540,Doglioni IT S.p.A.,Professional services,Nord-Ovest,146,Medium
+2541,Balla Hospitality S.p.A.,Finance,Centro,89,Medium
+2542,Interiano Logistics S.p.A.,Retail,Centro,351,Large
+2543,Calbo Healthcare S.r.l.,Food & beverage,Nord-Ovest,68,Medium
+2544,Bocca Retail S.r.l.,Construction,Centro,7,Micro
+2545,Navone Construction S.r.l.,Logistics,Nord-Ovest,29,Small
+2546,Fermi Healthcare S.r.l.,Manufacturing,Nord-Ovest,31,Small
+2547,Salgari IT S.r.l.,Food & beverage,Centro,81,Medium
+2548,Pavarotti Professional S.r.l.,Manufacturing,Nord-Ovest,259,Large
+2549,Antonucci Finance S.r.l.,Healthcare,Centro,26,Small
+2550,Berrè Construction S.p.A.,Healthcare,Sud e Isole,205,Medium
+2551,Galtarossa Finance S.p.A.,Logistics,Sud e Isole,41,Small
+2552,Petrassi Manufacturing S.p.A.,IT services,Nord-Est,186,Medium
+2553,Battelli Construction S.r.l.,Manufacturing,Sud e Isole,3,Micro
+2554,Rosselli Logistics S.p.A.,Retail,Sud e Isole,463,Large
+2555,Berrè Food S.r.l.,Food & beverage,Nord-Ovest,119,Medium
+2556,Giorgetti Food S.r.l.,Professional services,Nord-Ovest,14,Small
+2557,Gravina Finance S.r.l.,Manufacturing,Nord-Est,5,Micro
+2558,Garobbio Finance S.r.l.,Retail,Centro,28,Small
+2559,Battisti Construction S.p.A.,Healthcare,Centro,10,Small
+2560,Cuomo Logistics S.p.A.,Food & beverage,Nord-Ovest,4,Micro
+2561,Dovara Construction S.p.A.,IT services,Nord-Est,6,Micro
+2562,Medici Finance S.r.l.,Finance,Nord-Est,20,Small
+2563,Albertini Food S.r.l.,Logistics,Centro,44,Small
+2564,Santoro Retail S.p.A.,Professional services,Nord-Ovest,94,Medium
+2565,Marconi Professional S.r.l.,Logistics,Nord-Ovest,30,Small
+2566,Prodi Manufacturing S.r.l.,Manufacturing,Nord-Est,10,Small
+2567,Grifeo Food S.p.A.,Retail,Nord-Ovest,131,Medium
+2568,Taliercio Manufacturing S.p.A.,Healthcare,Nord-Ovest,6,Micro
+2569,Boito Professional S.p.A.,IT services,Nord-Ovest,15,Small
+2570,Golino Finance S.p.A.,Manufacturing,Centro,20,Small
+2571,Pellico Food S.r.l.,IT services,Centro,28,Small
+2572,Gangemi Construction S.r.l.,Professional services,Nord-Est,3,Micro
+2573,Ponti Logistics S.r.l.,Construction,Nord-Ovest,35,Small
+2574,Maspero Hospitality S.p.A.,Retail,Nord-Est,16,Small
+2575,Piacentini Manufacturing S.p.A.,Construction,Centro,20,Small
+2576,Spadafora Finance S.p.A.,Food & beverage,Sud e Isole,226,Medium
+2577,Argento Retail S.p.A.,Construction,Nord-Ovest,22,Small
+2578,Gonzaga Finance S.r.l.,Food & beverage,Nord-Ovest,11,Small
+2579,Brugnaro Retail S.r.l.,Healthcare,Sud e Isole,84,Medium
+2580,Dovara Retail S.r.l.,Manufacturing,Nord-Ovest,59,Medium
+2581,Donati Professional S.p.A.,Professional services,Sud e Isole,73,Medium
+2582,Odescalchi IT S.p.A.,Logistics,Nord-Ovest,62,Medium
+2583,Parini Logistics S.p.A.,Logistics,Nord-Ovest,3,Micro
+2584,Fanucci Retail S.p.A.,Hospitality,Centro,17,Small
+2585,Alfieri Professional S.p.A.,Professional services,Centro,14,Small
+2586,Maderna IT S.r.l.,Hospitality,Centro,69,Medium
+2587,Petrocelli IT S.p.A.,Food & beverage,Sud e Isole,9,Micro
+2588,Zampa Professional S.r.l.,Professional services,Nord-Est,87,Medium
+2589,Orsini Retail S.p.A.,Healthcare,Nord-Est,7,Micro
+2590,Carosone Healthcare S.r.l.,Professional services,Sud e Isole,19,Small
+2591,Monti Professional S.p.A.,Professional services,Nord-Ovest,6,Micro
+2592,Udinese Logistics S.r.l.,Healthcare,Nord-Ovest,11,Small
+2593,Pavarotti Finance S.p.A.,Retail,Nord-Ovest,44,Small
+2594,Morabito Finance S.p.A.,Food & beverage,Centro,190,Medium
+2595,Pincherle Finance S.p.A.,Logistics,Nord-Est,17,Small
+2596,Bodoni Healthcare S.p.A.,Healthcare,Centro,18,Small
+2597,Castioni Professional S.r.l.,Manufacturing,Nord-Ovest,3,Micro
+2598,Querini Retail S.p.A.,Manufacturing,Sud e Isole,27,Small
+2599,Nicolucci Healthcare S.r.l.,Retail,Centro,21,Small
+2600,Visintini Professional S.p.A.,Logistics,Nord-Ovest,116,Medium

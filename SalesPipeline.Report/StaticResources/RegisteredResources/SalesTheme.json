@@ -1,0 +1,79 @@
+{
+  "name": "Sales pipeline",
+  "dataColors": [
+    "#2563A8",
+    "#3FA7A0",
+    "#D99A2B",
+    "#7A5CB8",
+    "#C8475B",
+    "#2E8B57",
+    "#5C7A99",
+    "#9AA3AE"
+  ],
+  "foreground": "#1B2A41",
+  "foregroundNeutralSecondary": "#5B6573",
+  "background": "#FFFFFF",
+  "backgroundLight": "#F4F6F9",
+  "tableAccent": "#2563A8",
+  "good": "#2E8B57",
+  "bad": "#C8475B",
+  "neutral": "#D99A2B",
+  "textClasses": {
+    "callout": {
+      "fontSize": 22,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B2A41"
+    },
+    "title": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B2A41"
+    },
+    "header": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B2A41"
+    },
+    "label": {
+      "fontSize": 9,
+      "fontFace": "Segoe UI",
+      "color": "#5B6573"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "transparency": 0
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F4F6F9"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

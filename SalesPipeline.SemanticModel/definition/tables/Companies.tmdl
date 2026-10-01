@@ -1,0 +1,82 @@
+table Companies
+	lineageTag: 3c0d772a-20c1-4736-ab20-eb6a5a897220
+
+	column 'Company ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 91f79b6f-6c78-4eae-b938-c1b72450f2d2
+		summarizeBy: none
+		sourceColumn: Company ID
+
+		annotation SummarizationSetBy = User
+
+	column 'Company name'
+		dataType: string
+		lineageTag: be6471e0-3e2b-4959-8e42-8cfac3d35be8
+		summarizeBy: none
+		sourceColumn: Company name
+
+		annotation SummarizationSetBy = User
+
+	column Sector
+		dataType: string
+		lineageTag: 52812462-79c0-44a3-8780-8239d5f68df5
+		summarizeBy: none
+		sourceColumn: Sector
+
+		annotation SummarizationSetBy = User
+
+	column Region
+		dataType: string
+		lineageTag: 2e7fdee4-dc43-4fa2-96c7-1d268af72906
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = User
+
+	column Employees
+		dataType: int64
+		formatString: #,0
+		lineageTag: c8c37f95-a7fe-4462-9f42-7518cf99c4df
+		summarizeBy: none
+		sourceColumn: Employees
+
+		annotation SummarizationSetBy = User
+
+	column 'Size segment'
+		dataType: string
+		lineageTag: 719f93cb-b637-455d-b456-aa1546d457c7
+		summarizeBy: none
+		sourceColumn: Size segment
+		sortByColumn: 'Segment order'
+
+		annotation SummarizationSetBy = User
+
+	column 'Segment order'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: c2dd7d15-bb8a-4c5e-b8e8-c97ba72d2ec5
+		summarizeBy: none
+		sourceColumn: Segment order
+
+		annotation SummarizationSetBy = User
+
+	partition Companies = m
+		mode: import
+		source =
+				let
+				    // DataFolder can be a local folder or the raw GitHub URL of this repo's data folder
+				    Content = if Text.StartsWith(DataFolder, "http") then Web.Contents(DataFolder & "dim_company.csv") else File.Contents(DataFolder & "dim_company.csv"),
+				    Source = Csv.Document(Content, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    // empty strings in the CSV mean "no value", not an empty text
+				    Nulls = Table.ReplaceValue(Headers, "", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),
+				    Renamed = Table.RenameColumns(Nulls, {{"company_id", "Company ID"}, {"company_name", "Company name"}, {"sector", "Sector"}, {"region", "Region"}, {"employees", "Employees"}, {"size_segment", "Size segment"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Company ID", Int64.Type}, {"Company name", type text}, {"Sector", type text}, {"Region", type text}, {"Employees", Int64.Type}, {"Size segment", type text}}, "en-US"),
+				    Order = Table.AddColumn(Typed, "Segment order", each List.PositionOf({"Micro", "Small", "Medium", "Large"}, [Size segment]) + 1, Int64.Type)
+				in
+				    Order
+
+	annotation PBI_ResultType = Table

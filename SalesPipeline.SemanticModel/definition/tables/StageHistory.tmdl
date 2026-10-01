@@ -1,0 +1,77 @@
+table StageHistory
+	lineageTag: 12fd7347-84c9-43db-afe6-f07499fb7745
+
+	column 'Deal ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 002cffe3-1c2b-4f02-9dd9-56f5fe2e2031
+		summarizeBy: none
+		sourceColumn: Deal ID
+
+		annotation SummarizationSetBy = User
+
+	column Stage
+		dataType: string
+		lineageTag: 37b2a8dd-b4eb-4e28-9d0f-57a3d0689fdf
+		summarizeBy: none
+		sourceColumn: Stage
+		sortByColumn: 'Stage order'
+
+		annotation SummarizationSetBy = User
+
+	column 'Entered date'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: aacb6f52-5c1e-4254-a190-c93d5a92cb8c
+		summarizeBy: none
+		sourceColumn: Entered date
+
+		annotation SummarizationSetBy = User
+
+	column 'Exited date'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 6f0687ab-d4b1-4329-bfff-1c8c8fb4290f
+		summarizeBy: none
+		sourceColumn: Exited date
+
+		annotation SummarizationSetBy = User
+
+	column 'Stage order'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 12b443da-8b44-46b4-848d-49d7fcf70da3
+		summarizeBy: none
+		sourceColumn: Stage order
+
+		annotation SummarizationSetBy = User
+
+	column 'Days in stage'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e211277-ee4b-4aaa-8e74-a47a8def41a1
+		summarizeBy: none
+		sourceColumn: Days in stage
+
+		annotation SummarizationSetBy = User
+
+	partition StageHistory = m
+		mode: import
+		source =
+				let
+				    // DataFolder can be a local folder or the raw GitHub URL of this repo's data folder
+				    Content = if Text.StartsWith(DataFolder, "http") then Web.Contents(DataFolder & "fact_stage_history.csv") else File.Contents(DataFolder & "fact_stage_history.csv"),
+				    Source = Csv.Document(Content, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    // empty strings in the CSV mean "no value", not an empty text
+				    Nulls = Table.ReplaceValue(Headers, "", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),
+				    Renamed = Table.RenameColumns(Nulls, {{"deal_id", "Deal ID"}, {"stage", "Stage"}, {"entered_date", "Entered date"}, {"exited_date", "Exited date"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Deal ID", Int64.Type}, {"Stage", type text}, {"Entered date", type date}, {"Exited date", type date}}, "en-US"),
+				    Order = Table.AddColumn(Typed, "Stage order", each List.PositionOf({"Discovery", "Qualified", "Proposal", "Negotiation", "Closed Won", "Closed Lost"}, [Stage]) + 1, Int64.Type),
+				    Days = Table.AddColumn(Order, "Days in stage", each if [Exited date] = null then null else Duration.Days([Exited date] - [Entered date]), Int64.Type)
+				in
+				    Days
+
+	annotation PBI_ResultType = Table

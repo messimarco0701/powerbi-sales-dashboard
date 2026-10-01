@@ -1,0 +1,494 @@
+table Deals
+	lineageTag: ac7b118a-5a55-4207-82b7-17994d108da3
+
+	/// Date the data was extracted. Used instead of TODAY() because the dataset is frozen.
+	measure 'Snapshot date' = DATE ( 2026, 9, 30 )
+		formatString: dd/mm/yyyy
+		displayFolder: Info
+		lineageTag: 85a91a23-7da0-4ce1-8eae-9979341a96fb
+
+	/// Number of deals in the current filter context, by close date.
+	measure 'Deal count' = COUNTROWS ( Deals )
+		formatString: #,0
+		displayFolder: Volume
+		lineageTag: 0f66189e-4771-4ea9-844f-384a3e7f58c6
+
+	/// Deals by creation date. Activates the inactive relationship on Created date.
+	measure 'Deals created' = CALCULATE ( COUNTROWS ( Deals ), USERELATIONSHIP ( Deals[Created date], 'Date'[Date] ) )
+		formatString: #,0
+		displayFolder: Volume
+		lineageTag: 580aeb53-8fc9-4d7a-a054-293df9d5766f
+
+	/// Deals closed as won.
+	measure 'Won deals' = CALCULATE ( COUNTROWS ( Deals ), Deals[Is won] = TRUE () )
+		formatString: #,0
+		displayFolder: Volume
+		lineageTag: 6dc34d5b-e248-4021-9166-58a834b8186d
+
+	/// Deals closed, won or lost.
+	measure 'Closed deals' = CALCULATE ( COUNTROWS ( Deals ), Deals[Is closed] = TRUE () )
+		formatString: #,0
+		displayFolder: Volume
+		lineageTag: c3477065-c367-4b9f-84e7-135b188c835f
+
+	/// Deals closed as lost.
+	measure 'Lost deals' = CALCULATE ( COUNTROWS ( Deals ), Deals[Status] = "Lost" )
+		formatString: #,0
+		displayFolder: Volume
+		lineageTag: 5e4cecc5-220c-439b-b0a1-94c5a0e0efb8
+
+	/// Won deals over closed deals. Open deals are left out on purpose: they haven't had the chance to be won yet.
+	measure 'Win rate' = DIVIDE ( [Won deals], [Closed deals] )
+		formatString: 0.0%
+		displayFolder: Conversion
+		lineageTag: ff079156-bb25-4541-bd8a-38f7f22ab1e9
+
+	/// Annual value of won deals, by close date.
+	measure Bookings = CALCULATE ( SUM ( Deals[Amount] ), Deals[Is won] = TRUE () )
+		formatString: \€ #,0
+		displayFolder: Revenue
+		lineageTag: a89714e8-1e9a-49d9-9510-8894ec01dd5e
+
+	/// Average annual value of a won deal.
+	measure 'Avg deal size' = CALCULATE ( AVERAGE ( Deals[Amount] ), Deals[Is won] = TRUE () )
+		formatString: \€ #,0
+		displayFolder: Revenue
+		lineageTag: babcce79-0bd1-4cea-a03a-3c48d78d3d6e
+
+	/// Bookings in the same period one year earlier.
+	measure 'Bookings LY' = CALCULATE ( [Bookings], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+		formatString: \€ #,0
+		displayFolder: Revenue
+		lineageTag: 6c0661fe-d06b-4a0e-ba63-feeceba1f7ba
+
+	/// Change of bookings against the same period last year.
+	measure 'Bookings YoY %' = DIVIDE ( [Bookings] - [Bookings LY], [Bookings LY] )
+		formatString: 0.0%
+		displayFolder: Revenue
+		lineageTag: d92fe059-5085-4208-8fcc-b30b6756f632
+
+	/// Bookings from 1 January to the snapshot date of the snapshot year.
+	measure 'Bookings YTD' =
+			VAR snap = DATE ( 2026, 9, 30 )
+			RETURN
+			    CALCULATE ( [Bookings], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( snap ), 1, 1 ), snap ) )
+		formatString: \€ #,0
+		displayFolder: Revenue
+		lineageTag: 67e40150-a0f4-4996-9de5-e317efd463bd
+
+	/// Same window as Bookings YTD, one year earlier. Like for like, so a partial year is never compared with a full one.
+	measure 'Bookings YTD LY' =
+			VAR snap = DATE ( 2026, 9, 30 )
+			RETURN
+			    CALCULATE ( [Bookings], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( snap ) - 1, 1, 1 ), EDATE ( snap, -12 ) ) )
+		formatString: \€ #,0
+		displayFolder: Revenue
+		lineageTag: 5253ad21-194e-41e1-90a4-da9391288252
+
+	/// Year to date growth, like for like.
+	measure 'Bookings YTD vs LY %' = DIVIDE ( [Bookings YTD] - [Bookings YTD LY], [Bookings YTD LY] )
+		formatString: 0.0%
+		displayFolder: Revenue
+		lineageTag: 3e4f79e4-35f9-4476-ab30-bc0f09646ec1
+
+	/// Monthly sales target by channel.
+	measure Target = SUM ( Targets[Target] )
+		formatString: \€ #,0
+		displayFolder: Targets
+		lineageTag: 4d6c11db-3485-48d5-af5a-c2f8e6f072b0
+
+	/// Target from 1 January to the end of the snapshot month.
+	measure 'Target YTD' =
+			VAR snap = DATE ( 2026, 9, 30 )
+			RETURN
+			    CALCULATE ( [Target], DATESBETWEEN ( 'Date'[Date], DATE ( YEAR ( snap ), 1, 1 ), snap ) )
+		formatString: \€ #,0
+		displayFolder: Targets
+		lineageTag: a91d2835-cc50-4ebd-9924-60fcab0ce1de
+
+	/// Bookings over target in the current context.
+	measure 'Attainment %' = DIVIDE ( [Bookings], [Target] )
+		formatString: 0.0%
+		displayFolder: Targets
+		lineageTag: 8eab8df6-f45e-4e4f-a900-336bdd86b84b
+
+	/// Year to date bookings over year to date target.
+	measure 'Attainment YTD %' = DIVIDE ( [Bookings YTD], [Target YTD] )
+		formatString: 0.0%
+		displayFolder: Targets
+		lineageTag: 6464b221-87a9-4ad0-937d-7c92c8802603
+
+	/// Median days from creation to close for won deals. Median, not average: a few deals that drag on for a year would distort the mean.
+	measure 'Median sales cycle (days)' = CALCULATE ( MEDIAN ( Deals[Cycle days] ), Deals[Is won] = TRUE () )
+		formatString: 0
+		displayFolder: Conversion
+		lineageTag: d673c0cb-4afe-45e8-931e-756bc0db1aa6
+
+	/// Deals still open at the snapshot date. Ignores date filters, since open deals have no close date.
+	measure 'Open deals' = CALCULATE ( COUNTROWS ( Deals ), Deals[Is closed] = FALSE (), REMOVEFILTERS ( 'Date' ) )
+		formatString: #,0
+		displayFolder: Pipeline
+		lineageTag: b39aaf3c-2499-4044-842b-1731a02d7638
+
+	/// Total value of open deals.
+	measure 'Open pipeline' = CALCULATE ( SUM ( Deals[Amount] ), Deals[Is closed] = FALSE (), REMOVEFILTERS ( 'Date' ) )
+		formatString: \€ #,0
+		displayFolder: Pipeline
+		lineageTag: 6000d2f2-5cd6-40e8-a10f-661f920ecfa1
+
+	/// Share of closed deals that were won, among those that reached the stage in context. Computed on the whole history, ignoring slicers, so it stays stable.
+	measure 'Stage win probability' =
+			VAR s = SELECTEDVALUE ( Deals[Last open stage] )
+			VAR reached =
+			    CALCULATETABLE ( VALUES ( StageHistory[Deal ID] ), REMOVEFILTERS ( Deals ), StageHistory[Stage] = s )
+			VAR closedReached =
+			    CALCULATE ( COUNTROWS ( Deals ), REMOVEFILTERS ( Deals ), TREATAS ( reached, Deals[Deal ID] ), Deals[Is closed] = TRUE () )
+			VAR wonReached =
+			    CALCULATE ( COUNTROWS ( Deals ), REMOVEFILTERS ( Deals ), TREATAS ( reached, Deals[Deal ID] ), Deals[Is won] = TRUE () )
+			RETURN
+			    DIVIDE ( wonReached, closedReached )
+		formatString: 0.0%
+		displayFolder: Pipeline
+		lineageTag: 3880a02f-3214-4a2e-8b68-1847bc08b26e
+
+	/// Open value multiplied by the historical win probability of the stage each deal is in. A deal in Discovery counts much less than one in Negotiation.
+	measure 'Weighted pipeline' =
+			SUMX (
+			    CALCULATETABLE ( VALUES ( Deals[Last open stage] ), REMOVEFILTERS ( 'Date' ) ),
+			    [Stage win probability] * [Open pipeline]
+			)
+		formatString: \€ #,0
+		displayFolder: Pipeline
+		lineageTag: f1d3d315-ac23-44d0-b638-4861abdf221f
+
+	/// Target for the months after the snapshot date, to the end of the year.
+	measure 'Target Q4 remaining' =
+			VAR snap = DATE ( 2026, 9, 30 )
+			RETURN
+			    CALCULATE ( [Target], DATESBETWEEN ( 'Date'[Date], snap + 1, DATE ( YEAR ( snap ), 12, 31 ) ) )
+		formatString: \€ #,0
+		displayFolder: Pipeline
+		lineageTag: f41d922d-41ba-4af2-a6ad-517018068fff
+
+	/// Weighted pipeline over the target still to reach this year. Below 1 means the open deals alone won't close the gap.
+	measure 'Pipeline coverage' = DIVIDE ( [Weighted pipeline], [Target Q4 remaining] )
+		formatString: 0.00"x"
+		displayFolder: Pipeline
+		lineageTag: 112d4121-c639-4998-9474-ce190878e955
+
+	/// 90th percentile of the days closed deals spent in the stage in context. Used to spot open deals that are stuck.
+	measure 'Stage p90 days' =
+			VAR s = SELECTEDVALUE ( Deals[Last open stage] )
+			RETURN
+			    CALCULATE (
+			        PERCENTILE.INC ( StageHistory[Days in stage], 0.9 ),
+			        REMOVEFILTERS ( Deals ),
+			        StageHistory[Stage] = s,
+			        NOT ISBLANK ( StageHistory[Exited date] )
+			    )
+		formatString: 0
+		displayFolder: Pipeline
+		lineageTag: 1ce242ea-49fe-4e32-adff-0b139fcc0f96
+
+	/// Open deals that have been in their current stage longer than 90% of the deals before them.
+	measure 'Stuck deals' =
+			SUMX (
+			    CALCULATETABLE ( VALUES ( Deals[Last open stage] ), REMOVEFILTERS ( 'Date' ) ),
+			    VAR p90 = [Stage p90 days]
+			    RETURN
+			        CALCULATE ( COUNTROWS ( Deals ), Deals[Is closed] = FALSE (), Deals[Days in current stage] > p90, REMOVEFILTERS ( 'Date' ) )
+			)
+		formatString: #,0
+		displayFolder: Pipeline
+		lineageTag: 5f48b670-7527-4740-a6cf-5b716152ac89
+
+	/// Background colour for the open deals table: red when the deal is stuck.
+	measure 'Stuck colour' =
+			VAR d = MAX ( Deals[Days in current stage] )
+			RETURN
+			    IF ( NOT ISBLANK ( d ) && d > [Stage p90 days], "#F4C7CC" )
+		displayFolder: Formatting
+		lineageTag: 2d8785db-14a8-490b-9c85-165771936962
+
+	/// Distinct deals that entered the stage in context, by creation date of the deal.
+	measure 'Deals reached stage' = CALCULATE ( DISTINCTCOUNT ( StageHistory[Deal ID] ), USERELATIONSHIP ( Deals[Created date], 'Date'[Date] ) )
+		formatString: #,0
+		displayFolder: Funnel
+		lineageTag: d52572a4-fc0d-47c0-b35b-f640826ea0c3
+
+	/// Deals that reached this stage over deals that reached the previous one.
+	measure 'Stage conversion %' =
+			VAR stageNo = SELECTEDVALUE ( StageHistory[Stage order] )
+			VAR reachedThis = [Deals reached stage]
+			VAR reachedPrevious =
+			    CALCULATE ( [Deals reached stage], REMOVEFILTERS ( StageHistory[Stage], StageHistory[Stage order] ), StageHistory[Stage order] = stageNo - 1 )
+			RETURN
+			    IF ( stageNo > 1 && stageNo <= 5, DIVIDE ( reachedThis, reachedPrevious ) )
+		formatString: 0.0%
+		displayFolder: Funnel
+		lineageTag: 019a384c-8f3e-4687-aeed-acd0070a3869
+
+	/// Share of partner bookings brought by the partner in context.
+	measure 'Partner share %' = DIVIDE ( [Bookings], CALCULATE ( [Bookings], REMOVEFILTERS ( Partners ), Deals[Channel] = "Partner" ) )
+		formatString: 0.0%
+		displayFolder: Partners
+		lineageTag: 6663384c-ff3f-4763-8d72-4b7abd9649a4
+
+	/// Rank of the partner by bookings.
+	measure 'Partner rank' =
+			IF (
+			    HASONEVALUE ( Partners[Partner name] ) && NOT ISBLANK ( [Bookings] ),
+			    RANKX ( ALLNOBLANKROW ( Partners ), [Bookings] )
+			)
+		formatString: 0
+		displayFolder: Partners
+		lineageTag: 618f6338-8f6c-48a9-8425-9155e6a5e2b3
+
+	/// Cumulative share of partner bookings, from the best partner down. The classic Pareto line.
+	measure 'Partner cumulative %' =
+			VAR thisPartner = [Bookings]
+			VAR ranked = ADDCOLUMNS ( ALLNOBLANKROW ( Partners ), "@b", [Bookings] )
+			VAR cumulated = SUMX ( FILTER ( ranked, [@b] >= thisPartner ), [@b] )
+			RETURN
+			    IF ( HASONEVALUE ( Partners[Partner name] ) && NOT ISBLANK ( thisPartner ), DIVIDE ( cumulated, SUMX ( ranked, [@b] ) ) )
+		formatString: 0.0%
+		displayFolder: Partners
+		lineageTag: c9fad97b-02c1-4870-8c4c-e6a53d533e83
+
+	/// Text shown in the page header.
+	measure 'Last refresh' = "Data as of " & FORMAT ( DATE ( 2026, 9, 30 ), "d mmm yyyy" )
+		displayFolder: Info
+		lineageTag: a2663d61-5e68-4ed3-8636-131e75f3ea72
+
+	column 'Deal ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7c2ef6b2-a711-48b7-84c7-ea22f9754d0f
+		summarizeBy: none
+		sourceColumn: Deal ID
+
+		annotation SummarizationSetBy = User
+
+	column 'Deal name'
+		dataType: string
+		lineageTag: f10ba64b-7680-4619-8c63-af90a26a910c
+		summarizeBy: none
+		sourceColumn: Deal name
+
+		annotation SummarizationSetBy = User
+
+	column 'Company ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 793dc15a-b7d7-49b0-8b34-1cbfa4d96c45
+		summarizeBy: none
+		sourceColumn: Company ID
+
+		annotation SummarizationSetBy = User
+
+	column 'Owner ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 94ba91d4-4810-4e5a-9e21-dba80357cd9c
+		summarizeBy: none
+		sourceColumn: Owner ID
+
+		annotation SummarizationSetBy = User
+
+	column 'Partner ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 2edd62ed-eb2c-4357-a436-b22e8806abfe
+		summarizeBy: none
+		sourceColumn: Partner ID
+
+		annotation SummarizationSetBy = User
+
+	column Channel
+		dataType: string
+		isHidden
+		lineageTag: fd2da2ed-90db-43cd-93c3-0cc98fba1ef4
+		summarizeBy: none
+		sourceColumn: Channel
+
+		annotation SummarizationSetBy = User
+
+	column 'Deal type'
+		dataType: string
+		lineageTag: e18c384b-fc37-42f9-8c8f-9e9fcc3b9324
+		summarizeBy: none
+		sourceColumn: Deal type
+
+		annotation SummarizationSetBy = User
+
+	column Product
+		dataType: string
+		lineageTag: f8161241-b04e-45b2-826c-dfaf4a0f11bb
+		summarizeBy: none
+		sourceColumn: Product
+
+		annotation SummarizationSetBy = User
+
+	column 'Created date'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: be42b4fc-0ba2-4673-aeba-94c1c1f1bce8
+		summarizeBy: none
+		sourceColumn: Created date
+
+		annotation SummarizationSetBy = User
+
+	column 'Close date'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 16416ff2-b5ef-4e97-a5d0-5551d7696178
+		summarizeBy: none
+		sourceColumn: Close date
+
+		annotation SummarizationSetBy = User
+
+	column Stage
+		dataType: string
+		lineageTag: b51fb4b8-1002-47f6-a9f0-c4dd5245de0d
+		summarizeBy: none
+		sourceColumn: Stage
+
+		annotation SummarizationSetBy = User
+
+	column 'Last open stage'
+		dataType: string
+		lineageTag: 6f313679-5eba-4845-b3a1-085fe9d92d85
+		summarizeBy: none
+		sourceColumn: Last open stage
+		sortByColumn: 'Last open stage order'
+
+		annotation SummarizationSetBy = User
+
+	column 'Last open stage order'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 75d33c2f-4362-46c2-bfb3-a1356dfe6755
+		summarizeBy: none
+		sourceColumn: Last open stage order
+
+		annotation SummarizationSetBy = User
+
+	column 'Is closed'
+		dataType: boolean
+		lineageTag: 93fc6fc3-6e1d-4bf3-b687-7e8c0c28f50a
+		summarizeBy: none
+		sourceColumn: Is closed
+
+		annotation SummarizationSetBy = User
+
+	column 'Is won'
+		dataType: boolean
+		lineageTag: 18ad2693-9159-45bb-bab1-5bf602c92863
+		summarizeBy: none
+		sourceColumn: Is won
+
+		annotation SummarizationSetBy = User
+
+	column 'Lost reason'
+		dataType: string
+		lineageTag: a8b40363-7be7-460e-b8c0-9b6f4495d32c
+		summarizeBy: none
+		sourceColumn: Lost reason
+
+		annotation SummarizationSetBy = User
+
+	column 'Employees covered'
+		dataType: int64
+		formatString: #,0
+		lineageTag: 6ef59b21-4524-40d7-a1f4-44527a379cf7
+		summarizeBy: none
+		sourceColumn: Employees covered
+
+		annotation SummarizationSetBy = User
+
+	column Amount
+		dataType: double
+		formatString: \€ #,0
+		lineageTag: 19fe31e2-110c-45d7-9a07-df4d1019757b
+		summarizeBy: none
+		sourceColumn: Amount
+
+		annotation SummarizationSetBy = User
+
+	column Status
+		dataType: string
+		lineageTag: 3675d93d-37e5-4b31-9058-2c119ed01b55
+		summarizeBy: none
+		sourceColumn: Status
+		sortByColumn: 'Status order'
+
+		annotation SummarizationSetBy = User
+
+	column 'Status order'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: f633e4ef-1627-445e-8223-7fdd634bd454
+		summarizeBy: none
+		sourceColumn: Status order
+
+		annotation SummarizationSetBy = User
+
+	column 'Cycle days'
+		dataType: int64
+		formatString: 0
+		lineageTag: e87010aa-22f1-4fc6-bb31-c68a73eed2be
+		summarizeBy: none
+		sourceColumn: Cycle days
+
+		annotation SummarizationSetBy = User
+
+	column 'Age days'
+		dataType: int64
+		formatString: 0
+		lineageTag: 38eacfe5-9138-4119-ab95-985987034858
+		summarizeBy: none
+		sourceColumn: Age days
+
+		annotation SummarizationSetBy = User
+
+	column 'Days in current stage'
+		dataType: int64
+		formatString: 0
+		lineageTag: a3361c7e-c6ae-4eea-a567-436640f6d8fc
+		summarizeBy: none
+		sourceColumn: Days in current stage
+
+		annotation SummarizationSetBy = User
+
+	partition Deals = m
+		mode: import
+		source =
+				let
+				    // DataFolder can be a local folder or the raw GitHub URL of this repo's data folder
+				    Content = if Text.StartsWith(DataFolder, "http") then Web.Contents(DataFolder & "fact_deals.csv") else File.Contents(DataFolder & "fact_deals.csv"),
+				    Source = Csv.Document(Content, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    // empty strings in the CSV mean "no value", not an empty text
+				    Nulls = Table.ReplaceValue(Headers, "", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),
+				    Renamed = Table.RenameColumns(Nulls, {{"deal_id", "Deal ID"}, {"deal_name", "Deal name"}, {"company_id", "Company ID"}, {"owner_id", "Owner ID"}, {"partner_id", "Partner ID"}, {"channel", "Channel"}, {"deal_type", "Deal type"}, {"product", "Product"}, {"created_date", "Created date"}, {"close_date", "Close date"}, {"stage", "Stage"}, {"last_open_stage", "Last open stage"}, {"is_closed", "Is closed"}, {"is_won", "Is won"}, {"lost_reason", "Lost reason"}, {"employees_covered", "Employees covered"}, {"amount", "Amount"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Deal ID", Int64.Type}, {"Deal name", type text}, {"Company ID", Int64.Type}, {"Owner ID", Int64.Type}, {"Partner ID", Int64.Type}, {"Channel", type text}, {"Deal type", type text}, {"Product", type text}, {"Created date", type date}, {"Close date", type date}, {"Stage", type text}, {"Last open stage", type text}, {"Is closed", type logical}, {"Is won", type logical}, {"Lost reason", type text}, {"Employees covered", Int64.Type}, {"Amount", type number}}, "en-US"),
+				    Status = Table.AddColumn(Typed, "Status", each if [Is won] then "Won" else if [Is closed] then "Lost" else "Open", type text),
+				    StatusOrder = Table.AddColumn(Status, "Status order", each List.PositionOf({"Open", "Won", "Lost"}, [Status]) + 1, Int64.Type),
+				    StageOrder = Table.AddColumn(StatusOrder, "Last open stage order", each List.PositionOf({"Discovery", "Qualified", "Proposal", "Negotiation", "Closed Won", "Closed Lost"}, [Last open stage]) + 1, Int64.Type),
+				    Cycle = Table.AddColumn(StageOrder, "Cycle days", each if [Close date] = null then null else Duration.Days([Close date] - [Created date]), Int64.Type),
+				    Age = Table.AddColumn(Cycle, "Age days", each if [Is closed] then null else Duration.Days(SnapshotDate - [Created date]), Int64.Type),
+				    // when did the open deal enter the stage it is sitting in: its most recent history row
+				    Entered = Table.Group(StageHistory, {"Deal ID"}, {{"Stage entered", each List.Max([Entered date]), type date}}),
+				    Joined = Table.NestedJoin(Age, {"Deal ID"}, Entered, {"Deal ID"}, "E", JoinKind.LeftOuter),
+				    Expanded = Table.ExpandTableColumn(Joined, "E", {"Stage entered"}),
+				    InStage = Table.AddColumn(Expanded, "Days in current stage", each if [Is closed] or [Stage entered] = null then null else Duration.Days(SnapshotDate - [Stage entered]), Int64.Type),
+				    Result = Table.RemoveColumns(InStage, {"Stage entered"})
+				in
+				    Result
+
+	annotation PBI_ResultType = Table

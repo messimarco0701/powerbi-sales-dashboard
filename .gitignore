@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+screenshots/_*.png

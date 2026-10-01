@@ -1,0 +1,83 @@
+table 'Date'
+	lineageTag: e01c41b5-d5b5-4c55-9e0f-5aac07084eaa
+	dataCategory: Time
+
+	column 'Date'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		isKey
+		lineageTag: a8c01608-c2dd-4830-a97f-eda0c304714f
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = User
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 65d728e8-e498-439c-abf5-a38a9a514d20
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column Quarter
+		dataType: string
+		lineageTag: 4031424a-0457-4a5d-b46e-4f9d52bd3ff9
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = User
+
+	column 'Month number'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: b4289a33-13ea-4c67-993e-01a65a229b3d
+		summarizeBy: none
+		sourceColumn: Month number
+
+		annotation SummarizationSetBy = User
+
+	column Month
+		dataType: string
+		lineageTag: 459d3145-1a6e-4b36-b2dd-d4d39368667b
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month number'
+
+		annotation SummarizationSetBy = User
+
+	column 'Year month'
+		dataType: string
+		lineageTag: 2485f531-f21c-40b4-96d2-6ae97c2f4afd
+		summarizeBy: none
+		sourceColumn: Year month
+
+		annotation SummarizationSetBy = User
+
+	column 'Month start'
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: dbde0c41-2ca7-4a52-9413-8cf6601ef4a0
+		summarizeBy: none
+		sourceColumn: Month start
+
+		annotation SummarizationSetBy = User
+
+	partition 'Date' = m
+		mode: import
+		source =
+				let
+				    Dates = List.Dates(#date(2024, 1, 1), Duration.Days(#date(2026, 12, 31) - #date(2024, 1, 1)) + 1, #duration(1, 0, 0, 0)),
+				    Base = Table.FromList(Dates, Splitter.SplitByNothing(), type table [Date = date]),
+				    Year = Table.AddColumn(Base, "Year", each Date.Year([Date]), Int64.Type),
+				    Quarter = Table.AddColumn(Year, "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date])), type text),
+				    MonthNo = Table.AddColumn(Quarter, "Month number", each Date.Month([Date]), Int64.Type),
+				    Month = Table.AddColumn(MonthNo, "Month", each Date.ToText([Date], "MMM", "en-US"), type text),
+				    YearMonth = Table.AddColumn(Month, "Year month", each Date.ToText([Date], "yyyy-MM"), type text),
+				    MonthStart = Table.AddColumn(YearMonth, "Month start", each Date.StartOfMonth([Date]), type date)
+				in
+				    MonthStart
+
+	annotation PBI_ResultType = Table

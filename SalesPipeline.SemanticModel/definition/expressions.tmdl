@@ -1,0 +1,9 @@
+expression DataFolder = "https://raw.githubusercontent.com/messimarco0701/powerbi-sales-dashboard/main/data/" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 83603aab-1c79-4c39-98b7-22a4c1a6c757
+
+	annotation PBI_ResultType = Text
+
+expression SnapshotDate = #date(2026, 9, 30) meta [IsParameterQuery=true, Type="Date", IsParameterQueryRequired=true]
+	lineageTag: 83cd9f56-3d2e-45e4-8519-02d7ba9b9269
+
+	annotation PBI_ResultType = Date

@@ -1,0 +1,36 @@
+relationship 5e37e529-b679-4db3-9dba-ad6e87c0b71b
+	fromColumn: Deals.'Close date'
+	toColumn: 'Date'.Date
+
+relationship 0545721d-8506-4ffb-9e30-767cd4d0fef8
+	isActive: false
+	fromColumn: Deals.'Created date'
+	toColumn: 'Date'.Date
+
+relationship 0bc42fe6-b4f1-4d3a-a6bb-6286cb61f420
+	fromColumn: Deals.'Company ID'
+	toColumn: Companies.'Company ID'
+
+relationship a5224a85-189d-4713-88c4-43df9632faea
+	fromColumn: Deals.'Owner ID'
+	toColumn: Owners.'Owner ID'
+
+relationship 8fd1555e-e278-4847-8b15-e5522b365e6c
+	fromColumn: Deals.'Partner ID'
+	toColumn: Partners.'Partner ID'
+
+relationship bf214937-19f2-4f09-a32d-cb69a43b66cf
+	fromColumn: Deals.Channel
+	toColumn: Channels.Channel
+
+relationship 9b241f48-63fd-49ee-963f-4ce8a17df6fc
+	fromColumn: StageHistory.'Deal ID'
+	toColumn: Deals.'Deal ID'
+
+relationship bf31ea94-9a3d-401d-b982-c5f7b846242c
+	fromColumn: Targets.Month
+	toColumn: 'Date'.Date
+
+relationship 8be50799-06ef-45c7-ba1f-251017215da1
+	fromColumn: Targets.Channel
+	toColumn: Channels.Channel

@@ -1,0 +1,5 @@
+pandas>=2.0
+# only needed for build/screenshot.py
+pywinauto>=0.6
+psutil>=5.9
+pillow>=10.0

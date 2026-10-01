@@ -1,0 +1,45 @@
+table Owners
+	lineageTag: d7f63f40-d272-4443-8bb5-69d434d47823
+
+	column 'Owner ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 53529a73-5697-43be-af5f-b8031f051876
+		summarizeBy: none
+		sourceColumn: Owner ID
+
+		annotation SummarizationSetBy = User
+
+	column Owner
+		dataType: string
+		lineageTag: 0009733f-bd76-4371-a158-c704007e5dcb
+		summarizeBy: none
+		sourceColumn: Owner
+
+		annotation SummarizationSetBy = User
+
+	column Team
+		dataType: string
+		lineageTag: 93f3192e-84ab-42c3-baf6-a12a14999abd
+		summarizeBy: none
+		sourceColumn: Team
+
+		annotation SummarizationSetBy = User
+
+	partition Owners = m
+		mode: import
+		source =
+				let
+				    // DataFolder can be a local folder or the raw GitHub URL of this repo's data folder
+				    Content = if Text.StartsWith(DataFolder, "http") then Web.Contents(DataFolder & "dim_owner.csv") else File.Contents(DataFolder & "dim_owner.csv"),
+				    Source = Csv.Document(Content, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    // empty strings in the CSV mean "no value", not an empty text
+				    Nulls = Table.ReplaceValue(Headers, "", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),
+				    Renamed = Table.RenameColumns(Nulls, {{"owner_id", "Owner ID"}, {"owner_name", "Owner"}, {"team", "Team"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Owner ID", Int64.Type}, {"Owner", type text}, {"Team", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

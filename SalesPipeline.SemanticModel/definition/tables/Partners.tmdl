@@ -1,0 +1,62 @@
+table Partners
+	lineageTag: cdf54aa4-8da9-403c-b75b-fe55316813b3
+
+	column 'Partner ID'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: ae33dcf1-53a3-4eea-b7d6-2f12e0924fa2
+		summarizeBy: none
+		sourceColumn: Partner ID
+
+		annotation SummarizationSetBy = User
+
+	column 'Partner name'
+		dataType: string
+		lineageTag: 3a5c6506-5cc8-4eab-ad69-199ea2593adc
+		summarizeBy: none
+		sourceColumn: Partner name
+
+		annotation SummarizationSetBy = User
+
+	column 'Partner type'
+		dataType: string
+		lineageTag: 301b9811-9818-45cd-8a95-75d8889ce326
+		summarizeBy: none
+		sourceColumn: Partner type
+
+		annotation SummarizationSetBy = User
+
+	column 'Partner region'
+		dataType: string
+		lineageTag: af6ffe60-8c81-43c5-a514-32a2e5df4304
+		summarizeBy: none
+		sourceColumn: Partner region
+
+		annotation SummarizationSetBy = User
+
+	column 'Onboarded date'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 0bd36f03-2986-4271-963a-e2c5be39ae8e
+		summarizeBy: none
+		sourceColumn: Onboarded date
+
+		annotation SummarizationSetBy = User
+
+	partition Partners = m
+		mode: import
+		source =
+				let
+				    // DataFolder can be a local folder or the raw GitHub URL of this repo's data folder
+				    Content = if Text.StartsWith(DataFolder, "http") then Web.Contents(DataFolder & "dim_partner.csv") else File.Contents(DataFolder & "dim_partner.csv"),
+				    Source = Csv.Document(Content, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    // empty strings in the CSV mean "no value", not an empty text
+				    Nulls = Table.ReplaceValue(Headers, "", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),
+				    Renamed = Table.RenameColumns(Nulls, {{"partner_id", "Partner ID"}, {"partner_name", "Partner name"}, {"partner_type", "Partner type"}, {"region", "Partner region"}, {"onboarded_date", "Onboarded date"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Partner ID", Int64.Type}, {"Partner name", type text}, {"Partner type", type text}, {"Partner region", type text}, {"Onboarded date", type date}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
